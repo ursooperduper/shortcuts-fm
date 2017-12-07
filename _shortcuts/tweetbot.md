@@ -1,6 +1,7 @@
 ---
 layout: shortcuts
 name: Tweetbot
+category: social
 data-file: tweetbot
 sections:
   - Tweet

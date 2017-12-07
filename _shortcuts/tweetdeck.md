@@ -1,6 +1,7 @@
 ---
 layout: shortcuts
 name: TweetDeck
+category: social
 data-file: tweetdeck
 sections:
   - Global

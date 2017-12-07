@@ -1,6 +1,7 @@
 ---
 layout: shortcuts
 name: Gmail
+category: productivity
 data-file: gmail
 sections:
   - General

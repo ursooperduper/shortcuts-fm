@@ -1,9 +1,6 @@
 name: iTerm 2
 version: 2.9.2
 
-category:
-  - development
-
 sections:
   - shell
   - broadcast input

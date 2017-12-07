@@ -1,6 +1,7 @@
 ---
 layout: shortcuts
 name: Slack
+category: communication
 data-file: slack
 sections:
   - General

@@ -1,6 +1,7 @@
 ---
 layout: shortcuts
 name: Skype
+category: communication
 data-file: skype
 sections:
   - Global

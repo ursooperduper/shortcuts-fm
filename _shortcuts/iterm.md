@@ -1,6 +1,7 @@
 ---
 layout: shortcuts
 name: iTerm
+category: development
 data-file: iterm
 sections:
   - Shell

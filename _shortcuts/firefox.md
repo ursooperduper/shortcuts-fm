@@ -1,6 +1,7 @@
 ---
 layout: shortcuts
 name: Firefox
+category: navigation
 data-file: firefox
 sections:
   - Navigation

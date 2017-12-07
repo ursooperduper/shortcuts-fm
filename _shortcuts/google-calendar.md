@@ -1,6 +1,7 @@
 ---
 layout: shortcuts
 name: Google Calendar
+category: productivity
 data-file: google-calendar
 sections:
   - General

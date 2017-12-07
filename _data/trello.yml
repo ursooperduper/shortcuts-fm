@@ -1,8 +1,5 @@
 name: Trello
 
-category:
-  - productivity
-
 sections:
   - general
   - autocomplete

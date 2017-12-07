@@ -1,6 +1,7 @@
 ---
 layout: shortcuts
 name: Spotify
+category: music
 data-file: spotify
 sections:
   - General

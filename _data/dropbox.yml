@@ -1,8 +1,5 @@
 name: Dropbox
 
-category: 
-  - utilities
-
 sections:
   - navigation
   - file actions

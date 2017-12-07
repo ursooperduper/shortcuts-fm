@@ -1,6 +1,7 @@
 ---
 layout: shortcuts
 name: Framer Studio
+category: design
 data-file: framer-studio
 sections:
   - General

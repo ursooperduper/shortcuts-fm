@@ -1,8 +1,5 @@
 name: Google Sheets
 
-category:
-  - productivity
-
 sections:
   - general
   - cell formatting

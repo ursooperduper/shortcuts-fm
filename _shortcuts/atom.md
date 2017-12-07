@@ -1,6 +1,7 @@
 ---
 layout: shortcuts
 name: Atom
+category: development
 data-file: atom
 sections:
   - General

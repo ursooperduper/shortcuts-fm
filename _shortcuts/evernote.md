@@ -1,6 +1,7 @@
 ---
 layout: shortcuts
 name: Evernote
+category: productivity
 data-file: evernote
 sections:
   - Global

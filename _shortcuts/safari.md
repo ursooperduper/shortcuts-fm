@@ -1,6 +1,7 @@
 ---
 layout: shortcuts
 name: Safari
+category: navigation
 data-file: safari
 sections:
   - General

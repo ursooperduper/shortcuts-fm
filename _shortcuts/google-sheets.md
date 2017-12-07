@@ -1,6 +1,7 @@
 ---
 layout: shortcuts
 name: Google Sheets
+category: productivity
 data-file: google-sheets
 sections:
   - General

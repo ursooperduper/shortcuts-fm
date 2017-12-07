@@ -1,8 +1,5 @@
 name: Jira
 
-category:
-  - productivity
-
 sections:
   - global
   - view issue and issue navigator

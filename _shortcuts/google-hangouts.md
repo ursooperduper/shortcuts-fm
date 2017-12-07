@@ -1,6 +1,7 @@
 ---
 layout: shortcuts
 name: Google Hangouts
+category: communication
 data-file: google-hangouts
 sections:
   - Hangout Windows

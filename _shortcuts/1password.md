@@ -1,6 +1,7 @@
 ---
 layout: shortcuts
 name: 1Password
+category: utilities
 data-file: 1password
 sections:
   - Hotkeys

@@ -1,6 +1,7 @@
 ---
 layout: shortcuts
 name: Jira
+category: productivity
 data-file: jira
 sections:
   - Global

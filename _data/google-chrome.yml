@@ -1,9 +1,6 @@
 name: Google Chrome
 version: 46.0.2490.80 (64-bit)
 
-category:
-  - navigation
-
 sections:
   - general
   - edit

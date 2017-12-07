@@ -1,8 +1,5 @@
 name: Tweetbot
 
-category:
-  - social
-
 sections:
   - tweet
   - view

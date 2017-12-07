@@ -1,6 +1,7 @@
 ---
 layout: shortcuts
 name: Dropbox
+category: utilities
 data-file: dropbox
 sections:
   - Navigation

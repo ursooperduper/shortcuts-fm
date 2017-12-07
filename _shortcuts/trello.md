@@ -1,6 +1,7 @@
 ---
 layout: shortcuts
 name: Trello
+category: productivity
 data-file: trello
 sections:
   - General

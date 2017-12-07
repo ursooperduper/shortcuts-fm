@@ -1,6 +1,7 @@
 ---
 layout: shortcuts
 name: Calendar (El Capitan)
+category: productivity
 data-file: calendar
 sections:
   - Calendar

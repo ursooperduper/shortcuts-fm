@@ -1,6 +1,7 @@
 ---
 layout: shortcuts
 name: SizeUp
+category: utilities
 data-file: sizeup
 sections:
 - Split Screen Actions

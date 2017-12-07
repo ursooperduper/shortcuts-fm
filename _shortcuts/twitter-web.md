@@ -1,6 +1,7 @@
 ---
 layout: shortcuts
 name: Twitter (Web)
+category: social
 data-file: twitter-web
 sections:
   - Actions

@@ -1,6 +1,7 @@
 ---
 layout: shortcuts
 name: Sketch
+category: design
 data-file: sketch
 sections:
   - General

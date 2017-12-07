@@ -1,8 +1,5 @@
 name: Xcode
 
-category:
-  - development
-
 sections:
   - general
   - code editing

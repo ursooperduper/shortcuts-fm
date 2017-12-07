@@ -1,6 +1,7 @@
 ---
 layout: shortcuts
 name: Google Chrome
+category: navigation
 data-file: google-chrome
 sections:
   - General
