@@ -1,5 +1,8 @@
 name: Evernote (Mac)
 
+category: 
+  - productivity
+
 sections:
   - global
   - application wide

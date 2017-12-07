@@ -1,5 +1,8 @@
 name: Firefox
 
+category: 
+  - navigation
+
 sections:
   - navigation
   - current page

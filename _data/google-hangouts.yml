@@ -1,5 +1,8 @@
 name: Google Hangouts
 
+category:
+  - communication
+
 sections:
   - hangout windows
   - format messages

@@ -1,6 +1,9 @@
 name: gmail
 desc: Some keyboard shortcuts are always enabled. Others need to be turned on in settings. [Learn more](https://support.google.com/mail/answer/6594)
 
+category: 
+  - productivity
+
 sections:
   - general
   - navigation

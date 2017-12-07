@@ -1,5 +1,8 @@
 name: Textual
 
+category:
+  - communication
+
 sections:
   - navigation
   - text formatting

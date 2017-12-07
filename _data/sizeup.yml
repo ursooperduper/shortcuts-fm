@@ -1,5 +1,8 @@
 name: SizeUp
 
+category:
+  - utilities
+
 sections:
   - split screen actions
   - quarter screen actions

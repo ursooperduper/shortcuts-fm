@@ -1,5 +1,8 @@
 name: Slack
 
+category:
+  - communication
+
 sections:
   - general
   - switching teams in desktop app

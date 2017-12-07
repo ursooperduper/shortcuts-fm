@@ -1,5 +1,8 @@
 name: Skype
 
+category:
+  - communication
+
 sections:
   - global
   - search

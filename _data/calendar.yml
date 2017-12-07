@@ -1,5 +1,8 @@
 name: Calendar (El Capitan)
 
+category: 
+  - productivity
+
 sections:
   - calendar
   - event

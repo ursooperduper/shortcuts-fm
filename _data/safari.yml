@@ -1,6 +1,9 @@
 name: Safari
 version: 9.0 (11601.1.56)
 
+category:
+  - navigation
+
 sections:
   - general
   - edit

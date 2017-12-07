@@ -1,5 +1,8 @@
 name: Spotify
 
+category:
+  - music
+
 sections:
   - general
   - music controls

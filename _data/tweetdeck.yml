@@ -1,5 +1,8 @@
 name: TweetDeck
 
+category:
+  - social
+
 sections:
   - global
   - navigation

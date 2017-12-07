@@ -1,5 +1,8 @@
 name: Google Calendar
 
+category:
+  - productivity
+
 sections:
   - general
   - views
