@@ -3,13 +3,27 @@
     flex-flow: row wrap;
   }
   
-  header {
+  header { 
+    display: flex;
+    align-items: center;
+    flex-flow: column no-wrap;
     width: 100%;
     height: 200px;
     background: #282828 url('../images/shortcuts.svg') no-repeat 24px center;
   
-    p {
+    h1 {
       margin-left: 220px;
     }
   
   }
+
+h1 {
+  font: 900 40px/40px "Roboto", Helvetica, sans-serif;
+  color: $white-color;
+}
+
+.hdr-line-3 {
+  display: block;
+  font: bold 24px "Roboto", Helvetica, sans-serif;
+  margin-top: 6px;
+}
