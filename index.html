@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<!-- List of Cheatsheets -->
+<ul class="sc-list">
+  {% for sc in site.shortcuts %}
+  <li>{{ sc.name }}</li>
+  {% endfor %}
+</ul>
