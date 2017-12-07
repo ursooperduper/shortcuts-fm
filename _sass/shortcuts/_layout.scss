@@ -110,7 +110,7 @@ h2 {
   border-top: 1px solid #c9c9c9; }
 
 .shortcut:hover {
-  background-color: #b9f3f3; }
+  background-color: lighten($brand-color, 70%); }
 
 .shortcuts {
   width: 250px;
