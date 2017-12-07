@@ -36,6 +36,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - tmux-shortcuts
 
 defaults:
   -
