@@ -1,0 +1,407 @@
+name: Google Docs
+
+sections:
+  - general
+  - text formatting
+  - paragraph formatting
+  - images and drawings
+  - comments and footnotes
+  - menus
+  - text selection
+  - document navigation
+  - table navigation
+  - other tools and navigation
+
+general:
+  - shortcut: '⌘ C'
+    desc: Copy
+
+  - shortcut: '⌘ X'
+    desc: Cut
+
+  - shortcut: '⌘ V'
+    desc: Paste
+
+  - shortcut: '⌘ Z'
+    desc: Undo
+
+  - shortcut: '⌘ ⇧ Z'
+    desc: Redo
+
+  - shortcut: '⌘ K'
+    desc: Insert or edit link
+
+  - shortcut: '⌥ ↩'
+    desc: Open link
+
+  - shortcut: '⌘ /'
+    desc: Show common keyboard shortcuts
+
+  - shortcut: '⌘ S'
+    desc: Save
+
+  - shortcut: '⌘ P'
+    desc: Print
+
+  - shortcut: '⌘ O'
+    desc: Open
+
+  - shortcut: '⌘ F'
+    desc: Find
+
+  - shortcut: '⌘ ⇧ H'
+    desc: Find and replace
+
+  - shortcut: '⌘ G'
+    desc: Find again
+
+  - shortcut: '⌘ ⇧ G'
+    desc: Find previous
+
+  - shortcut: '⌃ ⇧ F'
+    desc: Hide the menus (compact mode)
+
+  - shortcut: '⌘ ↩'
+    desc: Insert page break
+
+  - shortcut: '⌥ /'
+    desc: Search the menus
+
+text formatting:
+  - shortcut: '⌘ B'
+    desc: Bold
+
+  - shortcut: '⌘ I'
+    desc: Italicize
+
+  - shortcut: '⌘ U'
+    desc: Underline
+
+  - shortcut: '⌥ ⇧ 5'
+    desc: Strikethrough
+
+  - shortcut: '⌘ .'
+    desc: Superscript
+
+  - shortcut: '⌘ ,'
+    desc: Subscript
+
+  - shortcut: '⌘ ⌥ C'
+    desc: Copy text formatting
+
+  - shortcut: '⌘ ⌥ V'
+    desc: Paste text formatting
+
+  - shortcut: '⌘ \\'
+    desc: Clear text formatting
+
+  - shortcut: '⌘ ⇧ >'
+    desc:  Increase font size
+
+  - shortcut: '⌘ ⇧ <'
+    desc: Decrease font size
+
+paragraph formatting:
+  - shortcut: '⌘ ]'
+    desc: Increase paragraph indentation
+
+  - shortcut: '⌘ ['
+    desc: Decrease paragraph indentation
+
+  - shortcut: '⌘ ⌥ 0'
+    desc: Apply normal text style
+
+  - shortcut: '⌘ ⌥ [1-6]'
+    desc: Apply heading style [1-6]
+
+  - shortcut: '⌘ ⇧ L'
+    desc: Left align
+
+  - shortcut: '⌘ ⇧ E'
+    desc: Center align
+
+  - shortcut: '⌘ ⇧ R'
+    desc: Right align
+
+  - shortcut: '⌘ ⇧ J'
+    desc: Justify
+
+  - shortcut: '⌘ ⇧ 7'
+    desc: Numbered List
+
+  - shortcut: '⌘ ⇧ 8'
+    desc: Bulleted List
+
+  - shortcut: '⌥ ⇧ ↑/↓'
+    desc: Move paragraph up
+
+  - shortcut: '⌥ ⇧ ↓'
+    desc: Move paragraph down
+
+images and drawings:
+  - shortcut: '⌘ ⌃ K'
+    desc: Resize larger
+
+  - shortcut: '⌘ ⌃ B'
+    desc: Resize larger horizontally
+
+  - shortcut: '⌘ ⌃ I'
+    desc: Resize larger vertically
+
+  - shortcut: '⌘ ⌃ J'
+    desc: Resize smaller
+
+  - shortcut: '⌘ ⌃ W'
+    desc: Resize smaller horizontally
+
+  - shortcut: '⌘ ⌃ Q'
+    desc: Resize smaller vertically
+
+  - shortcut: '←→↑↓'
+    desc: Nudge up, down, left, or right
+
+  - shortcut: '⇧ ←→↑↓'
+    desc: Nudge by a pixel
+
+  - shortcut: '⌥ →'
+    desc: Rotate clockwise by 15°
+
+  - shortcut: '⌥ ←'
+    desc: Rotate counterclockwise by 15°
+
+  - shortcut: '⌥ ⇧ ←'
+    desc: Rotate counterclockwise by 1°
+
+  - shortcut: '⌥ ⇧ →'
+    desc: Rotate clockwise by 1°
+
+  - shortcut: '⌘ ⎋'
+    desc: Close drawing editor
+
+comments and footnotes:
+  - shortcut: '⌘ ⌥ M'
+    desc: Insert comment
+
+  - shortcut: '⌘ ⌥ ⇧ A'
+    desc: Open discussion thread
+
+  - shortcut: 'hold ⌃ ⌘, press E then C'
+    desc: Enter current comment
+
+  - shortcut: 'hold ⌃ ⌘, press N then C'
+    desc: Move to next comment
+
+  - shortcut: 'hold ⌃ ⌘, press P then C'
+    desc: Move to previous comment
+
+  - shortcut: '⌘ ⌥ F'
+    desc: Insert footnote
+
+  - shortcut: 'hold ⌃ ⌘, press E then F'
+    desc: Enter current footnote
+
+  - shortcut: 'hold ⌃ ⌘, press N then F'
+    desc: Move to next footnote
+
+  - shortcut: 'hold ⌃ ⌘, press P then F'
+    desc: Move to previous footnote
+
+menus:
+  - shortcut: '⌘ ⇧ X'
+    desc: Context (right-click) menu
+
+  - shortcut: '⌃ ⌥ F'
+    desc: File menu
+
+  - shortcut: '⌃ ⌥ E'
+    desc: Edit menu
+
+  - shortcut: '⌃ ⌥ V'
+    desc: View menu
+
+  - shortcut: '⌃ ⌥ I'
+    desc: Insert menu
+
+  - shortcut: '⌃ ⌥ O'
+    desc: Format menu
+
+  - shortcut: '⌃ ⌥ T'
+    desc: Tools menu
+
+  - shortcut: '⌃ ⌥ B'
+    desc: Table menu
+
+  - shortcut: '⌃ ⌥ H'
+    desc: Help menu
+
+text selection:
+  - shortcut: '⌘ A'
+    desc: Select all
+
+  - shortcut: '⇧ ←/→'
+    desc: Extend selection one character
+
+  - shortcut: '⇧ ↑/↓'
+    desc: Extend selection one line
+
+  - shortcut: '⇧ fn ←'
+    desc: Extend selection to the beginning of the line
+
+  - shortcut: '⇧ fn →'
+    desc: Extend selection to the end of the line
+
+  - shortcut: '⌘ ⇧ ↑'
+    desc: Extend selection to the beginning of the document
+
+  - shortcut: '⌘ ⇧ ↓'
+    desc: Extend selection to the end of the document
+
+  - shortcut: 'hold ⌃ ⌘ ⇧, press E then I'
+    desc: Select current list item
+
+  - shortcut: 'hold ⌃ ⌘ ⇧, press E then I'
+    desc: Select all list items at current level
+
+document navigation:
+  - shortcut: 'hold ⌃ ⌘, press N then H'
+    desc: Move to next heading
+
+  - shortcut: 'hold ⌃ ⌘, press P then H'
+    desc: Move to previous heading
+
+  - shortcut: 'hold ⌃ ⌘, press N then [1-6]'
+    desc: Move to next heading [1-6]
+
+  - shortcut: 'hold ⌃ ⌘, press P then [1-6]'
+    desc: Move to previous heading [1-6]
+
+  - shortcut: 'hold ⌃ ⌘, press N then G'
+    desc: Move to next media
+
+  - shortcut: 'hold ⌃ ⌘, press P then G'
+    desc: Move to previous media
+
+  - shortcut: 'hold ⌃ ⌘, press N then O'
+    desc: Move to next list
+
+  - shortcut: 'hold ⌃ ⌘, press P then O'
+    desc: Move to previous list
+
+  - shortcut: 'hold ⌃ ⌘, press N then I'
+    desc: Move to next item in the current list
+
+  - shortcut: 'hold ⌃ ⌘, press P then I'
+    desc: Move to previous item in the current list
+
+  - shortcut: 'hold ⌃ ⌘, press N then L'
+    desc: Move to next link
+
+  - shortcut: 'hold ⌃ ⌘, press P then L'
+    desc: Move to previous link
+
+  - shortcut: 'hold ⌃ ⌘, press N then B'
+    desc: Move to next bookmark
+
+  - shortcut: 'hold ⌃ ⌘, press P then B'
+    desc: Move to previous bookmark
+
+  - shortcut: 'hold ⌃ ⌘, press N then W'
+    desc: Move to next formatting change
+
+  - shortcut: 'hold ⌃ ⌘, press P then W'
+    desc: Move to previous formatting change
+
+  - shortcut: 'hold ⌃ ⌘, press N then R'
+    desc: Move to next edit
+
+  - shortcut: 'hold ⌃ ⌘, press P then R'
+    desc: Move to previous edit
+
+table navigation:
+  - shortcut: 'hold ⌃ ⌘ ⇧, press T then S'
+    desc: Move to the start of the table
+
+  - shortcut: 'hold ⌃ ⌘ ⇧, press T then D'
+    desc: Move to the end of the table
+
+  - shortcut: 'hold ⌃ ⌘ ⇧, press T then I'
+    desc: Move to the start of the table column
+
+  - shortcut: 'hold ⌃ ⌘ ⇧, press T then K'
+    desc: Move to the end of the table column
+
+  - shortcut: 'hold ⌃ ⌘ ⇧, press T then B'
+    desc: Move to the next table column
+
+  - shortcut: 'hold ⌃ ⌘ ⇧, press T then V'
+    desc: Move to the previous table column
+
+  - shortcut: 'hold ⌃ ⌘ ⇧, press T then J'
+    desc: Move to the start of the table row
+
+  - shortcut: 'hold ⌃ ⌘ ⇧, press T then L'
+    desc: Move to the end of the table row
+
+  - shortcut: 'hold ⌃ ⌘ ⇧, press T then M'
+    desc: Move to the next table row
+
+  - shortcut: 'hold ⌃ ⌘ ⇧, press T then G'
+    desc: Move to the previous table row
+
+  - shortcut: 'hold ⌃ ⌘ ⇧, press T then E'
+    desc: Exit table
+
+  - shortcut: 'hold ⌃ ⌘ ⇧, press N then T'
+    desc: Move to the next table
+
+  - shortcut: 'hold ⌃ ⌘ ⇧, press P then T'
+    desc: Move to the previous table
+
+other tools and navigation:
+  - shortcut: '⌘ ⌥ ⌃ G'
+    desc: Open revision history
+
+  - shortcut: '⌘ ⌥ ⇧ I'
+    desc: Open research tool
+
+  - shortcut: '⌘ ⇧ Y'
+    desc: Define selected word in research tool
+
+  - shortcut: '⌘ ⇧ C'
+    desc: Word count
+
+  - shortcut: '⌘ ⇧ S'
+    desc: Start voice typing
+
+  - shortcut: 'fn ↑'
+    desc: Page up
+
+  - shortcut: 'fn ↓'
+    desc: Page down
+
+  - shortcut: '⌘ '
+    desc: Move to next misspelling
+
+  - shortcut: '⌘ ;'
+    desc: Move to previous misspelling
+
+  - shortcut: 'hold ⌃ ⌘, press O then H'
+    desc: Insert or move to header
+
+  - shortcut: 'hold ⌃ ⌘, press O then F'
+    desc: Insert or move to footer
+
+  - shortcut: 'hold ⌃ ⌘, press E then P'
+    desc: Move focus to popup
+
+  - shortcut: '⇧ ⎋'
+    desc: Open chat inside the document
+
+  - shortcut: '⌘ ⌥ ⇧ M'
+    desc: Move focus out of document text
+
+  - shortcut: '⎋'
+    desc: Return focus to document text
+
+  - shortcut: '⌃ ⇧ ⎋'
+    desc: Focus containing webpage

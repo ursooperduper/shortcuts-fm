@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  header {
+    width: 100%;
+    height: 161px;
+    background: #282828 url('../images/shortcuts.svg') no-repeat 24px center;
+  }

@@ -1,0 +1,16 @@
+tmux has-session -t shortcuts
+
+if [ $? != 0 ]
+then
+  tmux new-session -s shortcuts -n editor -d
+  tmux send-keys -t shortcuts:1.1 'cd ~/Code/personal/shortcuts-fm' C-m
+  tmux send-keys -t shortcuts:1.1 'bundle exec jekyll serve --watch --incremental' C-m
+  
+  tmux split-window -h -t shortcuts:1.1 -d
+  tmux send-keys -t shortcuts:1.2 'cd ~/Code/personal/shortcuts-fm' C-m
+  tmux send-keys -t shortcuts:1.2 'code .' C-m
+  tmux send-keys -t shortcuts:1.2 'cl' C-m
+  tmux send-keys -t shortcuts:1.2 'ls' C-m
+fi
+
+tmux attach -t shortcuts

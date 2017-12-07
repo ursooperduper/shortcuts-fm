@@ -1,0 +1,112 @@
+name: Framer Studio
+
+sections:
+  - general
+  - edit
+  - find
+  - view
+  - window
+
+general:
+  - shortcut: ⌘ N
+    desc: New
+
+  - shortcut: ⌘ O
+    desc: Open
+
+  - shortcut: ⌘ I
+    desc: Import
+
+  - shortcut: ⇧ ⌘ I
+    desc: Import Again
+
+  - shortcut: ⌘ W
+    desc: Close
+
+  - shortcut: ⌘ S
+    desc: Save
+
+  - shortcut: ⇧ ⌘ S
+    desc: Save As
+
+edit:
+  - shortcut: ⌘ Z
+    desc: Undo
+
+  - shortcut: ⇧ ⌘ Z
+    desc: Redo
+
+  - shortcut: ⌘ X
+    desc: Cut
+
+  - shortcut: ⌘ C
+    desc: Copy
+
+  - shortcut: ⌘ V
+    desc: Paste
+
+  - shortcut: ⌘ A
+    desc: Select All
+
+  - shortcut: ⌘ [
+    desc: Shift Left
+
+  - shortcut: ⌘ ]
+    desc: Shift Right
+
+  - shortcut: ⌘ /
+    desc: Un/Comment
+
+find:
+  - shortcut: ⌘ F
+    desc: Find
+
+  - shortcut: ⌥ ⌘ F
+    desc: Find and Replace
+
+  - shortcut: ⌘ G
+    desc: Find Next
+
+  - shortcut: ⇧ ⌘ G
+    desc: Find Previous
+
+  - shortcut: ⌘ E
+    desc: Use Selection for Find
+
+  - shortcut: ⌘ J
+    desc: Jump to Selection
+
+view:
+  - shortcut: ⌥ ⌘
+    desc: Toggle Toolbar
+
+  - shortcut: ⌃ ⌘ I
+    desc: Show Invisibles
+
+  - shortcut: ⌘ -
+    desc: Decrease Font Size
+
+  - shortcut: ⌘ +
+    desc: Increase Font Size
+
+  - shortcut: ⌘ 0
+    desc: Reset Font Size
+
+  - shortcut: ⌥ ⌘ I
+    desc: Show Console
+
+  - shortcut: ⌘ R
+    desc: Reload Preview
+
+  - shortcut: ⇧ ⌘ F
+    desc: Present
+
+window:
+  - shortcut: ⌘ M
+    desc: Minimize
+
+  - shortcut: ⇧ ⌘ 1
+    desc: Welcome
+
+  - shortcut: ⌘ D
+    desc: Documentation

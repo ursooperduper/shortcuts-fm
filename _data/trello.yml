@@ -1,0 +1,125 @@
+name: Trello
+
+sections:
+  - general
+  - autocomplete
+  - navigation
+  - label colors
+
+general:
+  - shortcut: 'B'
+    desc: Open Boards menu
+
+  - shortcut: '/'
+    desc: Focus Search box
+
+  - shortcut: 'C'
+    desc: Archive Card
+
+  - shortcut: 'D'
+    desc: Due Date
+
+  - shortcut: 'E'
+    desc: Quick Edit Mode
+
+  - shortcut: '⎋'
+    desc: Close Menu / Cancel Editing
+
+  - shortcut: '↩'
+    desc: Open Card
+
+  - shortcut: 'F'
+    desc: Open Card Filter menu
+
+  - shortcut: 'L'
+    desc: Label
+
+  - shortcut: 'M'
+    desc: Add / Remove Members
+
+  - shortcut: 'N'
+    desc: Insert New Card
+
+  - shortcut: '<'
+    desc: Move card to list on the left
+
+  - shortcut: '>'
+    desc: Move card to list on the right
+
+  - shortcut: 'Q'
+    desc: My Cards Filter
+
+  - shortcut: 'S'
+    desc: Subscribe
+
+  - shortcut: 'Space'
+    desc: Assign Self
+
+  - shortcut: 'T'
+    desc: Edit Title
+
+  - shortcut: 'V'
+    desc: Vote
+
+  - shortcut: 'W'
+    desc: Toggle Board Menu
+
+  - shortcut: 'X'
+    desc: Clear All Filters
+
+  - shortcut: '?'
+    desc: Open Shortcuts Page
+
+autocomplete:
+  - shortcut: '@'
+    desc: Autocomplete Members
+
+  - shortcut: '#'
+    desc: Autocomplete Labels
+
+  - shortcut: '^'
+    desc: Autocomplete Position
+
+navigation:
+  - shortcut: '←'
+    desc: Select adjacent card on list to the left
+
+  - shortcut: '→'
+    desc: Select adjacent card on list to the right
+
+  - shortcut: '↑'
+    desc: Select card above current selection
+
+  - shortcut: '↓'
+    desc: Select card below current selection
+
+label colors:
+  - shortcut: '1'
+    desc: Green
+
+  - shortcut: '2'
+    desc: Yellow
+
+  - shortcut: '3'
+    desc: Orange
+
+  - shortcut: '4'
+    desc: Red
+
+  - shortcut: '5'
+    desc: Purple
+
+  - shortcut: '6'
+    desc: Blue
+
+  - shortcut: '7'
+    desc: Sky
+
+  - shortcut: '8'
+    desc: Lime
+
+  - shortcut: '9'
+    desc: Pink
+
+  - shortcut: '0'
+    desc: Black

@@ -1,0 +1,90 @@
+name: Spotify
+
+sections:
+  - general
+  - music controls
+  - navigation
+
+general:
+  - shortcut: ⌘ N
+    desc: Create new playlist
+
+  - shortcut: ⌘ X
+    desc: Cut
+
+  - shortcut: ⌘ C
+    desc: Copy
+
+  - shortcut: ⌘ ⌥ C
+    desc: Copy (alternate link)
+
+  - shortcut: ⌘ V
+    desc: Paste
+
+  - shortcut: ⌫
+    desc: Delete
+
+  - shortcut: ⌘ A
+    desc: Select all
+
+  - shortcut: ⌘ ⇧ ?
+    desc: Show help
+
+  - shortcut: ⌘ ,
+    desc: Preferences
+
+  - shortcut: ⌘ ⇧ W
+    desc: Logout active user
+
+  - shortcut: ⌘ Q
+    desc: Quit
+
+  - shortcut: ⌘ H
+    desc: Hide window
+
+  - shortcut: ⌘ ⌥ H
+    desc: Hide other windows
+
+  - shortcut: ⌘ W
+    desc: Close window
+
+  - shortcut: ⌘ M
+    desc: Minimize window
+
+  - shortcut: ⌘ ⌥ 1
+    desc: Restore window from hidden state
+
+music controls:
+  - shortcut: Space`
+    desc: Play/pause
+
+  - shortcut: ⌃ ⌘ →
+    desc: Next track
+
+  - shortcut: ⌃ ⌘ ←
+    desc: Previous track
+
+  - shortcut: ⌘ ↑
+    desc: Volume up
+
+  - shortcut: ⌘ ↓
+    desc: Volume down
+
+  - shortcut: ⌘ ⇧ ↓
+    desc: Mute
+
+  - shortcut: ⌘ ⇧ ↑
+    desc: Max volume
+
+navigation:
+  - shortcut: ⌘ L
+    desc: Give focus to address/search field
+
+  - shortcut: ⌘ [
+    desc: Go back (browse)
+
+  - shortcut: ⌘ ]
+    desc: Go forward (browse)
+
+  - shortcut: ↩
+    desc: Play selected row

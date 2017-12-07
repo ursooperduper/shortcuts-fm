@@ -1,0 +1,66 @@
+name: TweetDeck
+
+sections:
+  - global
+  - navigation
+  - tweet actions
+
+global:
+  - shortcut: A
+    desc: Add a Column
+
+  - shortcut: S
+    desc: Search
+
+  - shortcut: N
+    desc: New Tweet
+
+  - shortcut: ⌘ ↩
+    desc: Send New Tweet
+
+  - shortcut: ⎋
+    desc: Close Pop-up / Cancel Search
+
+  - shortcut: '?'
+    desc: Show Keyboard Shortcuts
+
+navigation:
+  - shortcut: 1-9
+    desc: Navigate Through Columns 1-9
+
+  - shortcut: 0
+    desc: Jump to Last Column on Right
+
+  - shortcut: ←
+    desc: Move Selection Left
+
+  - shortcut: →
+    desc: Move Selection Right
+
+  - shortcut: ↑
+    desc: Move Selection Up
+
+  - shortcut: ↓
+    desc: Move Selection Down
+
+tweet actions:
+  - shortcut: ↩
+    desc: Open Selected Tweet
+
+  - shortcut: ⌫
+    desc: Return to Main Column
+
+  - shortcut: R
+    desc: Directly Reply to Tweet From a Column
+
+  - shortcut: T
+    desc: Directly Retweet a Tweet From a Column
+
+  - shortcut: L
+    desc: Like Tweet
+
+  - shortcut: D
+    desc: DM Tweet Author
+
+  - shortcut: P
+    desc: Show User Profile for Tweet Author

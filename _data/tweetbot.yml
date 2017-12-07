@@ -1,0 +1,104 @@
+name: Tweetbot
+
+sections:
+  - tweet
+  - view
+
+tweet:
+  - shortcut: ⌘ N
+    desc: New Tweet
+
+  - shortcut: ⌘ R
+    desc: Reply
+
+  - shortcut: ⌘ D
+    desc: Direct Message
+
+  - shortcut: T
+    desc: Retweet
+
+  - shortcut: ⌥ T
+    desc: Quote Tweet
+
+  - shortcut: F
+    desc: Favorite
+
+  - shortcut: ⌥ ⌘ L
+    desc: Send to Readling List
+
+  - shortcut: ⌥ ⌘ E
+    desc: Email Tweet
+
+  - shortcut: →
+    desc: View Details
+
+  - shortcut: ⇧ ⌘ L
+    desc: Open Links
+
+  - shortcut: ⇧ ⌘ U
+    desc: View User
+
+  - shortcut: ⌘ U
+    desc: Go to User
+
+  - shortcut: ⌘ K
+    desc: Mark All As Read
+
+  - shortcut: ⇧ ⌘ R
+    desc: Refresh
+
+view:
+  - shortcut: ⌘ ↑
+    desc: Scroll to Top
+
+  - shortcut: ⌘ ↓
+    desc: Scroll to Bottom
+
+  - shortcut: ⌘ [
+    desc: Previous Tab
+
+  - shortcut: ⌘ ]
+    desc: Next Tab
+
+  - shortcut: ⇧ ⌘ [
+    desc: Previous Account
+
+  - shortcut: ⇧ ⌘ ]
+    desc: Next Account
+
+  - shortcut: ⇧ ⌘ N
+    desc: Open in New Window
+
+  - shortcut: ⌥ ⌘ N
+    desc: Open in New Column
+
+window:
+  - shortcut: ⌘ 1
+    desc: Timeline
+
+  - shortcut: ⌘ 2
+    desc: Mentions
+
+  - shortcut: ⌘ 3
+    desc: Messages
+
+  - shortcut: ⌘ 4
+    desc: Activity
+
+  - shortcut: ⌘ 5
+    desc: Search
+
+  - shortcut: ⌘ 6
+    desc: Favorites
+
+  - shortcut: ⌘ 7
+    desc: Profile
+
+  - shortcut: ⌘ 8
+    desc: Lists
+
+  - shortcut: ⌘ 9
+    desc: Mutes
+
+  - shortcut: ⌘ 0
+    desc: Drafts

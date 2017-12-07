@@ -1,0 +1,121 @@
+name: Slack
+
+sections:
+  - general
+  - switching teams in desktop app
+  - marking messages
+  - message shortcuts
+  - file snippets
+
+general:
+  - shortcut: '⌘ /'
+    desc: List of keyboard shortcuts
+
+  - shortcut: '⌘ +'
+    desc: Increase font Size
+
+  - shortcut: '⌘ -'
+    desc: Decrease font size
+
+  - shortcut: '⌘ K'
+    desc: Open Quick Switcher
+
+  - shortcut: '⌘ T'
+    desc: Open Quick Switcher (Desktop App)
+
+  - shortcut: '⌘ ⇧ K'
+    desc: Open Direct Message Quick Switcher
+
+  - shortcut: '⌘ ⇧ T'
+    desc: One Direct Message Quick Switcher (Desktop App)
+
+  - shortcut: '⌥ ↑'
+    desc: Previous channel or direct Message
+
+  - shortcut: '⌥ ↓'
+    desc: Next channel or direct message
+
+  - shortcut: '⌥ ⇧ ↑'
+    desc: Previous channel or direct message with unread messages
+
+  - shortcut: '⌥ ⇧ ↓'
+    desc: Next channel or direct message with unread messages
+
+  - shortcut: '⌘ ['
+    desc: Previous channel in your history
+
+  - shortcut: '⌘ ]'
+    desc: Next channel in your history
+
+  - shortcut: '⌘ ,'
+    desc: Open Preferences
+
+  - shortcut: '⌘ .'
+    desc: Toggle right pane
+
+  - shortcut: '⌘ ⇧ I'
+    desc: Open Channel info pane
+
+  - shortcut: '⌘ ⇧ M'
+    desc: Open Recent Mentions
+
+  - shortcut: '⌘ ⇧ E'
+    desc: Open Team Directory
+
+  - shortcut: '⌘ ⇧ S'
+    desc: Open Starred Items
+
+switching teams in desktop app:
+  - shortcut: '⌘ ⇧ ['
+    desc: Switch to previous team
+
+  - shortcut: '⌘ ⇧ ]'
+    desc: Switch to next team
+
+  - shortcut: '⌘ [number]'
+    desc: Switch to a specific team (see assigned number under the team icon in your Slack app)
+
+marking messages:
+  - shortcut: '⎋'
+    desc: Mark all message in current channel or DM as read
+
+  - shortcut: '⇧ ⎋'
+    desc: Mark all messages in all channels and DMs as read
+
+  - shortcut: '⌥ (and click message)'
+    desc: Set a message as your oldest unread message
+
+message shortcuts:
+  - shortcut: '↑'
+    desc: Edit your last message in the current channel
+
+  - shortcut: '⇥'
+    desc: Reprint the last slash command you entered
+
+  - shortcut: '@[character] ⇥'
+    desc: Autocomplete @username beginning with [character]
+
+  - shortcut: '#[character] ⇥'
+    desc: Autocomplete channel beginning with [character]
+
+  - shortcut: ':[character] ⇥'
+    desc: Autocomplete emoji beginning with [character]
+
+  - shortcut: '⇧ ↑'
+    desc: Highlight text to the beginning of the current line
+
+  - shortcut: '⇧ ↓'
+    desc: Highlight text to the end of the current line
+
+  - shortcut: '⇧ ↩'
+    desc: Create a new line
+
+file snippets:
+  - shortcut: '⌘ U'
+    desc: Upload a file
+
+  - shortcut: '⌘ ↩'
+    desc: Create new Snippet
+
+  - shortcut: '⌘ ⇧ V'
+    desc: Paste your clipboard contents as a new text Snippet

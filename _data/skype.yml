@@ -1,0 +1,145 @@
+name: Skype
+
+sections:
+  - global
+  - search
+  - contacts
+  - conversation
+  - call
+
+global:
+  - shortcut: ⌘ 1
+    desc: Display main Skype window
+
+  - shortcut: ⌘ 2
+    desc: Display dial pad
+
+  - shortcut: ⌘ 3
+    desc: Display contacts monitor
+
+  - shortcut: ⌘ 4
+    desc: Display Skype WiFi window
+
+  - shortcut: ⌘ N
+    desc: Open new conversation
+
+  - shortcut: ⌘ W
+    desc: Close current conversation, profile, or search
+
+  - shortcut: ⌘ ⇧ W
+    desc: Close Skype window
+
+  - shortcut: ⌘ ⇧ I
+    desc: Edit your profile
+
+  - shortcut: ⌘ ⌥ F
+    desc: Search contacts and messages
+
+  - shortcut: ⌘ ⌃ F
+    desc: Fullscreen
+
+search:
+  - shortcut: ↓
+    desc: Select next item in suggestions menu
+
+  - shortcut: ↑
+    desc: Select previous item in suggestions menu
+
+  - shortcut: ⌘ ↓
+    desc: Move to next section of suggestions menu
+
+  - shortcut: ⌘ ↑
+    desc: Move to previous section of suggestions menu
+
+contacts:
+  - shortcut: ⌘ ⌥ 4
+    desc: View contacts as a list
+
+  - shortcut: ⌘ ⌥ 3
+    desc: View contacts as pictures
+
+  - shortcut: ↩
+    desc: Start conversation with selected contacts
+
+  - shortcut: ⌥ ↩
+    desc: Start call with selected contacts
+
+  - shortcut: ⌫
+    desc: Delete selected contacts or remove them from current list
+
+conversation:
+  - shortcut: ↩
+    desc: Send the message entered in the input field
+
+  - shortcut: ⌥ ↩
+    desc: Insert a new line into the input field
+
+  - shortcut: ⎋
+    desc: Clear the input field
+
+  - shortcut: ⌘ ⇧ E
+    desc: Edit the last message you have sent
+
+  - shortcut: ↑
+    desc: Edit the last message you have sent (if the input field is empty)
+
+  - shortcut: ⌘ +
+    desc: Make text bigger
+
+  - shortcut: ⌘ 0
+    desc: Make text normal size
+
+  - shortcut: ⌘ -
+    desc: Make text smaller
+
+  - shortcut: ⌘ F
+    desc: Open Find bar
+
+  - shortcut: ⌘ G
+    desc: Find next
+
+  - shortcut: ⌘ ⇧ G
+    desc: Find previous
+
+  - shortcut: ⌘ ⇧ S
+    desc: Send an SMS text message
+
+  - shortcut: ⌘ ⇧ F
+    desc: Send files
+
+  - shortcut: ⌘ ⇧ U
+    desc: Mark a conversation as unread
+
+  - shortcut: ⌘ ⇧ A
+    desc: Add people to the conversation
+
+  - shortcut: ⌘ I
+    desc: Show contact's profile
+
+  - shortcut: ⌘ ⌥ →
+    desc: Next conversation in the sidebar
+
+  - shortcut: ⌘ ⌥ ←
+    desc: Previous conversation in the sidebar
+
+call:
+  - shortcut: ⌘ ⇧ H
+    desc: End current call
+
+  - shortcut: ⌘ ⇧ M
+    desc: Mute microphone
+
+  - shortcut: ⌘ ⇧ R
+    desc: Initiate call or answer incoming call with audio
+
+  - shortcut: ⌘ ⌥ ↑
+    desc: Increase volume
+
+  - shortcut: ⌘ ⌥ ↓
+    desc: Decrease volume
+
+  - shortcut: ⌘ ⌥ ⌃ ↑
+    desc: Enter push to talk mode. Release to mute microphone
+
+  - shortcut: ⌘ 2
+    desc: Display dial pad

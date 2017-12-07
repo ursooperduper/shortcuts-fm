@@ -1,0 +1,287 @@
+name: Google Sheets
+
+sections:
+  - general
+  - cell formatting
+  - spreadsheet navigation
+  - notes and comments
+  - menus
+  - insert or delete rows or columns
+  - formulas
+
+general:
+  - shortcut: '⌃ Space'
+    desc: Select column
+
+  - shortcut: '⇧ Space'
+    desc:   Select row
+
+  - shortcut: '⌘ A'
+    desc: Select all
+
+  - shortcut: '⌘ ⇧ ⌫'
+    desc: Hide background over selected cells
+
+  - shortcut: '⌘ Z'
+    desc: Undo
+
+  - shortcut: '⌘ Y'
+    desc: Redo
+
+  - shortcut: '⌘ F'
+    desc: find
+
+  - shortcut: '⌘ ⇧ H'
+    desc: Find and replace
+
+  - shortcut: '⌘ ↩'
+    desc: Fill range
+
+  - shortcut: '⌘ D'
+    desc: Fill down
+
+  - shortcut: '⌘ R'
+    desc: Fill right
+
+  - shortcut: '⌘ S'
+    desc: Save
+
+  - shortcut: '⌘ O'
+    desc: Open
+
+  - shortcut: '⌘ P'
+    desc: Print
+
+  - shortcut: '⌘ C'
+    desc: Copy
+
+  - shortcut: '⌘ X'
+    desc: Cut
+
+  - shortcut: '⌘ V'
+    desc: Paste
+
+  - shortcut: '⌘ ⇧ V'
+    desc: Paste values only
+
+  - shortcut: '⌘ /'
+    desc: Show common keyboard shortcuts
+
+  - shortcut: '⌃ ⇧ K'
+    desc: Compact controls
+
+  - shortcut: '⌘ ⇧ K'
+    desc: Input tools on/off
+
+  - shortcut: '⌘ ⌥ ⇧ K'
+    desc: Select input tools
+
+cell formatting:
+  - shortcut: '⌘ B'
+    desc: Bolds
+
+  - shortcut: '⌘ U'
+    desc: Underline
+
+  - shortcut: '⌘ I'
+    desc: Italicize
+
+  - shortcut: '⌥ ⇧ 5'
+    desc: Strikethrough
+
+  - shortcut: '⌘ ⇧ E'
+    desc: Center align
+
+  - shortcut: '⌘ ⇧ L'
+    desc: Left align
+
+  - shortcut: '⌘ ⇧ R'
+    desc: Right align
+
+  - shortcut: '⌥ ⇧ 1'
+    desc: Apply top border
+
+  - shortcut: '⌥ ⇧ 2'
+    desc: Apply right border
+
+  - shortcut: '⌥ ⇧ 3'
+    desc: Apply bottom border
+
+  - shortcut: '⌥ ⇧ 4'
+    desc: Apply left border
+
+  - shortcut: '⌥ ⇧ 6'
+    desc: Remove borders
+
+  - shortcut: '⌥ ⇧ 7'
+    desc: Apply outer border
+
+  - shortcut: '⌘ K'
+    desc: Insert link
+
+  - shortcut: '⌘ ⇧ ;'
+    desc: Insert name
+
+  - shortcut: '⌘ ;'
+    desc: Insert date
+
+  - shortcut: '⌃ ⇧ 1'
+    desc: Format as decimal
+
+  - shortcut: '⌃ ⇧ 2'
+    desc: Format as time
+
+  - shortcut: '⌃ ⇧ 3'
+    desc: Format as date
+
+  - shortcut: '⌃ ⇧ 4'
+    desc: Format as currency
+
+  - shortcut: '⌃ ⇧ 5'
+    desc: Format as percentage
+
+  - shortcut: '⌃ ⇧ 6'
+    desc: Format as exponent
+
+  - shortcut: '⌘ \\'
+    desc: Clear formatting
+
+spreadsheet navigation:
+  - shortcut: 'fn ←'
+    desc: Move to beginning of row
+
+  - shortcut: '⌘ fn ←'
+    desc: Move to beginning of sheet
+
+  - shortcut: 'fn →'
+    desc: Move to end of row
+
+  - shortcut: '⌘ fn →'
+    desc: Move to end of sheet
+
+  - shortcut: '⌘ ⌫'
+    desc: Scroll to active cell
+
+  - shortcut: '⌘ ⇧ fn ↓'
+    desc: Move to next sheet
+
+  - shortcut: '⌘ ⇧ fn ↑'
+    desc: Move to previous sheet
+
+  - shortcut: '⌥ ⇧ K'
+    desc: Display list of sheets
+
+  - shortcut: '⌥ ↩'
+    desc: Open hyperlink
+
+  - shortcut: '⌃ ⌘ ⇧ M'
+    desc: Move focus out of spreadsheet
+
+  - shortcut: '⌥ ⇧ Q'
+    desc: Move to quicksum
+
+  - shortcut: 'hold ⌃ ⌘, press E then P'
+    desc: Move focus to popup
+
+  - shortcut: '⌃ ⌘ R'
+    desc: Open drop-down menu on filtered cell
+
+  - shortcut: '⌘ ⌥ ⇧ G'
+    desc: Open revision history
+
+  - shortcut: '⇧ ⎋'
+    desc: Open chat inside the spreadsheet
+
+  - shortcut: '⌘ ⎋'
+    desc: Close drawing editor
+
+notes and comments:
+  - shortcut: '⇧ F2'
+    desc: Insert/edit note
+
+  - shortcut: '⌘ ⌥ M'
+    desc: Insert/edit comment
+
+  - shortcut: '⌘ ⌥ ⇧ A'
+    desc: Open comment discussion thread
+
+  - shortcut: 'hold ⌃ ⌘, press E then C'
+    desc: Enter current comment
+
+  - shortcut: 'hold ⌃ ⌘, press N then C'
+    desc: Move to next comment
+
+  - shortcut: 'hold ⌃ ⌘, press P then C'
+    desc: Move to previous comment
+
+menus:
+  - shortcut: '⌃ ⌥ F'
+    desc: File menu
+
+  - shortcut: '⌃ ⌥ E'
+    desc: Edit menu
+
+  - shortcut: '⌃ ⌥ V'
+    desc: View menu
+
+  - shortcut: '⌃ ⌥ I'
+    desc: Insert menu
+
+  - shortcut: '⌃ ⌥ O'
+    desc: Format menu
+
+  - shortcut: '⌃ ⌥ D'
+    desc: Data menu
+
+  - shortcut: '⌃ ⌥ T'
+    desc: Tools menu
+
+  - shortcut: '⌃ ⌥ M'
+    desc: Form menu
+
+  - shortcut: '⌃ ⌥ N'
+    desc: Add-ons menu
+
+  - shortcut: '⌃ ⌥ H'
+    desc: Help menu
+
+  - shortcut: '⌃ ⌥ A'
+    desc: Accessibility menu
+
+  - shortcut: '⌥ ⇧ S'
+    desc: Sheet menu
+
+  - shortcut: '⌘ ⇧ \\'
+    desc: Context menu
+
+insert or delete rows or columns:
+  - shortcut: '⌃ ⌥ I, then R'
+    desc: Insert row above
+
+  - shortcut: '⌃ ⌥ I, then W'
+    desc: Insert row below
+
+  - shortcut: '⌃ ⌥ I, then C'
+    desc: Insert column to the left
+
+  - shortcut: '⌃ ⌥ I, then G'
+    desc: Insert column to the right
+
+  - shortcut: '⌃ ⌥ E, then D'
+    desc: Delete row
+
+  - shortcut: '⌃ ⌥ E, then E'
+    desc: Delete column
+
+formulas:
+  - shortcut: '⌃ ~'
+    desc: Show all formulas
+
+  - shortcut: '⌘ ⇧ ↩'
+    desc: Insert array formulas
+
+  - shortcut: '⌘ E'
+    desc: Collapse an expanded array formula
+
+  - shortcut: '⇧ fn F1'
+    desc: Show/hide formula help

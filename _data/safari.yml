@@ -1,0 +1,211 @@
+name: Safari
+version: 9.0 (11601.1.56)
+
+sections:
+  - general
+  - edit
+  - find
+  - spelling and grammar
+  - view
+  - history
+  - bookmarks
+  - develop
+  - window
+
+general:
+  - shortcut: '⌘ ,'
+    desc: Preferences
+
+  - shortcut: '⌘ N'
+    desc: New Window
+
+  - shortcut: '⇧ ⌘ N'
+    desc: New Private Window
+
+  - shortcut: '⌘ T'
+    desc: New Tab
+
+  - shortcut: '⌘ O'
+    desc: Open File
+
+  - shortcut: '⌘ L'
+    desc: Open Location
+
+  - shortcut: '⌘ W'
+    desc: Close Window
+
+  - shortcut: '⌥ ⌘ W'
+    desc: Close All Windows
+
+  - shortcut: '⌘ S'
+    desc: Save As
+
+  - shortcut: '⌘ I'
+    desc: Email This Page
+
+  - shortcut: '⌘ P'
+    desc: Print
+
+edit:
+  - shortcut: '⌘ Z'
+    desc: Undo
+
+  - shortcut: '⇧ ⌘ Z'
+    desc: Redo
+
+  - shortcut: '⌘ X'
+    desc: Cut
+
+  - shortcut: '⌘ C'
+    desc: Copy
+
+  - shortcut: '⌘ V'
+    desc: Paste
+
+  - shortcut: '⌥ ⇧ ⌘ V'
+    desc: Paste and Match Style
+
+  - shortcut: '⌘ A'
+    desc: Select All
+
+  - shortcut: '⇧ ⌘ A'
+    desc: Autofill Form
+
+  - shortcut: '⌃ ⌘ Space'
+    desc: Emoji & Symbols
+
+find:
+  - shortcut: '⌥ ⌘ F'
+    desc: Google Search
+
+  - shortcut: '⌘ F'
+    desc: Find
+
+  - shortcut: '⌘ G'
+    desc: Find Next
+
+  - shortcut: '⇧ ⌘ G'
+    desc: Find Previous
+
+  - shortcut: '⇧ ⌘ F'
+    desc: Hide Find Banner
+
+  - shortcut: '⌘ E'
+    desc: Use Selection for Find
+
+  - shortcut: '⌘ J'
+    desc: Jump to Selection
+
+spelling and grammar:
+  - shortcut: '⌘ :'
+    desc: Show Spelling & Grammar
+
+  - shortcut: '⌘ ;'
+    desc: Check Document Now
+
+view:
+  - shortcut: '⇧ ⌘ B'
+    desc: Toggle Favorites Bar
+
+  - shortcut: '⇧ ⌘ T'
+    desc: Toggle Tab Bar
+
+  - shortcut: '⌘ /'
+    desc: Toggle Status Bar
+
+  - shortcut: '⇧ ⌘ L'
+    desc: Toggle Sidebar
+
+  - shortcut: '⌃ ⌘ 1'
+    desc: Toggle Bookmarks Sidebar
+
+  - shortcut: '⌃ ⌘ 2'
+    desc: Toggle Reading List Sidebar
+
+  - shortcut: '⌃ ⌘ 3'
+    desc: Toggle Shared Links Sidebar
+
+  - shortcut: '⇧ ⌘ R'
+    desc: Toggle Reader
+
+  - shortcut: '⇧ ⌘ \'
+    desc: Toggle Show All Tabs
+
+  - shortcut: '⌥ ⌘ L'
+    desc: Toggle Downloads
+
+  - shortcut: '⌘ .'
+    desc: Stop
+
+  - shortcut: '⌘ R'
+    desc: Reload Page
+
+  - shortcut: '⌘ 0'
+    desc: Actual Size
+
+  - shortcut: '⌘ +'
+    desc: Zoom In
+
+  - shortcut: '⌘ -'
+    desc: Zoom Out
+
+  - shortcut: '⌃ ⌘ F'
+    desc: Toggle Fullscreen
+
+history:
+  - shortcut: '⌘ Y'
+    desc: Toggle History
+
+  - shortcut: '⌘ ['
+    desc: Back
+
+  - shortcut: '⌘ ]'
+    desc: Forward
+
+  - shortcut: '⇧ ⌘ H'
+    desc: Home
+
+  - shortcut: '⌥ ⌘ S'
+    desc: Search Results SnapBack
+
+bookmarks:
+  - shortcut: '⌥ ⌘ B'
+    desc: Edit Bookmarks
+
+  - shortcut: '⌘ D'
+    desc: Add Bookmark
+
+  - shortcut: '⇧ ⌘ D'
+    desc: Add to Reading List
+
+develop:
+  - shortcut: '⌥ ⌘ R'
+    desc: Enter Responsive Design Mode
+
+  - shortcut: '⌥ ⌘ I'
+    desc: Toggle Web Inspector
+
+  - shortcut: '⌥ ⌘ C'
+    desc: Toggle Error Console
+
+  - shortcut: '⌥ ⌘ U'
+    desc: Toggle Page Source
+
+  - shortcut: '⌥ ⌘ A'
+    desc: Toggle Page Resources
+
+  - shortcut: '⌥ ⇧ ⌘ T'
+    desc: Toggle Timeline Recording
+
+  - shortcut: '⌥ ⌘ E'
+    desc: Empty Caches
+
+window:
+  - shortcut: '⌘ M'
+    desc: Minimize
+
+  - shortcut: '⌃ ⇧ ⇥'
+    desc: Show Previous Tab
+
+  - shortcut: '⇧ ⇥'
+    desc: Show Next Tab

@@ -1,0 +1,175 @@
+name: Google Chrome
+version: 46.0.2490.80 (64-bit)
+
+sections:
+  - general
+  - edit
+  - find
+  - spelling and grammar
+  - view
+  - developer
+  - history
+  - bookmarks
+  - window
+
+general:
+  - shortcut: '⌘ ,'
+    desc: Preferences
+
+  - shortcut: '⇧ ⌘ ⌫'
+    desc: Clear Browsing Data
+
+  - shortcut: '⌘ T'
+    desc: New Tab
+
+  - shortcut: '⌘ N'
+    desc: New Window
+
+  - shortcut: '⇧ ⌘ N'
+    desc: New Incognito Window
+
+  - shortcut: '⇧ ⌘ T'
+    desc: Reopen Closed Tab
+
+  - shortcut: '⌘ O'
+    desc: Open File
+
+  - shortcut: '⌘ L'
+    desc: Open Location
+
+  - shortcut: '⇧ ⌘ W'
+    desc: Close Window
+
+  - shortcut: '⌘ W'
+    desc: Close Tab
+
+  - shortcut: '⌘ S'
+    desc: Save Page As
+
+  - shortcut: '⇧ ⌘ I'
+    desc: Email Page Location
+
+  - shortcut: '⌘ P'
+    desc: Print
+
+edit:
+  - shortcut: '⌘ Z'
+    desc: Undo
+
+  - shortcut: '⇧ ⌘ Z'
+    desc: Redo
+
+  - shortcut: '⌘ X'
+    desc: Cut
+
+  - shortcut: '⌘ C'
+    desc: Copy
+
+  - shortcut: '⌘ V'
+    desc: Paste
+
+  - shortcut: '⇧ ⌘ V'
+    desc: Paste and Match Style
+
+  - shortcut: '⌘ A'
+    desc: Select All
+
+  - shortcut: '⌃ ⌘ Space'
+    desc: Emoji & Symbols
+
+find:
+  - shortcut: '⌥ ⌘ F'
+    desc: Search the Web
+
+  - shortcut: '⌘ F'
+    desc: Find
+
+  - shortcut: '⌘ G'
+    desc: Find Next
+
+  - shortcut: '⇧ ⌘ G'
+    desc: Find Previous
+
+  - shortcut: '⌘ E'
+    desc: Use Selection for Find
+
+  - shortcut: '⌘ J'
+    desc: Jump to Selection
+
+spelling and grammar:
+  - shortcut: '⌘ :'
+    desc: Show Spelling and Grammar
+
+  - shortcut: '⌘ ;'
+    desc: Check Document Now
+
+view:
+  - shortcut: '⇧ ⌘ B'
+    desc: Always Show Bookmarks Bar
+
+  - shortcut: '⌘ .'
+    desc: Stop
+
+  - shortcut: '⌘ R'
+    desc: Reload Page
+
+  - shortcut: '⇧ ⌘ F'
+    desc: Toggle Presentation Mode
+
+  - shortcut: '⌃ ⌘ F'
+    desc: Toggle Fullscreen
+
+  - shortcut: '⌘ 0'
+    desc: Actual Size
+
+  - shortcut: '⌘ +'
+    desc: Zoom In
+
+  - shortcut: '⌘ -'
+    desc: Zoom Out
+
+developer:
+  - shortcut: '⌥ ⌘ U'
+    desc: View Source
+
+  - shortcut: '⌥ ⌘ I'
+    desc: Developer Tools
+
+  - shortcut: '⌥ ⌘ J'
+    desc: JavaScript Console
+
+history:
+  - shortcut: '⇧ ⌘ H'
+    desc: Home
+
+  - shortcut: '⌘ ['
+    desc: Back
+
+  - shortcut: '⌘ ]'
+    desc: Forward
+
+  - shortcut: '⌘ Y'
+    desc: Show Full History
+
+bookmarks:
+  - shortcut: '⌥ ⌘ B'
+    desc: Bookmark Manager
+
+  - shortcut: '⌘ D'
+    desc: Bookmark This Page
+
+  - shortcut: '⇧ ⌘ D'
+    desc: Bookmark All Tabs
+
+window:
+  - shortcut: '⌘ M'
+    desc: Minimize
+
+  - shortcut: '⌥ ⌘ →'
+    desc: Select Next Tab
+
+  - shortcut: '⌥ ⌘ ←'
+    desc: Select Previous Tab
+
+  - shortcut: '⇧ ⌘ J'
+    desc: Downloads

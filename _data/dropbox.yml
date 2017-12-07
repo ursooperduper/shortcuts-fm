@@ -1,0 +1,49 @@
+name: Dropbox
+
+sections:
+  - navigation
+  - file actions
+
+navigation:
+  - shortcut: ↑
+    desc: Select Previous File (hold shift to select range)
+
+  - shortcut: ↓
+    desc: Select Next File (hold shift to select range)
+
+  - shortcut: ⌘ A
+    desc: Select All Files
+
+  - shortcut: ⎋
+    desc: Deselect All Files
+
+  - shortcut: ←
+    desc: Up a Folder
+
+  - shortcut: /
+    desc: Search
+
+  - shortcut: →
+    desc: Open Folder
+
+file actions:
+  - shortcut: Enter
+    desc: Download or Open File
+
+  - shortcut: ⌘ C
+    desc: Copy Selected File(s)
+
+  - shortcut: ⌘ V
+    desc: Paste Selected File(s) into Current Folder
+
+  - shortcut: F2
+    desc: Rename Selected File
+
+  - shortcut: ⌫
+    desc: Delete Selected File(s)
+
+  - shortcut: ⌘ Z
+    desc: Undo Recent Move/Copy/Rename/Delete
+
+  - shortcut: '?'
+    desc: Show Keyboard Shortcuts

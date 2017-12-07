@@ -1,0 +1,241 @@
+name: Atom
+version: 1.1.0
+
+sections:
+  - general
+  - edit
+  - lines
+  - text
+  - fold
+  - selection
+  - find
+  - view
+  - developer
+
+general:
+  - shortcut: '⌘ ,'
+    desc: Preferences
+
+  - shortcut: '⌘ H'
+    desc: Hide Atom
+
+  - shortcut: '⌥ ⌘ H'
+    desc: Hide Other Apps
+
+  - shortcut: '⇧ ⌘ N'
+    desc: New Window
+
+  - shortcut: '⌘ N'
+    desc: New File
+
+  - shortcut: '⌘ O'
+    desc: Open
+
+  - shortcut: '⇧ ⌘ O'
+    desc: Add Project Folder
+
+  - shortcut: '⇧ ⌘ T'
+    desc: Reopen Last Item
+
+  - shortcut: '⌘ W'
+    desc: Close Tab
+
+  - shortcut: '⇧ ⌘ W'
+    desc: Close Window
+
+  - shortcut: '⌘ M'
+    desc: Minimize
+
+  - shortcut: '⌃ ⌥ ⌘ M'
+    desc: Maximize
+
+edit:
+  - shortcut: '⌘ Z'
+    desc: Undo
+
+  - shortcut: '⌘ Y'
+    desc: Redo
+
+  - shortcut: '⌘ X'
+    desc: Cut
+
+  - shortcut: '⌘ C'
+    desc: Copy
+
+  - shortcut: '⌃ ⇧ C'
+    desc: Copy Path
+
+  - shortcut: '⌘ V'
+    desc: Paste
+
+  - shortcut: '⌘ A'
+    desc: Select All
+
+  - shortcut: '⌘ /'
+    desc: Toggle Comments
+
+lines:
+  - shortcut: '⌘ ]'
+    desc: Indent
+
+  - shortcut: '⌘ ['
+    desc: Outdent
+
+  - shortcut: '⌃ ⌘ ↑'
+    desc: Move Line Up
+
+  - shortcut: '⌃ ⌘ ↓'
+    desc: Move Line Down
+
+  - shortcut: '⇧ ⌘ D'
+    desc: Duplicate Lines
+
+  - shortcut: '⌃ ⇧ K'
+    desc: Delete Lines
+
+  - shortcut: '⌘ J'
+    desc: Join Lines
+
+  - shortcut: 'F5'
+    desc: Sort
+
+  - shortcut: '⌥ ⌘ Q'
+    desc: Reflow Selection
+
+  - shortcut: '⌃ ⇧ U'
+    desc: Select Encoding
+
+  - shortcut: '⌃ G'
+    desc: Go To Line
+
+  - shortcut: '⌃ ⇧ L'
+    desc: Select Grammar
+
+  - shortcut: '⌃ ⌘ Space'
+    desc: Emoji & Symbols
+
+text:
+  - shortcut: '⌥ D'
+    desc: Delete to End of Word
+
+  - shortcut: '⌃ ⇧ K'
+    desc: Delete Line
+
+  - shortcut: '⌃ T'
+    desc: Transpose
+
+fold:
+  - shortcut: '⌥ ⌘ ['
+    desc: Fold
+
+  - shortcut: '⌥ ⌘ ]'
+    desc: Unfold
+
+  - shortcut: '⌥ ⇧ ⌘ ]'
+    desc: Unfold All
+
+  - shortcut: '⌥ ⇧ ⌘ ['
+    desc: Fold All
+
+selection:
+  - shortcut: '⌃ ⇧ ↑'
+    desc: Add Selection Above
+
+  - shortcut: '⌃ ⇧ ↓'
+    desc: Add Selection Below
+
+  - shortcut: '⎋'
+    desc: Single Selection
+
+  - shortcut: '⇧ ⌘ L'
+    desc: Split Into Lines
+
+  - shortcut: '⇧ ⌘ ↑'
+    desc: Select to Top
+
+  - shortcut: '⇧ ⌘ ↓'
+    desc: Select to Bottom
+
+  - shortcut: '⌘ L'
+    desc: Select Line
+
+  - shortcut: '⌃ ⇧ W'
+    desc: Select Word
+
+  - shortcut: '⌥ ⇧ B'
+    desc: Select to Beginning of Word
+
+  - shortcut: '⇧ ⌘ ←'
+    desc: Select to First Character of Line
+
+  - shortcut: '⌥ ⇧ F'
+    desc: Select to End of Word
+
+  - shortcut: '⇧ ⌘ →'
+    desc: Select to End of Line
+
+  - shortcut: '⌃ ⌘ M'
+    desc: Select Inside Brackets
+
+find:
+  - shortcut: '⌘ F'
+    desc: Find in Buffer
+
+  - shortcut: '⌥ ⌘ F'
+    desc: Replace in Buffer
+
+  - shortcut: '⌘ D'
+    desc: Select Next
+
+  - shortcut: '⌃ ⌘ G'
+    desc: Select All
+
+  - shortcut: '⇧ ⌘ F'
+    desc: Find in Project
+
+  - shortcut: '⌘ G'
+    desc: Find Next
+
+  - shortcut: '⇧ ⌘ G'
+    desc: Find Previous
+
+  - shortcut: '⌘ B'
+    desc: Find Buffer
+
+  - shortcut: '⌘ P'
+    desc: Find File
+
+  - shortcut: '⇧ ⌘ B'
+    desc: Find Modified File
+
+view:
+  - shortcut: '⌃ ⌥ ⌘ L'
+    desc: Reload
+
+  - shortcut: '⌃ ⌘ F'
+    desc: Toggle Fullscreen
+
+  - shortcut: '⌘ ='
+    desc: Increase Font Size
+
+  - shortcut: '⌘ -'
+    desc: Decrease Font Size
+
+  - shortcut: '⌘ 0'
+    desc: Reset Font Size
+
+  - shortcut: '⇧ ⌘ P'
+    desc: Toggle Command Palette
+
+  - shortcut: '⌘ \'
+    desc: Toggle Tree View
+
+developer:
+  - shortcut: '⌃ ⌥ ⌘ S'
+    desc: Run Atom Specs
+
+  - shortcut: '⌃ ⌥ ⌘ P'
+    desc: Run Package Specs
+
+  - shortcut: '⌥ ⌘ I'
+    desc: Toggle Developer Tools

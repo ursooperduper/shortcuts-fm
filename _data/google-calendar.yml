@@ -1,0 +1,63 @@
+name: Google Calendar
+
+sections:
+  - general
+  - views
+  - events
+
+general:
+  - shortcut: 'J or N'
+    desc: Change calendar view to next data range
+
+  - shortcut: 'R'
+    desc: Refresh your calendar
+
+  - shortcut: 'T'
+    desc: Move to the current day
+
+  - shortcut: '+'
+    desc: Move to add a calendar section
+
+  - shortcut: '/'
+    desc: Place cursor in search box
+
+  - shortcut: 'S'
+    desc: Go to the Settings page
+
+  - shortcut: '?'
+    desc: Open Keyboard Shortcuts
+
+views:
+  - shortcut: '1 or D'
+    desc: Day view
+
+  - shortcut: '2 or W'
+    desc: Week view
+
+  - shortcut: '3 or M'
+    desc: Month view
+
+  - shortcut: '4 or X'
+    desc: Custom view
+
+  - shortcut: '5 or A'
+    desc: Agenda view
+
+events:
+  - shortcut: 'C'
+    desc: Create new event
+
+  - shortcut: 'E'
+    desc: See an event's details
+
+  - shortcut: '⌫'
+    desc: Backspace
+
+  - shortcut: 'Z'
+    desc: Undo
+
+  - shortcut: 'S'
+    desc: Save event (from the events details page)
+
+  - shortcut: '⎋'
+    desc: Return to calendar from event details page

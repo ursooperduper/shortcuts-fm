@@ -1,0 +1,293 @@
+name: Evernote (Mac)
+
+sections:
+  - global
+  - application wide
+  - note editor
+  - evernote business
+
+global:
+  - shortcut: ⌃ ⌘ N
+    desc: Quick Note
+
+  - shortcut: ⌃ ⌥ ⌘ N
+    desc: New Note Window
+
+  - shortcut: ⌃ ⌘ V
+    desc: Paste to Evernote
+
+  - shortcut: ⌃ ⌘ C
+    desc: Clip Rectangle or Window
+
+  - shortcut: ⌃ ⌘ E
+    desc: Search in Evernote
+
+application wide:
+  - shortcut: ⌘ N
+    desc: New Note
+
+  - shortcut: ⌥ ⇧ ⌘ N
+    desc: New Chat
+
+  - shortcut: ⇧ ⌘ N
+    desc: New Personal Notebook
+
+  - shortcut: ⌃ ⌘ T
+    desc: New Tag
+
+  - shortcut: ⌥ ⌘ N
+    desc: New Evernote Window
+
+  - shortcut: ⌃ ⌘ S
+    desc: Sync
+
+  - shortcut: ⌘ W
+    desc: Close
+
+  - shortcut: ⌘ S
+    desc: Save
+
+  - shortcut: ⌘ Y
+    desc: Quick Look Attachments
+
+  - shortcut: ⌘ P
+    desc: Print
+
+  - shortcut: ⌥ ⌘ T
+    desc: Show/Hide Toolbar
+
+  - shortcut: ⌥ ⌘ S
+    desc: Show/Hide Sidebar
+
+  - shortcut: ⌥ ⌘ O
+    desc: Work Chat
+
+  - shortcut: ⌥ ⌘ 1
+    desc: Notes
+
+  - shortcut: ⌥ ⌘ 2
+    desc: Notebooks
+
+  - shortcut: ⌥ ⌘ 3
+    desc: Tags
+
+  - shortcut: ⇧ ⌘ A
+    desc: Show All Notes
+
+  - shortcut: ⌘ J
+    desc: Jump to Notebook
+
+  - shortcut: ⇧ ⌘ J
+    desc: Jump to Tag
+
+  - shortcut: ⌘ I
+    desc: Select Note List
+
+  - shortcut: ⌘ [
+    desc: Back
+
+  - shortcut: ⌘ ]
+    desc: Forward
+
+  - shortcut: ⌃ ⌘ F
+    desc: Full Screen
+
+  - shortcut: ⌘ 1-9
+    desc: Go to Shortcuts 1-9
+
+  - shortcut: ⌘ ,
+    desc: Preferences
+
+  - shortcut: ⌃ ⌘ A
+    desc: Switch User
+
+  - shortcut: ⌘ H
+    desc: Hide Evernote
+
+  - shortcut: ⌥ ⌘ H
+    desc: Hide Others
+
+  - shortcut: ⌘ Q
+    desc: Quit Evernote
+
+  - shortcut: ⌘ M
+    desc: Minimize
+
+  - shortcut: /
+    desc: Zoom
+
+note editor:
+  - shortcut: ⌘ Z
+    desc: Undo
+
+  - shortcut: ⇧ ⌘ Z
+    desc: Redo
+
+  - shortcut: ⌘ X
+    desc: Cut
+
+  - shortcut: ⌘ C
+    desc: Copy
+
+  - shortcut: ⌘ V
+    desc: Paste
+
+  - shortcut: ⇧ ⌘ V
+    desc: Paste and Match Style
+
+  - shortcut: ⌘ A
+    desc: Select All
+
+  - shortcut: ⇧ ⌘ X
+    desc: Encrypt Selected Text
+
+  - shortcut: ⌥ ⌘ F
+    desc: Search Notes
+
+  - shortcut: ⌘ R
+    desc: Reset Search
+
+  - shortcut: ⌘ F
+    desc: Find Within Note
+
+  - shortcut: ⌘ G
+    desc: Find Next
+
+  - shortcut: ⇧ ⌘ G
+    desc: Find Previous
+
+  - shortcut: '⌘ :'
+    desc: Show Spelling & Grammar
+
+  - shortcut: ⌘ ;
+    desc: Check Document Now
+
+  - shortcut: fn fn
+    desc: Start Dictation
+
+  - shortcut: ⌃ ⌘ Space
+    desc: Emoji & Symbols
+
+  - shortcut: ⌘ /
+    desc: Copy Public Link
+
+  - shortcut: ⌘ ↩
+    desc: Present
+
+  - shortcut: ⌥ ⌘ ↩
+    desc: Present on Another Screen
+
+  - shortcut: ⌘ L
+    desc: Edit Note Title
+
+  - shortcut: ⌘ '
+    desc: Edit Tags
+
+  - shortcut: ⇧ ⌘ I
+    desc: Toggle Note Info
+
+  - shortcut: ⌃ ⌥ ⌘ C
+    desc: Copy Note Link
+
+  - shortcut: ⌃ ⌘ M
+    desc: Move to Notebook
+
+  - shortcut: ⇧ ⌘ M
+    desc: Merge Notes
+
+  - shortcut: ⌘ T
+    desc: Show Fonts
+
+  - shortcut: ⇧ ⌘ C
+    desc: Show Colors
+
+  - shortcut: ⌥ ⌘ {
+    desc: Align Left
+
+  - shortcut: ⌥ ⌘ |
+    desc: Center
+
+  - shortcut: ⌥ ⌘ }
+    desc: Align Right
+
+  - shortcut: ⇧ ⌘ ]
+    desc: Increase Indent Level
+
+  - shortcut: ⇧ ⌘ [
+    desc: Decrease Indent Level
+
+  - shortcut: ⇧ ⌘ U
+    desc: Toggle Bulleted List
+
+  - shortcut: ⇧ ⌘ O
+    desc: Toggle Numbered List
+
+  - shortcut: ⇥
+    desc: Indent List Level
+
+  - shortcut: ⇧ ⇥
+    desc: Decrease List Level
+
+  - shortcut: ⇧ ⌘ L
+    desc: Insert Table
+
+  - shortcut: ⌘ K
+    desc: Add Link
+
+  - shortcut: ⇧ ⌘ K
+    desc: Remove Link
+
+  - shortcut: ⌘ B
+    desc: Bold
+
+  - shortcut: ⌘ I
+    desc: Italic
+
+  - shortcut: ⌘ U
+    desc: Underline
+
+  - shortcut: ⌃ ⌘ K
+    desc: Strikethrough
+
+  - shortcut: ⌃ ⌘ H
+    desc: Highlight
+
+  - shortcut: ⌃ ⌘ +
+    desc: Superscript
+
+  - shortcut: ⌃ ⌘ -
+    desc: Subscript
+
+  - shortcut: ⌘ +
+    desc: Bigger
+
+  - shortcut: ⌘ -
+    desc: Smaller
+
+  - shortcut: ⇧ ⌘ T
+    desc: Insert To-do
+
+  - shortcut: ⇧ ⌘ H
+    desc: Insert Horizontal Rule
+
+  - shortcut: ⇧ ⌘ D
+    desc: Insert Date
+
+  - shortcut: ⌥ ⇧ ⌘ D
+    desc: Insert Time
+
+  - shortcut: ⇧ ⌘ F
+    desc: Simplify Formatting
+
+evernote business:
+  - shortcut: ⌥ ⌘ 4
+    desc: Atlas / Business Home (Evernote Business Only)
+
+  - shortcut: ⌥ ⌘ 5
+    desc: Market / Atlas (Evernote Business Only)
+
+  - shortcut: ⌥ ⌘ 6
+    desc: Announcements / Market (Evernote Business Only)
+
+  - shortcut: ⌥ ⌘ 7
+    desc: Announcements (Evernote Business Only)

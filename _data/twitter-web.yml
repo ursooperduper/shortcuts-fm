@@ -1,0 +1,87 @@
+name: Twitter (Web)
+
+sections:
+  - actions
+  - navigation
+  - timelines
+
+actions:
+  - shortcut: 'N'
+    desc: New Tweet
+
+  - shortcut: 'L'
+    desc: Like
+
+  - shortcut: 'R'
+    desc: Reply
+
+  - shortcut: 'T'
+    desc: Retweet
+
+  - shortcut: 'M'
+    desc: Direct Message
+
+  - shortcut: 'U'
+    desc: Mute User
+
+  - shortcut: 'B'
+    desc: Block User
+
+  - shortcut: '↩'
+    desc: Open Tweet Details
+
+  - shortcut: 'C'
+    desc: Close All Open Tweets
+
+  - shortcut: 'O'
+    desc: Expand Photo
+
+  - shortcut: '/'
+    desc: Search
+
+  - shortcut: '⌘ ↩'
+    desc: Send Tweet
+
+navigation:
+  - shortcut: '?'
+    desc: Keyboard Shortcuts
+
+  - shortcut: 'J'
+    desc: Next Tweet
+
+  - shortcut: 'K'
+    desc: Previous Tweet
+
+  - shortcut: 'Space'
+    desc: Page Down
+
+  - shortcut: '.'
+    desc: Load New Tweets
+
+timelines:
+  - shortcut: 'G H'
+    desc: Home
+
+  - shortcut: 'G N'
+    desc: Notifications
+
+  - shortcut: 'G R'
+    desc: Mentions
+
+  - shortcut: 'G P'
+    desc: Profile
+
+  - shortcut: 'G L'
+    desc: Likes
+
+  - shortcut: 'G I'
+    desc: Lists
+
+  - shortcut: 'G M'
+    desc: Messages
+
+  - shortcut: 'G S'
+    desc: Settings
+
+  - shortcut: 'G U'
+    desc: Go to User

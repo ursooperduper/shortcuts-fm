@@ -1,0 +1,23 @@
+- name: Shift
+  symbol: ⇧
+
+- name: Control
+  symbol: ⌃
+
+- name: Option
+  symbol: ⌥
+
+- name: Command
+  symbol: ⌘
+
+- name: Return
+  symbol: ↩
+
+- name: Escape
+  symbol: ⎋
+
+- name: Delete
+  symbol: ⌫
+
+- name: Tab
+  symbol: ⇥

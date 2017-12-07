@@ -1,0 +1,64 @@
+name: SizeUp
+
+sections:
+  - split screen actions
+  - quarter screen actions
+  - multiple monitor actions
+  - spaces actions
+  - other actions
+
+split screen actions:
+  - shortcut: ⌃ ⌥ ⌘ ←
+    desc: Send window left
+
+  - shortcut: ⌃ ⌥ ⌘ →
+    desc: Send window right
+
+  - shortcut: ⌃ ⌥ ⌘ ↑
+    desc: Send window up
+
+  - shortcut: ⌃ ⌥ ⌘ ↓
+    desc: Send window down
+
+quarter screen actions:
+  - shortcut: ⌃ ⌥ ⇧ ←
+    desc: Send window upper left
+
+  - shortcut: ⌃ ⌥ ⇧ ↑
+    desc: Send window upper right
+
+  - shortcut: ⌃ ⌥ ⇧ ↓
+    desc: Send window lower left
+
+  - shortcut: ⌃ ⌥ ⇧ →
+    desc: Send window lower right
+
+multiple monitor actions:
+  - shortcut: ⌃ ⌥ ←
+    desc: Send window to previous monitor
+
+  - shortcut: ⌃ ⌥ →
+    desc: Send window to next monitor
+
+spaces actions:
+  - shortcut: ⌃ ⌘ ←
+    desc: Send window space previous
+
+  - shortcut: ⌃ ⌘ →
+    desc: Send window space next
+
+  - shortcut: ⌃ ⌘ ↑
+    desc: Send window space above
+
+  - shortcut: ⌃ ⌘ ↓
+    desc: Send window space below
+
+other actions:
+  - shortcut: ⌃ ⌥ ⌘ /
+    desc: SnapBack window
+
+  - shortcut: ⌃ ⌥ ⌘ M
+    desc: Make window full screen
+
+  - shortcut: ⌃ ⌥ ⌘ C
+    desc: Send window center

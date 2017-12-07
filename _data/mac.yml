@@ -1,0 +1,182 @@
+name: Mac
+
+sections:
+  - finder
+
+finder:
+  - shortcut: ⌘ D
+    desc: Duplicate Selected Files
+
+  - shortcut: ⌘ E
+    desc: Eject Selected Disk or Volume
+
+  - shortcut: ⌘ F
+    desc: Start Spotlight Search
+
+  - shortcut: ⌘ I
+    desc: Show Get Info Window for Selected Files
+
+  - shortcut: ⌘ ⇧ C
+    desc: Open the Computer Window
+
+  - shortcut: ⌘ ⇧ D
+    desc: Open the Desktop Folder
+
+  - shortcut: ⌘ ⇧ F
+    desc: Open the All My Files Window
+
+  - shortcut: ⌘ ⇧ G
+    desc: Open a Go to Folder Window
+
+  - shortcut: ⌘ ⇧ H
+    desc: Open the Home Folder
+
+  - shortcut: ⌘ ⇧ I
+    desc: Open iCloud Drive
+
+  - shortcut: ⌘ ⇧ K
+    desc: Open the Network Window
+
+  - shortcut: ⌘ ⌥ L
+    desc: Open the Downloads Folder
+
+  - shortcut: ⌘ ⇧ O
+    desc: Open the Documents Folder
+
+  - shortcut: ⌘ ⇧ R
+    desc: Open the AirDrop Window
+
+  - shortcut: ⌘ ⇧ ⌃ T
+    desc: Add Selected Finder Item to the Dock
+
+  - shortcut: ⌘ ⇧ U
+    desc: Open the Utilities Folder
+
+  - shortcut: ⌘ ⌥ D
+    desc: Show or Hide the Dock
+
+  - shortcut: ⌘ ⌃ T
+    desc: Add Selected Item to the Sidebar
+
+  - shortcut: ⌘ ⌥ P
+    desc: Toggle Path Bar
+
+  - shortcut: ⌘ ⌥ S
+    desc: Toggle Sidebar
+
+  - shortcut: ⌘ /
+    desc: Toggle Status Bar
+
+  - shortcut: ⌘ J
+    desc: Show View Options
+
+  - shortcut: ⌘ K
+    desc: Open Connect to Server Window
+
+  - shortcut: ⌘ L
+    desc: Make Alias of Selected Item
+
+  - shortcut: ⌘ N
+    desc: Open New Finder Window
+
+  - shortcut: ⌘ ⇧ N
+    desc: Create New Folder
+
+  - shortcut: ⌘ ⌥ N
+    desc: Create New Smart Folder
+
+  - shortcut: ⌘ R
+    desc: Show Original File for Selected Alias
+
+  - shortcut: ⌘ T
+    desc: Toggle Tab Bar When Single Tab is Open
+
+  - shortcut: ⌘ ⇧ T
+    desc: Show or Hide a Finder Tab
+
+  - shortcut: ⌘ ⌥ T
+    desc: Show or Hide Toolbar When Single Tab is Open
+
+  - shortcut: ⌘ ⌥ V
+    desc: Move Files in Clipboard from Original Location to Current Location
+
+  - shortcut: ⌘ ⌥ Y
+    desc: View Quick Look Slideshow of Selected Files
+
+  - shortcut: ⌘ Y
+    desc: Use Quick Look to Preview Selected Files
+
+  - shortcut: ⌘ 1
+    desc: View Items as Icons
+
+  - shortcut: ⌘ 2
+    desc: View Items as List
+
+  - shortcut: ⌘ 3
+    desc: View Items as Columns
+
+  - shortcut: ⌘ 4
+    desc: View Items as Cover Flow
+
+  - shortcut: ⌘ [
+    desc: Go to Previous Folder
+
+  - shortcut: ⌘ ]
+    desc: Go to the Next Folder
+
+  - shortcut: ⌘ ↑
+    desc: Open Folder That Contains Current Folder
+
+  - shortcut: ⌘ ⌃ ↑
+    desc: Open Folder That Contains Current Folder in New Window
+
+  - shortcut: ⌘ ↓
+    desc: Open the Selected Item
+
+  - shortcut: ⌘ Mission Control
+    desc: Show the Desktop
+
+  - shortcut: ⌘ Brightness Up
+    desc: Toggle Target Display Mode
+
+  - shortcut: ⌘ Brightness Down
+    desc: Toggle Display Mirroring
+
+  - shortcut: →
+    desc: Open Selected Folder
+
+  - shortcut: ←
+    desc: Close Selected Folder
+
+  - shortcut: ⌥ Double Click
+    desc: Open a Folder in Separate Window and Close Current Window
+
+  - shortcut: ⌘ Double Click
+    desc: open Folder in a Separate Tab or Window
+
+  - shortcut: ⌘ ⌫
+    desc: Move Selected Item to the Trash
+
+  - shortcut: ⌘ ⇧ ⌫
+    desc: Empty the Trash
+
+  - shortcut: ⌘ ⇧ ⌥ ⌫
+    desc: Empty the Trash Without Confirmaton Dialog
+
+  - shortcut: ⌥ Brightness Up
+    desc: Open Display Preferences
+
+  - shortcut: ⌥ Mission Control
+    desc: Open Mission Control Preferences
+
+  - shortcut: ⌥ Volume Up
+    desc: Open Sound Preferences
+
+  - shortcut: ⌘ Dragging
+    desc: Move Dragged Item to Another Volume or Location.
+
+  - shortcut: ⌥ Dragging
+    desc: Copy Dragged Item
+
+  - shortcut: ⌘ ⌥ Dragging
+    desc: Make Alias of Dragged Item

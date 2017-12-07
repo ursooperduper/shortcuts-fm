@@ -1,0 +1,631 @@
+name: Xcode
+
+sections:
+  - general
+  - code editing
+  - build and run
+  - file navigation
+  - debugging
+  - code navigation
+  - libraries
+  - version control
+  - edit
+  - view
+  - navigate
+  - source editor
+  - data model
+  - interface builder
+  - source code
+  - product
+  - debug
+  - window
+
+general:
+  - shortcut: '⌘ ,'
+    desc: Preferences
+
+  - shortcut: '⇧ ⌘ 0'
+    desc: Documentation
+
+  - shortcut: '⇧ ⌘ C'
+    desc: Console
+
+  - shortcut: '⌃ ⌘ ?'
+    desc: Documentation for selected text
+
+  - shortcut: '⌘ ?'
+    desc: Quick Help
+
+  - shortcut: ⌘ T
+    desc: New Tab
+
+  - shortcut: ⇧ ⌘ T
+    desc: New Window
+
+  - shortcut: ⌘ N
+    desc: New File
+
+  - shortcut: ⇧ ⌘ N
+    desc: New Project
+
+  - shortcut: ⌃ ⌘ N
+    desc: New Workspace
+
+  - shortcut: ⌥ ⌘ N
+    desc: New Group
+
+  - shortcut: ⌥ ⌘ A
+    desc: Add Files
+
+  - shortcut: ⌘ O
+    desc: Open
+
+  - shortcut: ⇧ ⌘ O
+    desc: Open Quickly
+
+  - shortcut: ⌘ W
+    desc: Close Window
+
+  - shortcut: ⌥ ⌘ W
+    desc: Close All Windows
+
+  - shortcut: ⇧ ⌘ W
+    desc: Close Tab
+
+  - shortcut: ⌥ ⇧ ⌘ W
+    desc: Close Other Tabs
+
+  - shortcut: ⌃ ⌘ W
+    desc: Close Document
+
+  - shortcut: ⌘ S
+    desc: Save
+
+  - shortcut: ⌥ ⌘ S
+    desc: Save All
+
+  - shortcut: ⌥ ⇧ ⌘ S
+    desc: Save Mulptiple
+
+  - shortcut: ⇧ ⌘ S
+    desc: Save As
+
+code editing:
+  - shortcut: '⌃ Space'
+    desc: Show completions
+
+  - shortcut: '⌃ .'
+    desc: Next completion
+
+  - shortcut: '⇥'
+    desc: Accept completion
+
+  - shortcut: '⌃ /'
+    desc: Next placeholder
+
+  - shortcut: '⇧ ⌃ /'
+    desc: Previous placeholder
+
+  - shortcut: '⌘ /'
+    desc: Comment selection
+
+  - shortcut: '⌥ ⌘ ←'
+    desc: Fold method/class
+
+  - shortcut: '⌥ ⌘ →'
+    desc: Unfold method/class
+
+  - shortcut: '⌃ ⌘ E'
+    desc: Edit all in scope
+
+build and run:
+  - shortcut: '⌘ B'
+    desc: Build
+
+  - shortcut: '⇧ ⌘ B'
+    desc: Analyze
+
+  - shortcut: '⌘ R'
+    desc: Run
+
+  - shortcut: '⌘ I'
+    desc: Profile
+
+  - shortcut: '⌘ U'
+    desc: Test
+
+  - shortcut: '⇧ ⌘ K'
+    desc: Clean
+
+  - shortcut: '⌘ K'
+    desc: Clear console
+
+file navigation:
+  - shortcut: '⌃ ⌘ →'
+    desc: Go forward
+
+  - shortcut: '⌃ ⌘ ←'
+    desc: Go back
+
+  - shortcut: '⇧ ⌘ O'
+    desc: Open quickly
+
+  - shortcut: '⌃ 1'
+    desc: Show related items
+
+debugging:
+  - shortcut: ⌘ '
+    desc: Next issue
+
+  - shortcut: '⌘ "'
+    desc: Previous issue
+
+  - shortcut: ⌃ ⌘ '
+    desc: Fix next issue
+
+  - shortcut: ⌃ ⌘ "
+    desc: Fix previous issue
+
+  - shortcut: ⌘ \
+    desc: Add breakpoint
+
+  - shortcut: '⌘ Y'
+    desc: Activate breakpoints
+
+code navigation:
+  - shortcut: '⌘ →'
+    desc: End of line
+
+  - shortcut: '⌘ ←'
+    desc: Beginning of line
+
+  - shortcut: '⌘ ↑'
+    desc: Top of file
+
+  - shortcut: '⌘ ↓'
+    desc: Bottom of file
+
+  - shortcut: '⌥ →'
+    desc: Next word
+
+  - shortcut: '⌥ ←'
+    desc: Previous word
+
+  - shortcut: '⌃ →'
+    desc: Next subword
+
+  - shortcut: '⌃ ←'
+    desc: Previous subword
+
+  - shortcut: '⌃ L'
+    desc: Center selection
+
+  - shortcut: '⌘ L'
+    desc: Goto line
+
+  - shortcut: '⌘ F'
+    desc: Find in file
+
+  - shortcut: '⇧ ⌘ F'
+    desc: Find in project
+
+  - shortcut: '⌘ G'
+    desc: Find next
+
+  - shortcut: '⇧ ⌘ G'
+    desc: Find previous
+
+libraries:
+  - shortcut: '⌃ ⌥ ⌘ 1'
+    desc: File template
+
+  - shortcut: '⌃ ⌥ ⌘ 2'
+    desc: Code snippet
+
+  - shortcut: '⌃ ⌥ ⌘ 3'
+    desc: Object
+
+  - shortcut: '⌃ ⌥ ⌘ 4'
+    desc: Media
+
+version control:
+  - shortcut: ⌥ ⌘ C
+    desc: Commit
+
+  - shortcut: ⌥ ⌘ X
+    desc: Update
+
+  - shortcut: ⌃ ⌥ ⌘ X
+    desc: Update All
+
+  - shortcut: ⌃ ⌘ S
+    desc: Create Snapshot
+
+edit:
+  - shortcut: ⌘ Z
+    desc: Undo
+
+  - shortcut: ⇧ ⌘ Z
+    desc: Redo
+
+  - shortcut: ⌘ X
+    desc: Cut
+
+  - shortcut: ⌘ C
+    desc: Copy
+
+  - shortcut: ⌘ V
+    desc: Paste
+
+  - shortcut: ⌥ ⌘ V
+    desc: Paste Special
+
+  - shortcut: ⌘ D
+    desc: Duplicate
+
+  - shortcut: ⌘ A
+    desc: Select All
+
+  - shortcut: ⇧ ⌘ F
+    desc: Find in Workspace
+
+  - shortcut: ⌥ ⇧ ⌘ F
+    desc: Find and Replace in Workspace
+
+  - shortcut: ⌘ F
+    desc: Find
+
+  - shortcut: ⌥ ⌘ F
+    desc: Find and Replace
+
+  - shortcut: ⌘ G
+    desc: Find Next
+
+  - shortcut: ⇧ ⌘ G
+    desc: Find Previous
+
+  - shortcut: ⌘ E
+    desc: Use Selection for Find
+
+  - shortcut: ⇧ ⌘ E
+    desc: Use Selection for Replace
+
+  - shortcut: ⌥ ⌘ J
+    desc: Filter in Navigator
+
+  - shortcut: ⌥ ⌘ L
+    desc: Filter in Library
+
+  - shortcut: ⌃ ⇧ ⌘ T
+    desc: Show Fonts
+
+  - shortcut: '⌘ :'
+    desc: Show Spelling and Grammar
+
+view:
+  - shortcut: '⌘ (1-7)'
+    desc: Switch Navigators
+
+  - shortcut: '⌘ 0'
+    desc: Toggle Navigators
+
+  - shortcut: '⌥ ⌘ J'
+    desc: Filter in Navigator
+
+  - shortcut: '⌘ ↩'
+    desc: Show Standard Editor
+
+  - shortcut: '⌥ ⌘ ↩'
+    desc: Show Assistant Editor
+
+  - shortcut: '⌥ ⇧ ⌘ ↩'
+    desc: Show Version Editor
+
+  - shortcut: '⇧ ⌘ Y'
+    desc: Toggle Debug Area
+
+  - shortcut: '⌥ ⌘ (1-6)'
+    desc: Switch Inspectors
+
+  - shortcut: '⌥ ⌘ 0'
+    desc: Toggle Utilities
+
+  - shortcut: '⌥ ⌘ L'
+    desc: Filter in Library
+
+  - shortcut: '⌘ 1'
+    desc: Project
+
+  - shortcut: '⌘ 2'
+    desc: Symbol
+
+  - shortcut: '⌘ 3'
+    desc: Search
+
+  - shortcut: '⌘ 4'
+    desc: Issue
+
+  - shortcut: '⌘ 5'
+    desc: Debug
+
+  - shortcut: '⌘ 6'
+    desc: Breakpoint
+
+  - shortcut: '⌘ 7'
+    desc: Log
+
+  - shortcut: '⌘ 0'
+    desc: Show Navigator
+
+  - shortcut: '⌘ ↩'
+    desc: Standard
+
+  - shortcut: '⌥ ⌘ ↩'
+    desc: Assistant`
+
+  - shortcut: '⌥ ⇧ ⌘ ↩'
+    desc: Version
+
+  - shortcut: '⌃ 1'
+    desc: Show Related Items
+
+  - shortcut: '⌃ 2'
+    desc: Show Previous History
+
+  - shortcut: '⌃ ⌘ 2'
+    desc: Show Previous Files History
+
+  - shortcut: '⌃ 3'
+    desc: Show Next History
+
+  - shortcut: '⌃ ⌘ 3'
+    desc: Show Next Files History
+
+  - shortcut: '⌃ 4'
+    desc: Show Top Level Items
+
+  - shortcut: '⌃ 5'
+    desc: Show Group Files
+
+  - shortcut: '⌃ 6'
+    desc: Show Document Items
+
+  - shortcut: '⌃ 7'
+    desc: Show Issues
+
+  - shortcut: '⌃ ⇧ ⌘ W'
+    desc: Remove Assistant Editor
+
+  - shortcut: '⌥ ⇧ ⌘ Z'
+    desc: Reset Editor
+
+  - shortcut: '⇧ ⌘ Y'
+    desc: Show Debug Area
+
+navigate:
+  - shortcut: '⌘ L'
+    desc: Reveal in Project Navigator
+
+  - shortcut: '⌘ <'
+    desc: Open in Adjaent Editor
+
+  - shortcut: '⌃ ⌘ →'
+    desc: Go Forward
+
+  - shortcut: '⌃ ⌥ ⌘ →'
+    desc: Go Forward in Alternate Editor
+
+  - shortcut: '⌃ ⌘ ←'
+    desc: Go Back
+
+  - shortcut: '⌃ ⌥ ⌘ ←'
+    desc: Go Back in Alternate Editor
+
+  - shortcut: '⌘ J'
+    desc: Jump to Selection
+
+  - shortcut: '⇧ ⌘ D'
+    desc: Jump to Definition
+
+  - shortcut: '⌥ ⌘ K'
+    desc: Move Focus to Next Area
+
+  - shortcut: '⌥ ⇧ ⌘ K'
+    desc: Move Focus to Previous Area
+
+source editor:
+  - shortcut: '⌃ ⌘ ↑'
+    desc: Jump to Counterpart
+
+  - shortcut: '⇧ ⌘ J'
+    desc: Jump To
+
+  - shortcut: '⌃ /'
+    desc: Jump to Next Placeholder
+
+  - shortcut: '⌃ ?'
+    desc: Jump to Previous Placeholder
+
+  - shortcut: ⌘ '
+    desc: Jump to Next Issue
+
+  - shortcut: ⌃ ⌘ '
+    desc: Jump and Fix Next Issue
+
+  - shortcut: ⌘ "
+    desc: Jump to Previous Issue
+
+  - shortcut: ⌃ ⌘ "
+    desc: Jump and Fix Previous Issue
+
+data model:
+  - shortcut: ⌃ ⌘ A
+    desc: Add Attribute
+
+  - shortcut: ⌃ ⌘ R
+    desc: Add Relationship
+
+interface builder:
+  - shortcut: ⌘ [
+    desc: Align Left Edges
+
+  - shortcut: ⌘ ]
+    desc: Align Right Edges
+
+  - shortcut: ⌘ =
+    desc: Size to Fit
+
+  - shortcut: ⌘ _
+    desc: Add Horizontal Guide
+
+  - shortcut: ⌘ |
+    desc: Add Vertical Guide
+
+source code:
+  - shortcut: ⌃ \
+    desc: Show Completions
+
+  - shortcut: ⌃ ⌘ E
+    desc: Edit All in Scope
+
+  - shortcut: ⌃ ⌘ F
+    desc: Fix All in Scope
+
+  - shortcut: ⌃ ⌘ M
+    desc: Show All Issues
+
+  - shortcut: ⌘ ]
+    desc: Shift Right
+
+  - shortcut: ⌘ [
+    desc: Shift Left
+
+  - shortcut: ⌥ ⌘ [
+    desc: Move Line Up
+
+  - shortcut: ⌥ ⌘ ]
+    desc: Move Line Down
+
+  - shortcut: ⌘ /
+    desc: Comment Selection
+
+  - shortcut: ⌥ ⌘ ←
+    desc: Fold
+
+  - shortcut: ⌥ ⌘ →
+    desc: Unfold
+
+  - shortcut: ⌥ ⇧ ⌘ ←
+    desc: Fold Methods and Functions
+
+  - shortcut: ⌥ ⇧ ⌘ →
+    desc: Unfold Methods and Functions
+
+  - shortcut: ⌃ ⇧ ⌘ ←
+    desc: Fold Comment Blocks
+
+  - shortcut: ⌃ ⇧ ⌘ →
+    desc: Unfold Comment Blocks
+
+product:
+  - shortcut: ⌘ R
+    desc: Run
+
+  - shortcut: ⌘ T
+    desc: Test
+
+  - shortcut: ⌘ I
+    desc: Profile
+
+  - shortcut: ⌃ ⌘ B
+    desc: Analyze
+
+  - shortcut: ⇧ ⌘ R
+    desc: Build for Running
+
+  - shortcut: ⇧ ⌘ U
+    desc: Build for Testing
+
+  - shortcut: ⇧ ⌘ I
+    desc: Build for Profiling
+
+  - shortcut: ⌃ ⌘ R
+    desc: Run Without Building
+
+  - shortcut: ⌃ ⌘ U
+    desc: Test Without Building
+
+  - shortcut: ⌃ ⌘ I
+    desc: Profile Without Building
+
+  - shortcut: ⌘ B
+    desc: Build
+
+  - shortcut: ⇧ ⌘ K
+    desc: Clean
+
+  - shortcut: ⌥ ⇧ ⌘ K
+    desc: Clean Build Folder
+
+  - shortcut: ⌘ .
+    desc: Stop
+
+debug:
+  - shortcut: ⌃ ⌘ Y
+    desc: Pause
+
+  - shortcut: F7
+    desc: Step Into
+
+  - shortcut: F6
+    desc: Step Over
+
+  - shortcut: F8
+    desc: Step Out
+
+  - shortcut: ⌃ ⇧ F7
+    desc: Step Into Thread
+
+  - shortcut: ⌃ F7
+    desc: Step Into Instruction
+
+  - shortcut: ⌃ ⇧ F6
+    desc: Step Over Thread
+
+  - shortcut: ⌃ F6
+    desc: Step Over Instruction
+
+  - shortcut: ⌘ \
+    desc: Add Breakpoint at Current Line
+
+  - shortcut: ⌘ Y
+    desc: Toggle Breakpoints
+
+  - shortcut: ⌘ K
+    desc: Clear Console
+
+window:
+  - shortcut: ⌘ M
+    desc: Minimize
+
+  - shortcut: ⌘ }
+    desc: Select Next Tab
+
+  - shortcut: ⌘ {
+    desc: Select Previous Tab
+
+  - shortcut: ⇧ ⌘ 1
+    desc: Welcome to Xcode
+
+  - shortcut: ⇧ ⌘ 2
+    desc: Organizer
+
+help:
+  - shortcut: ⌃ ⌘ ?
+    desc: Quick help
+
+  - shortcut: ⌃ ⌥ ⌘ /
+    desc: Search Documentation for Selected Text
+
+  - shortcut: ⌘ ⌥ ?
+    desc: Developer Documentation

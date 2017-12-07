@@ -1,0 +1,91 @@
+name: Calendar (El Capitan)
+
+sections:
+  - calendar
+  - event
+
+calendar:
+  - shortcut: ⌘ →
+    desc: Go to the next day, week, month, or year
+
+  - shortcut: ⌘ ←
+    desc: Go to the previous day, week, month, or year
+
+  - shortcut: ⌘ T
+    desc: Go to today's date
+
+  - shortcut: ⇧ ⌘ T
+    desc: Go to a specific date
+
+  - shortcut: ⌘ 1
+    desc: Switch to day view
+
+  - shortcut: ⌘ 2
+    desc: Switch to week view
+
+  - shortcut: ⌘ 3
+    desc: Switch to month view
+
+  - shortcut: ⌘ 4
+    desc: Switch to year view
+
+  - shortcut: ⌃ ⌘ F
+    desc: Full-screen
+
+  - shortcut: ⌘ R
+    desc: Refresh all calendars
+
+  - shortcut: ⇧ ⌘ N
+    desc: Add a new calendar group
+
+  - shortcut: ⌥ ⌘ S
+    desc: Add a new subscribed calendar
+
+event:
+  - shortcut: ⌘ N
+    desc: Add a new event
+
+  - shortcut: ⌘ E
+    desc: Edit the selected event
+
+  - shortcut: ⌥ ⌘ I
+    desc: Edit the selected event in a new window
+
+  - shortcut: ⇥
+    desc: Go to the next field (while an event is open)
+
+  - shortcut: ⇧ ⇥
+    desc: Go to the previous field (while an event is open)
+
+  - shortcut: ⎋
+    desc: Close the event editor
+
+  - shortcut: ⇥
+    desc: Select the next event
+
+  - shortcut: ⇧ ⇥
+    desc: Select the previous event
+
+  - shortcut: ←
+    desc: Select the previous event
+
+  - shortcut: →
+    desc: Select the next event
+
+  - shortcut: ⌃ ⌥ ↑
+    desc: Move selected event 15 mins earlier in day or week view. Move selected event one week earlier in month view.
+
+  - shortcut: ⌃ ⌥ ↓
+    desc: Move selected event 15 mins later in day or week view. Move selected event one week later in month view.
+
+  - shortcut: ⌘ ,
+    desc: Open Calendar preferences
+
+  - shortcut: ⌘ I
+    desc: Show information for a calendar or event
+
+  - shortcut: ⌥ ⌘ A
+    desc: Toggle Address panel
+
+  - shortcut: ⇧ ⌘ A
+    desc: Toggle Availability panel

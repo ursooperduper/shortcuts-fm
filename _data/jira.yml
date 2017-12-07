@@ -1,0 +1,102 @@
+name: Jira
+
+sections:
+  - global
+  - view issue and issue navigator
+  - form
+
+global:
+  - shortcut: G D
+    desc: Go to Dashboard
+
+  - shortcut: G P
+    desc: Browse to a Project
+
+  - shortcut: G A
+    desc: Go to Agile
+
+  - shortcut: G I
+    desc: Find Issues
+
+  - shortcut: /
+    desc: Quick Search
+
+  - shortcut: C
+    desc: Create Issue
+
+  - shortcut: '?'
+    desc: Open Shortcut Help
+
+  - shortcut: ⌃ ⌥ D
+    desc: Dashboards Drop-Down Menu
+
+  - shortcut: ⌃ ⌥ P
+    desc: Projects Drop-Down Menu
+
+  - shortcut: ⌃ ⌥ I
+    desc: Issues Drop-Down Menu
+
+  - shortcut: G G
+    desc: Administration Search Dialog Box
+
+view issue and issue navigator:
+  - shortcut: ↩
+    desc: View Selected Issue
+
+  - shortcut: J
+    desc: Next Issue
+
+  - shortcut: K
+    desc: Previous Issue
+
+  - shortcut: U
+    desc: Back to the Navigator
+
+  - shortcut: '['
+    desc: Toggle Left Section
+
+  - shortcut: N
+    desc: Next Activity
+
+  - shortcut: P
+    desc: Previous Activity
+
+  - shortcut: F
+    desc: Focus Search Field
+
+  - shortcut: ⎋
+    desc: Escape Field
+
+  - shortcut: E
+    desc: Edit Issue
+
+  - shortcut: A
+    desc: Assign Issue
+
+  - shortcut: M
+    desc: Comment on Issue
+
+  - shortcut: L
+    desc: Edit Issue Label
+
+  - shortcut: S
+    desc: Share Issue
+
+  - shortcut: .
+    desc: Operations Dialog Box
+
+form:
+  - shortcut: ⌃ ⌥ S
+    desc: Form Submit
+
+  - shortcut: ⌃ ⌥ `
+    desc: Cancel Form
+
+  - shortcut: ⎋
+    desc: Escape Field
+
+  - shortcut: U
+    desc: Back
+
+  - shortcut: ⌃ ⌥ R
+    desc: Remember My Login Checkbox

@@ -1,0 +1,85 @@
+name: Google Hangouts
+
+sections:
+  - hangout windows
+  - format messages
+  - navigation
+  - video calls
+  - accessibility
+
+hangout windows:
+  - shortcut: '⌃ .'
+    desc: Move to next Hangout window
+
+  - shortcut: '⌃ ,'
+    desc: Move to previous Hangout window
+
+  - shortcut: '⎋'
+    desc: Close current Hangout window
+
+  - shortcut: '⇧ ⎋'
+    desc: Enter/exist last updated Hangout window
+
+format messages:
+  - shortcut: '⌘ B'
+    desc: Bold
+
+  - shortcut: '⌘ I'
+    desc: Italicize
+
+  - shortcut: '⌘ U'
+    desc: Underline
+
+navigation:
+  - shortcut: 'H C'
+    desc: Focus on first element in conversation list
+
+  - shortcut: 'H P'
+    desc: Go into phone mode
+
+  - shortcut: 'H M'
+    desc: Open Hangouts Settings menu
+
+  - shortcut: 'H A'
+    desc: Go to Archived Hangouts & focus on first archived Hangout
+
+  - shortcut: 'H I'
+    desc: Go to Hangout Invites and focus on first invite
+
+  - shortcut: 'H Q'
+    desc: Go to Hangouts search box
+
+video calls:
+  - shortcut: '⌘ E'
+    desc: Toggle camera on/off
+
+  - shortcut: '⌘ D'
+    desc: Toggle microphone mute/unmutes
+
+  - shortcut: '⌘ B'
+    desc: Toggle chat
+
+  - shortcut: '⌘ M'
+    desc: Move focus to chat
+
+  - shortcut: '⌫'
+    desc: Close or remove selected app
+
+  - shortcut: '⌘ Y'
+    desc: Set focus on the apps menu
+
+  - shortcut: '⌥ 1'
+    desc: Open your menu
+
+  - shortcut: '⌥ T'
+    desc: Open the call app
+
+accessibility:
+  - shortcut: '⌘ G'
+    desc: Become primary speaker (when your audio is muted)
+
+  - shortcut: '⇧ ⌘ ⌥ A then S'
+    desc: Announce who is current speaking
+
+  - shortcut: '⇧ ⌘ ⌥ A then I'
+    desc: Announce current info about roomd

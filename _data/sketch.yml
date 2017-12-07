@@ -1,0 +1,287 @@
+name: Sketch
+
+sections:
+  - general
+  - edit
+  - insert
+  - layer
+  - type
+  - arrange
+  - view
+
+general:
+  - shortcut: ⌘ ,
+    desc: Preferences
+
+  - shortcut: ⌘ N
+    desc: New
+
+  - shortcut: ⌘ O
+    desc: Open
+
+  - shortcut: ⌘ W
+    desc: Close
+
+  - shortcut: ⌘ S
+    desc: Save
+
+  - shortcut: ⇧ ⌘ S
+    desc: Save Duplicate
+
+  - shortcut: ⇧ ⌘ E
+    desc: Export
+
+  - shortcut: ⇧ ⌘ P
+    desc: Page Setup
+
+  - shortcut: Space
+    desc: Hand Tool
+
+  - shortcut: Z
+    desc: Zoom Tool
+
+  - shortcut: ⌥ Z
+    desc: Reverse Zoom
+
+  - shortcut: ⎋
+    desc: Exit Current Tool / Deselect Layers / Back to Inspector
+
+  - shortcut: ⇥ / ⇧ ⇥
+    desc: Cycle Through Layers in Current Group
+
+edit:
+  - shortcut: ⌘ Z
+    desc: Undo
+
+  - shortcut: ⇧ ⌘ Z
+    desc: Redo
+
+  - shortcut: ⌘ X
+    desc: Cut
+
+  - shortcut: ⌘ C
+    desc: Copy
+
+  - shortcut: ⌘ V
+    desc: Paste
+
+  - shortcut: ⇧ ⌘ V
+    desc: Paste Over Selection
+
+  - shortcut: ⌥ ⇧ ⌘ V
+    desc: Paste and Match Style
+
+  - shortcut: ⌘ D
+    desc: Duplicate
+
+  - shortcut: ⌘ A
+    desc: Select All
+
+  - shortcut: ⌘ K
+    desc: Scale
+
+  - shortcut: ⌥ ⌘ C
+    desc: Copy Style
+
+  - shortcut: ⌥ ⌘ V
+    desc: Paste Style
+
+  - shortcut: ⌃ C
+    desc: Pick Color
+
+  - shortcut: '⌘ :'
+    desc: Show Spelling and Grammar
+
+  - shortcut: ⌘ ;
+    desc: Check Spelling
+
+  - shortcut: ⌃ ⌘ Space
+    desc: Emoji and Symbols
+
+insert:
+  - shortcut: V
+    desc: Vector
+
+  - shortcut: P
+    desc: Pencil
+
+  - shortcut: L
+    desc: Line
+
+  - shortcut: R
+    desc: Rectangle
+
+  - shortcut: O
+    desc: Oval
+
+  - shortcut: R
+    desc: Rounded
+
+  - shortcut: T
+    desc: Text
+
+  - shortcut: A
+    desc: Artboard
+
+  - shortcut: S
+    desc: Slice
+
+layer:
+  - shortcut: ⌥ ⌘ U
+    desc: Union
+
+  - shortcut: ⌥ ⌘ S
+    desc: Subtract
+
+  - shortcut: ⌥ ⌘ I
+    desc: Intersect
+
+  - shortcut: ⌥ ⌘ X
+    desc: Difference
+
+  - shortcut: ⇧ ⌘ T
+    desc: Transform Layer
+
+  - shortcut: ⇧ ⌘ R
+    desc: Rotate Layer
+
+  - shortcut: ⌃ ⌘ M
+    desc: Use as Mask
+
+  - shortcut: ⌥ Drag
+    desc: Duplicate Layer
+
+  - shortcut: ⌥ Hover
+    desc: Display Distance Between Layers
+
+  - shortcut: ⌥ Resize
+    desc: Resize from Both Ends
+
+  - shortcut: ⇧ Resize
+    desc: Preserve Aspect Ratio
+
+type:
+  - shortcut: ⌘ B
+    desc: Bold
+
+  - shortcut: ⌘ I
+    desc: Italic
+
+  - shortcut: ⌘ U
+    desc: Underline
+
+  - shortcut: ⌥ ⌘ =
+    desc: Bigger
+
+  - shortcut: ⌥ ⌘ -
+    desc: Smaller
+
+  - shortcut: ⌘ T
+    desc: Change Font
+
+  - shortcut: ⇧ ⌘ O
+    desc: Convert to Outlines
+
+  - shortcut: ⌃ ⌥ T
+    desc: Tighten Kern
+
+  - shortcut: ⌃ ⌥ L
+    desc: Loosen Kern
+
+  - shortcut: ⌘ {
+    desc: Align Left
+
+  - shortcut: ⌘ |
+    desc: Center
+
+  - shortcut: ⌘ }
+    desc: Align Right
+
+arrange:
+  - shortcut: ⌥ ⌘ ↑
+    desc: Forward
+
+  - shortcut: ⌃ ⌥ ⌘ ↑
+    desc: Move to Front
+
+  - shortcut: ⌥ ⌘ ↓
+    desc: Backward
+
+  - shortcut: ⌃ ⌥ ⌘ ↓
+    desc: Move to Back
+
+  - shortcut: ⌃ ⌘ H
+    desc: Distribute Objects Horizontally
+
+  - shortcut: ⌃ ⌘ V
+    desc: Distribute Objects Vertically
+
+  - shortcut: ⇧ ⌘ H
+    desc: Show Layer
+
+  - shortcut: ⇧ ⌘ L
+    desc: Lock Layer
+
+  - shortcut: ⌘ R
+    desc: Rename Layer
+
+  - shortcut: ⌘ G
+    desc: Group Layers
+
+  - shortcut: ⇧ ⌘ G
+    desc: Ungroup Layers
+
+  - shortcut: ⌘ F
+    desc: Find Layer
+
+view:
+  - shortcut: ⌘ +
+    desc: Zoom In
+
+  - shortcut: ⌘ -
+    desc: Zoom Out
+
+  - shortcut: ⌘ 0
+    desc: Actual Size
+
+  - shortcut: ⌘ 1
+    desc: Center Canvas
+
+  - shortcut: ⌘ 2
+    desc: Zoom Selection
+
+  - shortcut: ⌘ 3
+    desc: Zoom Center
+
+  - shortcut: ⌥ ⌘ 1
+    desc: Show Layers List
+
+  - shortcut: ⌥ ⌘ 2
+    desc: Show Inspector
+
+  - shortcut: ⌥ ⌘ 3
+    desc: Toggle Layers and Inspector
+
+  - shortcut: ⌘ .
+    desc: Presentation Mode
+
+  - shortcut: ⌃ R
+    desc: Show Rulers
+
+  - shortcut: ⌃ P
+    desc: Show Pixels
+
+  - shortcut: ⌃ X
+    desc: Show Pixels Grid
+
+  - shortcut: ⌃ G
+    desc: Show Grid
+
+  - shortcut: ⌃ L
+    desc: Show Layout
+
+  - shortcut: ⌥ ⌘ T
+    desc: Toggle Toolbar
+
+  - shortcut: ⌃ ⌘ F
+    desc: Toggle Fullscreen

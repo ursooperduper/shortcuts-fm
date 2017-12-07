@@ -1,0 +1,217 @@
+name: Textual
+
+sections:
+  - navigation
+  - text formatting
+  - channel management
+  - server management
+  - view controls
+  - window controls
+  - application controls
+  - special actions
+
+navigation:
+  - shortcut: ⌃ →
+    desc: Next server
+
+  - shortcut: ⌃ ←
+    desc: Previous server
+
+  - shortcut: ⌃ ⌥ →
+    desc: Next active server
+
+  - shortcut: ⌃ ⌥ ←
+    desc: Previous active server
+
+  - shortcut: ⌘ ]
+    desc: Next channel
+
+  - shortcut: ⌘ [
+    desc: Previous channel
+
+  - shortcut: ⇧ ⌘ ]
+    desc: Next active channel
+
+  - shortcut: ⇧ ⌘ [
+    desc: Previous active channel
+
+  - shortcut: ⌃ ⌘ ⇥
+    desc: Next unread channel
+
+  - shortcut: ⌃ ⇧ ⇥
+    desc: Previous unread channel
+
+  - shortcut: ⌃ ⇥
+    desc: Move forward
+
+  - shortcut: ⌥ ⇥
+    desc: Previous selection
+
+  - shortcut: ⇧ ⌘ ↓
+    desc: Next highlight
+
+  - shortcut: ⇧ ⌘ ↓
+    desc: Previous highlight
+
+text formatting:
+  - shortcut: ⌘ B
+    desc: Bold
+
+  - shortcut: ⌥ ⌘ I
+    desc: Italic
+
+  - shortcut: ⌥ ⌘ U
+    desc: Underline
+
+  - shortcut: ⌥ ⌘ C
+    desc: Foreground color
+
+  - shortcut: ⌥ ⌘ H
+    desc: Background color
+
+channel management:
+  - shortcut: ⇧ ⌘ +
+    desc: Add channel
+
+  - shortcut: ⇧ ⌘ ⌫
+    desc: Delete channel
+
+  - shortcut: ⇧ ⌘ L
+    desc: Channel logs
+
+  - shortcut: ⌘ T
+    desc: Channel topics
+
+  - shortcut: ⇧ ⌘ B
+    desc: Channel ban list
+
+  - shortcut: ⇧ ⌘ E
+    desc: Channel ban exception list
+
+  - shortcut: ⇧ ⌘ I
+    desc: Channel invite exception list
+
+  - shortcut: ⌘ I
+    desc: Channel settings
+
+  - shortcut: ⌃ ⇧ ⌘ M
+    desc: Enable channel moderation (mode +m)
+
+  - shortcut: ⌃ ⌘ M
+    desc: Disable channel moderation (mode -m)
+
+  - shortcut: ⌃ ⇧ ⌘ I
+    desc: Enable channel invite-only status (mode +i)
+
+  - shortcut: ⌃ ⌘ I
+    desc: Disable channel invite-only status (mode -i)
+
+  - shortcut: ⌘ O
+    desc: Manage channel modes
+
+server management:
+  - shortcut: ⌘ D
+    desc: Duplicate server
+
+  - shortcut: ⌘ ⌫
+    desc: Delete server
+
+  - shortcut: ⌘ U
+    desc: Server settings
+
+view controls:
+  - shortcut: ⌘ L
+    desc: Mark scrollback
+
+  - shortcut: ⌃ ⌘ L
+    desc: Scrollback marker
+
+  - shortcut: ⇧ ⌘ U
+    desc: Mark all as read
+
+  - shortcut: ⌘ K
+    desc: Clear scrollback
+
+  - shortcut: ⌘ +
+    desc: Increase font size
+
+  - shortcut: ⌘ -
+    desc: Decrease font size
+
+  - shortcut: ⌘ R
+    desc: Sort channel list
+
+  - shortcut: ⌥ ⌘ L
+    desc: Focus channel view (for scrolling with keyboard)
+
+window controls:
+  - shortcut: ⌘ W
+    desc: Close window
+
+  - shortcut: ⌘ M
+    desc: Minimize window
+
+  - shortcut: ⌥ ⌘ M
+    desc: Minimize all
+
+  - shortcut: ⌥ ⌘ U
+    desc: Toggle visibility of member list
+
+  - shortcut: ⌥ ⌘ S
+    desc: Toggle visibility of server list
+
+  - shortcut: ⇧ ⌘ D
+    desc: Toggle window appearances
+
+  - shortcut: ⌃ 1
+    desc: Bring main window to front
+
+  - shortcut: ⌃ 2
+    desc: Open address book for selected server
+
+  - shortcut: ⌃ 3
+    desc: Open ignore list for selected server
+
+  - shortcut: ⌃ 4
+    desc: Open logs for selected server (in Finder)
+
+  - shortcut: ⌃ 5
+    desc: Open highlight list for selected server
+
+  - shortcut: ⌃ 6
+    desc: Open file transfers list
+
+  - shortcut: ⌃ ⌘ F
+    desc: Toggle fullscreen
+
+application controls:
+  - shortcut: ⌘ H
+    desc: Hide Textual
+
+  - shortcut: ⌥ ⌘ H
+    desc: Hide others
+
+  - shortcut: ⌘ ,
+    desc: Preferences
+
+  - shortcut: ⌘ Q
+    desc: Quit Textual
+
+special actions:
+  - shortcut: ⌘ ↩
+    desc: Send text as action (/me command)
+
+  - shortcut: ⌃ N
+    desc: Input history (next entry)
+
+  - shortcut: ⌃ P
+    desc: Input history (previous entry)
+
+  - shortcut: ⇥
+    desc: Tab complete (next result)
+
+  - shortcut: ⇧ ⇥
+    desc: Tab complete (previous result)
+
+  - shortcut: ⇧ ⌘ M
+    desc: Toggle mute on notification sounds

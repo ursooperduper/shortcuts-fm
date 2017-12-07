@@ -1,0 +1,319 @@
+name: Firefox
+
+sections:
+  - navigation
+  - current page
+  - editing
+  - search
+  - windows and tabs
+  - history
+  - bookmarks
+  - tools
+  - pdf viewer
+  - miscellaneous
+  - media
+
+navigation:
+  - shortcut: ⌘ ←
+    desc: Back
+
+  - shortcut: ⌘ →
+    desc: Forward
+
+  - shortcut: ⌥ Home
+    desc: Home
+
+  - shortcut: ⌘ O
+    desc: Open File
+
+  - shortcut: ⌘ R
+    desc: Reload
+
+  - shortcut: ⌘ ⇧ R
+    desc: Reload (Override Cache)
+
+  - shortcut: ⎋
+    desc: Stop
+
+current page:
+  - shortcut: Fn ↓
+    desc: Go Down a Screen
+
+  - shortcut: Fn ↑
+    desc: Go Up a Screen
+
+  - shortcut: ⌘ ↓
+    desc: Go to Bottom of Page
+
+  - shortcut: ⌘ ↑
+    desc: Go to Top of Page
+
+  - shortcut: F6
+    desc: Move to Next Frame
+
+  - shortcut: ⇧ F6
+    desc: Move to Previous Frame
+
+  - shortcut: ⌘ P
+    desc: Print
+
+  - shortcut: ⌘ S
+    desc: Save Page As
+
+  - shortcut: ⌘ +
+    desc: Zoom In
+
+  - shortcut: ⌘ -
+    desc: Zoom Out
+
+  - shortcut: ⌘ 0
+    desc: Zoom Reset
+
+editing:
+  - shortcut: ⌘ C
+    desc: Copy
+
+  - shortcut: ⌘ X
+    desc: Cut
+
+  - shortcut: ⌫
+    desc: Delete
+
+  - shortcut: ⌘ V
+    desc: Paste
+
+  - shortcut: ⌘ ⇧ V
+    desc: Paste (As PLain Text)
+
+  - shortcut: ⌘ ⇧ Z
+    desc: Redo
+
+  - shortcut: ⌘ A
+    desc: Select All
+
+  - shortcut: ⌘ Z
+    desc: Undo
+
+search:
+  - shortcut: ⌘ F
+    desc: Find
+
+  - shortcut: ⌘ G
+    desc: Find Again
+
+  - shortcut: ⌘ ⇧ G
+    desc: Find Previous
+
+  - shortcut: "'"
+    desc: Quick Find within in link-texxt only
+
+  - shortcut: /
+    desc: Quick Find
+
+  - shortcut: ⌘ K
+    desc: Focus Search Bar
+
+  - shortcut: ⌘ ↑ / ⌘ ↓
+    desc: Quickly Switch Search Engines (when the Search Bar is Focused)
+
+  - shortcut: ⌥ ↑ / ⌥ ↓
+    desc: View Menu to Manage Search Engines (when the Search Bar is Focused)
+
+windows and tabs:
+  - shortcut: ⌘ W
+    desc: Close Tab
+
+  - shortcut: ⌘ ⇧ W
+    desc: Close Window
+
+  - shortcut: ⌃ M
+    desc: Toggle Audio
+
+  - shortcut: ⌘ T
+    desc: New Tab
+
+  - shortcut: ⌘ N
+    desc: New Window
+
+  - shortcut: ⌘ ⇧ P
+    desc: New Private Window
+
+  - shortcut: ⌃ ⇥
+    desc: Next Tab
+
+  - shortcut: ⌃ ⇧ ⇥
+    desc: Previous Tab
+
+  - shortcut: ⌘ ⇧ T
+    desc: Undo Close Tab
+
+  - shortcut: ⌘ ⇧ N
+    desc: Undp Close Window
+
+  - shortcut: ⌘ [1-8]
+    desc: Select Tab 1-8
+
+  - shortcut: ⌘ 9
+    desc: Select Last Tab
+
+  - shortcut: ⌘ ⇧ E
+    desc: Tab Groups View
+
+  - shortcut: ⎋
+    desc: Close Tab Groups View
+
+  - shortcut: ⌃ `
+    desc: Next Tab Group
+
+  - shortcut: ⌃ ⇧ `
+    desc: Previous Tab Group
+
+history:
+  - shortcut: ⌘ ⇧ H
+    desc: History Sidebar
+
+  - shortcut: ⌘ ⇧ ⌫
+    desc: Clear Recent History
+
+bookmarks:
+  - shortcut: ⌘ ⇧ D
+    desc: Bookmark All Tabs
+
+  - shortcut: ⌘ D
+    desc: Bookmark This Page
+
+  - shortcut: ⌘ B
+    desc: Bookmarks Sidebar
+
+  - shortcut: ⌘ ⇧ B
+    desc: Library Window (Bookmarks)
+
+tools:
+  - shortcut: ⌘ J
+    desc: Downloads
+
+  - shortcut: ⌘ ⇧ A
+    desc: Add-ons
+
+  - shortcut: ⌘ ⌥ I
+    desc: Toggle Developer Tools
+
+  - shortcut: ⌘ ⌥ K
+    desc: Web Console
+
+  - shortcut: ⌘ ⌥ C
+    desc: Inspector
+
+  - shortcut: ⌘ ⌥ S
+    desc: Debugger
+
+  - shortcut: ⇧ F7
+    desc: Style Editor
+
+  - shortcut: ⇧ F5
+    desc: Profiler
+
+  - shortcut: ⌘ ⌥ Q
+    desc: Network
+
+  - shortcut: ⇧ F2
+    desc: Developer Toolbar
+
+  - shortcut: ⌘ ⌥ M
+    desc: Responsive Design View
+
+  - shortcut: ⇧ F4
+    desc: Scratchpad
+
+  - shortcut: ⌘ U
+    desc: Page Source
+
+  - shortcut: ⌘ ⇧ J
+    desc: Browser Console
+
+  - shortcut: ⌘ I
+    desc: Page Info
+
+pdf viewer:
+  - shortcut: N / J / →
+    desc: Next Page
+
+  - shortcut: P / K / ←
+    desc: Previous Page
+
+  - shortcut: ⌘ +
+    desc: Zoom In
+
+  - shortcut: ⌘ -
+    desc: Zoom Out
+
+  - shortcut: ⌘ 0
+    desc: Automatic Zoom
+
+  - shortcut: R
+    desc: Rotate Document Clockwise
+
+  - shortcut: ⇧ R
+    desc: Rotate Counterclockwise
+
+  - shortcut: ⌘ ⌥ P
+    desc: Switch to Presentation Mode
+
+  - shortcut: H
+    desc: Toggle Hand Tool
+
+  - shortcut: ⌘ ⌥ G
+    desc: Focus Page Number Input Box
+
+miscellaneous:
+  - shortcut: ⌘ ↩
+    desc: Complete .com Address
+
+  - shortcut: ⇧ ↩
+    desc: Complete .net Address
+
+  - shortcut: ⌘ ⇧ ↩
+    desc: Complete .org Address
+
+  - shortcut: ⇧ ⌫
+    desc: Delete Selected Autocomplete Entry
+
+  - shortcut: ⌘ ⇧ F
+    desc: Toggle Fullscreen
+
+  - shortcut: ⌘ /
+    desc: Toggle Add-on Bar
+
+  - shortcut: F7
+    desc: Caret Browsing
+
+  - shortcut: ⌘ L
+    desc: Select Location Bar
+
+media:
+  - shortcut: Space
+    desc: Toggle Play/Pause
+
+  - shortcut: ↓
+    desc: Decrease Volume
+
+  - shortcut: ↑
+    desc: Increase Volume
+
+  - shortcut: ⌘ ↓
+    desc: Mute Audio
+
+  - shortcut: ⌘ ↑
+    desc: Unmute Audio
+
+  - shortcut: ←
+    desc: Seek Back 15 Seconds
+
+  - shortcut: →
+    desc: Seek Forward 15 Seconds
+
+  - shortcut: ⌘ ←
+    desc: Seek Back 10%
+
+  - shortcut: ⌘ →
+    desc: Seek Forward 10%
