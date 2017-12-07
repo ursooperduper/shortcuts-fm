@@ -1,5 +1,5 @@
 ---
-layout: cheatsheet
+layout: shortcuts
 name: Evernote
 data-file: evernote
 sections:

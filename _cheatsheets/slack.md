@@ -1,5 +1,5 @@
 ---
-layout: cheatsheet
+layout: shortcuts
 name: Slack
 data-file: slack
 sections:

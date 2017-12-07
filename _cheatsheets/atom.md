@@ -1,5 +1,5 @@
 ---
-layout: cheatsheet
+layout: shortcuts
 name: Atom
 data-file: atom
 sections:

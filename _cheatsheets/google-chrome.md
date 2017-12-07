@@ -1,5 +1,5 @@
 ---
-layout: cheatsheet
+layout: shortcuts
 name: Google Chrome
 data-file: google-chrome
 sections:

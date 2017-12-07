@@ -1,5 +1,5 @@
 ---
-layout: cheatsheet
+layout: shortcuts
 name: Safari
 data-file: safari
 sections:

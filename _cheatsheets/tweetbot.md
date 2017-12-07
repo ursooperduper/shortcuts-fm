@@ -1,5 +1,5 @@
 ---
-layout: cheatsheet
+layout: shortcuts
 name: Tweetbot
 data-file: tweetbot
 sections:

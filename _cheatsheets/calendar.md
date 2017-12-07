@@ -1,5 +1,5 @@
 ---
-layout: cheatsheet
+layout: shortcuts
 name: Calendar (El Capitan)
 data-file: calendar
 sections:

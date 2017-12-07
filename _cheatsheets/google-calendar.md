@@ -1,5 +1,5 @@
 ---
-layout: cheatsheet
+layout: shortcuts
 name: Google Calendar
 data-file: google-calendar
 sections:

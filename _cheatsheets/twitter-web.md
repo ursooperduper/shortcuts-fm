@@ -1,5 +1,5 @@
 ---
-layout: cheatsheet
+layout: shortcuts
 name: Twitter (Web)
 data-file: twitter-web
 sections:

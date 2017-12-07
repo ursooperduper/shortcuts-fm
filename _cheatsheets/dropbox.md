@@ -1,5 +1,5 @@
 ---
-layout: cheatsheet
+layout: shortcuts
 name: Dropbox
 data-file: dropbox
 sections:

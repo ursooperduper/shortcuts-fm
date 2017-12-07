@@ -1,5 +1,5 @@
 ---
-layout: cheatsheet
+layout: shortcuts
 name: TweetDeck
 data-file: tweetdeck
 sections:

@@ -1,5 +1,5 @@
 ---
-layout: cheatsheet
+layout: shortcuts
 name: Google Docs
 data-file: google-docs
 sections:

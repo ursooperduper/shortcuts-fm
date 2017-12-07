@@ -1,5 +1,5 @@
 ---
-layout: cheatsheet
+layout: shortcuts
 name: SizeUp
 data-file: sizeup
 sections:

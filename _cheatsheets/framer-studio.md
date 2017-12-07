@@ -1,5 +1,5 @@
 ---
-layout: cheatsheet
+layout: shortcuts
 name: Framer Studio
 data-file: framer-studio
 sections:
