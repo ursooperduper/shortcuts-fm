@@ -1,0 +1,12 @@
+<div class='shortcut-group'>
+    <p class='sc-heading'>{{ include.section }}</p>
+    <table class='shortcuts'>
+    {% assign dsection = include.section | downcase %}
+    {% for sc in site.data[include.name][dsection] %}
+    <tr class='shortcut'>
+        <td class='sc'>{{ sc.shortcut }}</td>
+        <td class='desc'>{{ sc.desc }}</td>
+    </tr>
+    {% endfor %}
+    </table>
+</div>

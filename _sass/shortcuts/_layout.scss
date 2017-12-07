@@ -9,7 +9,7 @@ header {
   flex-flow: column no-wrap;
   width: 100%;
   height: 200px;
-  background: #282828 url('../images/shortcuts.svg') no-repeat 24px center;
+  background: #282828 url('/images/shortcuts.svg') no-repeat 24px center;
 
   h1 {
     margin-left: 220px;
@@ -43,15 +43,86 @@ h2 {
   padding: 0;
   columns: 3;
 
-  li {
+  a:link, a:visited, a:hover, a:active {
+    display: block;
+    color: $brand-color-2;
     padding: 16px 24px;
     border: 1px solid $lt-grey-color;
     border-radius: 8px;
     margin-bottom: 16px;
     width: 280px;
+    text-decoration: none;
+  }
+
+  a:hover {
+    background-color: lighten($brand-color, 70%);
   }
 }
 
-a:link, a:visited, a:hover, a:active {
-  color: $brand-color-2;
+.sc-heading {
+  font: bold 18px "Roboto", Helvetica, sans-serif;
+  color: $brand-color; 
 }
+
+.shortcut-cols {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  margin: auto 0; }
+  @media screen and (max-width: 600px) {
+    .shortcut-cols {
+      -webkit-flex-flow: column nowrap;
+      -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap; } }
+
+.shortcut-col1 {
+  padding-right: 30px;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  columns: 2;
+  vertical-align: top; }
+  @media screen and (max-width: 600px) {
+    .shortcut-col1 {
+      -webkit-columns: 1;
+      -moz-columns: 1;
+      columns: 1; } }
+
+.shortcut-col2 {
+  width: 100px; }
+  @media screen and (max-width: 600px) {
+    .shortcut-col2 {
+      width: 100%;
+      padding-top: 12px; } }
+
+.shortcut:nth-child(odd) {
+  background-color: #fff; }
+
+.shortcut:nth-child(even) {
+  background-color: #eee; }
+
+.shortcut {
+  border-bottom: 1px solid #c9c9c9; }
+
+.shortcut:first-child {
+  border-top: 1px solid #c9c9c9; }
+
+.shortcut:hover {
+  background-color: #b9f3f3; }
+
+.shortcuts {
+  width: 250px;
+  border: 0;
+  font-size: .8em;
+  border-collapse: collapse;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid; }
+
+.sc {
+  width: 70px;
+  padding-left: 6px;
+  border: 0;
+  word-spacing: .1em; }
