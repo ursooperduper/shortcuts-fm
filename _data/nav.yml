@@ -1,0 +1,8 @@
+- name: "Home"
+  url: "/"
+
+- name: "Github Repo"
+  url: "https://github.com/ursooperduper/shortcuts-fm"
+
+- name: "Request an app"
+  url: "mailto:hello@shortcuts.fm"

@@ -1,0 +1,5 @@
+{% for item in site.data.nav %}
+{% if item.name %}
+<a class="nav-link" href="{{ item.url }}">{{ item.name }}</a>
+{% endif %}
+{% endfor %}
