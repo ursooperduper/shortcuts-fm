@@ -1,24 +1,35 @@
 .container {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
+    align-items: stretch;
+    min-height: 100vh; 
   }
   
 header { 
-  display: flex;
-  align-items: center;
-  flex-flow: column no-wrap;
   width: 100%;
-  height: 200px;
+  height: 202px;
   background: #282828 url('/images/shortcuts.svg') no-repeat 24px center;
+  border: 1px solid green;
+}
 
-  h1 {
-    margin-left: 220px;
-  }
+.hdr-title {
+  margin-left: 220px;
+  margin-top: 28px;
+}
+
+.hdr-nav {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-left: 220px;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: $brand-color-2;
 }
 
 .content {
-  margin: 40px 56px;
-  width: 100%;
+  margin: 24px 40px;
+  flex-grow: 2;
 }
 
 h1 {
@@ -34,14 +45,27 @@ h1 {
 
 h2 {
   color: $brand-color;
-  font: 900 24px "Roboto", Helvetica, sans-serif;
+  font: 900 32px "Roboto", Helvetica, sans-serif;
+}
+
+.shortcut-list {
+  columns: 3;
+  break-inside: avoid;
+  -moz-column-fill: balance;
+  column-fill: balance;
+}
+
+.sc-list-parent {
+  break-inside: avoid;
+  border: 1px solid $white-color;
 }
 
 .sc-list {
+  display: block;
   list-style: none;
   margin: 0;
   padding: 0;
-  columns: 3;
+
 
   a:link, a:visited, a:hover, a:active {
     display: block;
@@ -113,16 +137,50 @@ h2 {
   background-color: lighten($brand-color, 70%); }
 
 .shortcuts {
-  width: 250px;
+  width: 400px;
   border: 0;
   font-size: .8em;
   border-collapse: collapse;
   -webkit-column-break-inside: avoid;
   page-break-inside: avoid;
-  break-inside: avoid; }
+  break-inside: avoid; 
+  -moz-column-fill: balance;
+  column-fill: balance;
+}
 
 .sc {
-  width: 70px;
+  width: 100px;
   padding-left: 6px;
   border: 0;
   word-spacing: .1em; }
+
+.sc, .desc {
+  padding: 8px;
+}
+
+.nav-link {
+  padding-right: 40px; }
+
+.hdr-nav:last-child {
+  padding-right: 0; }
+
+footer {
+  padding: 24px;
+  background-color: #F1F1F1;
+  font: normal 14px "Roboto", Helvetica, sans-serif;
+  color: $brand-color;
+  line-height: 24px; 
+}
+
+.shortcut-page {
+  columns: 3;
+  break-inside: avoid;
+  -moz-column-fill: balance;
+  column-fill: balance;
+}
+
+.shortcut-group {
+  padding-bottom: 24px;
+  break-inside: avoid;
+
+}

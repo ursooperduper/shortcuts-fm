@@ -1,5 +1,5 @@
 <div class='shortcut-group'>
-    <p class='sc-heading'>{{ include.section }}</p>
+    <h3 class='sc-heading'>{{ include.section }}</h3>
     <table class='shortcuts'>
     {% assign dsection = include.section | downcase %}
     {% for sc in site.data[include.name][dsection] %}

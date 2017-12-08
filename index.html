@@ -1,9 +1,21 @@
 ---
 layout: default
 ---
-<!-- List of Cheatsheets -->
-<ul class="sc-list">
-  {% for sc in site.shortcuts %}
-  <li><a href="{{ sc.url }}">{{ sc.name }}</a></li>
+<div class="shortcut-list">
+    
+  {% for c in site.data.categories %}
+  <div class="sc-list-parent">
+  <h2>{{ c.name | capitalize }}</h2>
+
+  <!-- List of Cheatsheets -->
+    <ul class="sc-list">
+      {% for sc in site.shortcuts %}
+      {% if sc.category == c.name %}
+      <li><a href="{{ sc.url }}">{{ sc.name }}</a></li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
   {% endfor %}
-</ul>
+
+</div>

@@ -4,7 +4,8 @@ layout: default
 
 <h2>{{ page.name }}</h2>
 
-
-{% for section in page.sections %}
-{% include sc.html section=section  name=page.data-file %}
-{% endfor %}
+<div class="shortcut-page">
+    {% for section in page.sections %}
+    {% include sc.html section=section  name=page.data-file %}
+    {% endfor %}
+</div>
