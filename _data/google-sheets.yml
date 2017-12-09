@@ -180,7 +180,7 @@ spreadsheet navigation:
   - shortcut: '⌥ ⇧ Q'
     desc: Move to quicksum
 
-  - shortcut: 'hold ⌃ ⌘, press E then P'
+  - shortcut: 'hold ⌃ ⌘ press E then P'
     desc: Move focus to popup
 
   - shortcut: '⌃ ⌘ R'
@@ -205,13 +205,13 @@ notes and comments:
   - shortcut: '⌘ ⌥ ⇧ A'
     desc: Open comment discussion thread
 
-  - shortcut: 'hold ⌃ ⌘, press E then C'
+  - shortcut: 'hold ⌃ ⌘ press E then C'
     desc: Enter current comment
 
-  - shortcut: 'hold ⌃ ⌘, press N then C'
+  - shortcut: 'hold ⌃ ⌘ press N then C'
     desc: Move to next comment
 
-  - shortcut: 'hold ⌃ ⌘, press P then C'
+  - shortcut: 'hold ⌃ ⌘ press P then C'
     desc: Move to previous comment
 
 menus:
@@ -255,22 +255,22 @@ menus:
     desc: Context menu
 
 insert or delete rows or columns:
-  - shortcut: '⌃ ⌥ I, then R'
+  - shortcut: '⌃ ⌥ I then R'
     desc: Insert row above
 
-  - shortcut: '⌃ ⌥ I, then W'
+  - shortcut: '⌃ ⌥ I then W'
     desc: Insert row below
 
-  - shortcut: '⌃ ⌥ I, then C'
+  - shortcut: '⌃ ⌥ I then C'
     desc: Insert column to the left
 
-  - shortcut: '⌃ ⌥ I, then G'
+  - shortcut: '⌃ ⌥ I then G'
     desc: Insert column to the right
 
-  - shortcut: '⌃ ⌥ E, then D'
+  - shortcut: '⌃ ⌥ E then D'
     desc: Delete row
 
-  - shortcut: '⌃ ⌥ E, then E'
+  - shortcut: '⌃ ⌥ E then E'
     desc: Delete column
 
 formulas:

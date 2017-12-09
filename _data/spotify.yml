@@ -55,7 +55,7 @@ general:
     desc: Restore window from hidden state
 
 music controls:
-  - shortcut: Space`
+  - shortcut: Space
     desc: Play/pause
 
   - shortcut: ⌃ ⌘ →
