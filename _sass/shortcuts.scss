@@ -8,24 +8,27 @@ $base-font-weight: normal;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+$spacing-unit:     8px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
 
 $white-color:      #fff;
 $brand-color:      #541C6A;
-$brand-color-2:    #FC0102;
+$link-color:       #FC0102;
 $grey-color:       #828282;
-$lt-grey-color:    #d6d6d6;
 $grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color-dark:  darken($grey-color, 35%);
 
 // Width of the content area
 $content-width:    800px;
 
-$on-palm:          600px;
-$on-laptop:        800px;
+$on-palm:          800px;
+$on-laptop:        1200px;
+$on-sm-display:    2000px;
+
+$ratio-2x:         2;
+$ratio-1x:         1;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -34,6 +37,7 @@ $on-laptop:        800px;
 //     padding-left: $spacing-unit / 2;
 //   }
 // }
+// and (-webkit-min-device-pixel-ratio: 2)
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
     @content;

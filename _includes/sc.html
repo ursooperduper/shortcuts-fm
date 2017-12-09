@@ -1,12 +1,23 @@
-<div class='shortcut-group'>
-    <h3 class='sc-heading'>{{ include.section }}</h3>
-    <table class='shortcuts'>
-    {% assign dsection = include.section | downcase %}
-    {% for sc in site.data[include.name][dsection] %}
-    <tr class='shortcut'>
-        <td class='sc'>{{ sc.shortcut }}</td>
-        <td class='desc'>{{ sc.desc }}</td>
+<div class='sc-group'>
+  <h3 class='sc-heading'>{{ include.section }}</h3>
+  <table class='sc-tbl'>
+  {% assign dsection = include.section | downcase %}
+  {% for sc in site.data[include.name][dsection] %}
+    <tr class='sc-row'>
+      <td class='sc-keys'>
+        {% assign keys = sc.shortcut | split: " " %}
+        
+        {% for k in keys %}
+          {% if k == 'then' or k == 'or' or k == 'press' or k == 'hold' or k == '(and' or k == 'click' or k == 'message)' or k == '@[character]' or k == '#[character]' or k == ':[character]' or k == '[number]' %}
+          <span class="sc-text">{{ k }}</span>
+          {% else %}
+          <div class="sc-key">{{ k }}</div>
+          {% endif %}
+        {% endfor %}
+
+      </td>
+      <td class='sc-desc'>{{ sc.desc }}</td>
     </tr>
-    {% endfor %}
-    </table>
+  {% endfor %}
+  </table>
 </div>
