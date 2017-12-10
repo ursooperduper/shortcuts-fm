@@ -1,11 +1,31 @@
 name: Framer Studio
 
 sections:
+  - design
   - general
   - edit
+  - selection
+  - folding
+  - auto-code
   - find
   - view
   - window
+
+design: 
+  - shortcut: A
+    desc: Artboard
+  
+  - shortcut: R
+    desc: Rectangle
+
+  - shortcut: O
+    desc: Oval
+  
+  - shortcut: T
+    desc: Text
+  
+  - shortcut: Z
+    desc: Zoom
 
 general:
   - shortcut: ⌘ N
@@ -28,6 +48,9 @@ general:
 
   - shortcut: ⇧ ⌘ S
     desc: Save As
+  
+  - shortcut: ⌃ ⌘ S
+    desc: Save to Cloud
 
 edit:
   - shortcut: ⌘ Z
@@ -45,6 +68,10 @@ edit:
   - shortcut: ⌘ V
     desc: Paste
 
+selection: 
+  - shortcut: ⌘ L
+    desc: Select Line
+  
   - shortcut: ⌘ A
     desc: Select All
 
@@ -56,6 +83,44 @@ edit:
 
   - shortcut: ⌘ /
     desc: Un/Comment
+
+  - shortcut: ⌃ ⌘ ↑
+    desc: Move Up
+
+  - shortcut: ⌃ ⌘ ↓
+    desc: Move Down
+
+folding:
+  - shortcut: ⌘ ↩
+    desc: Fold
+  
+  - shortcut: ⌘ ⎋
+    desc: Unfold
+  
+  - shortcut: ⇧ ⌘ ]
+    desc: Enter Next Fold
+
+  - shortcut: ⇧ ⌘ [
+    desc: Enter Previous Fold
+
+auto-code:
+  - shortcut: ⇧ ⌘ N
+    desc: Insert Layer
+  
+  - shortcut: ⌃ S
+    desc: Insert State
+
+  - shortcut: ⌃ A
+    desc: Insert Animation
+
+  - shortcut: ⌘ E
+    desc: Properties
+
+  - shortcut: ⇧ ⌘ P
+    desc: Animation Properties
+
+  - shortcut: ⇧ ⌘ O
+    desc: Animation Options
 
 find:
   - shortcut: ⌘ F
@@ -77,8 +142,14 @@ find:
     desc: Jump to Selection
 
 view:
-  - shortcut: ⌥ ⌘
-    desc: Toggle Toolbar
+  - shortcut: ⌘ 1
+    desc: Design
+  
+  - shortcut: ⌘ 2
+    desc: Code
+
+  - shortcut: ⇧ ⌘ \
+    desc: Show All Tabs
 
   - shortcut: ⌃ ⌘ I
     desc: Show Invisibles
@@ -104,6 +175,12 @@ view:
 window:
   - shortcut: ⌘ M
     desc: Minimize
+  
+  - shortcut: ⌃ ⇧ ⇥
+    desc: Show Previous Tab
+  
+  - shortcut: ⌃ ⇥
+    desc: Show Next Tab
 
   - shortcut: ⇧ ⌘ 1
     desc: Welcome
