@@ -1,0 +1,20 @@
+name: Bartender
+
+sections:
+  - hot keys
+
+hot keys:
+  - shortcut: ⌃ B
+    desc: Show Bartender Bar Items
+  
+  - shortcut: ⌃ F
+    desc: Show Full Menu Bar
+  
+  - shortcut: ⌃ A
+    desc: Show All Items in the Menu Bar
+  
+  - shortcut: ⌃ S
+    desc: Search Menu Items
+  
+  - shortcut: ⌃ N
+    desc: Keyboard Navigate
