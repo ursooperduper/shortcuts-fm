@@ -1,0 +1,110 @@
+name: iTunes
+
+sections:
+  - general
+  - window
+  - view
+  - controls
+
+general:
+  - shortcut: ⌘ N
+    desc: New Playlist
+  
+  - shortcut: ⇧ ⌘ N
+    desc: New Playlist from Selection
+  
+  - shortcut: ⌥ ⌘ N
+    desc: New Smart Playlist
+  
+  - shortcut: ⌘ O
+    desc: Open Library
+  
+  - shortcut: ⌘ U
+    desc: Open Stream
+  
+  - shortcut: ⌘ I
+    desc: Show Info
+
+view:
+  - shortcut: ⌘ 1
+    desc: Music
+  
+  - shortcut: ⌘ 2
+    desc: Movies
+  
+  - shortcut: ⌘ 3
+    desc: TV Shows
+  
+  - shortcut: ⌘ 4
+    desc: Podcasts
+  
+  - shortcut: ⌘ 5
+    desc: Audiobooks
+  
+  - shortcut: ⌘ J
+    desc: Show View Options
+  
+  - shortcut: ⌥ ⌘ U
+    desc: Toggle Up Next
+  
+  - shortcut: ⌘ /
+    desc: Toggle Status Bar
+  
+  - shortcut: ⌥ ⌘ S
+    desc: Toggle Sidebar
+  
+  - shortcut: ⌘ T
+    desc: Toggle Visualizer
+  
+  - shortcut: ⌃ ⌘ F
+    desc: Toggle Full Screen
+
+controls:
+  - shortcut: Space
+    desc: Pause
+  
+  - shortcut: ⌥ Space
+    desc: Genius Shuffle
+  
+  - shortcut: ⌘ .
+    desc: Stop
+  
+  - shortcut: ⌘ →
+    desc: Next
+  
+  - shortcut: ⌘ ←
+    desc: Previous
+  
+  - shortcut: ⌘ L
+    desc: Go to Current
+  
+  - shortcut: ⌘ ↑
+    desc: Increase Volume
+  
+  - shortcut: ⌘ ↓
+    desc: Decrease Volume
+  
+  - shortcut: ⌘ [
+    desc: Back
+  
+  - shortcut: ⌘ ]
+    desc: Forward
+  
+  - shortcut: ⌘ R
+    desc: Reload
+  
+window: 
+  - shortcut: ⌘ M
+    desc: Minimize
+  
+  - shortcut: ⌘ O
+    desc: iTunes
+  
+  - shortcut: ⌥ ⌘ E
+    desc: Equalizer
+  
+  - shortcut: ⌥ ⌘ M
+    desc: MiniPlayer
+  
+  - shortcut: ⌥ ⌘ L
+    desc: Activity
