@@ -1,6 +1,6 @@
-# # Shortcuts.fm
+# Shortcuts.fm
 
-## Printer-friendly keyboard shortcuts for all your favorite Mac apps
+Printer-friendly keyboard shortcuts for all your favorite Mac apps
 
 ## Submitting Shortcuts for an App
 
