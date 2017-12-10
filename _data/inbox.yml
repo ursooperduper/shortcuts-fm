@@ -1,0 +1,140 @@
+name: Inbox
+
+sections:
+  - everywhere
+  - chat and compose
+  - list navigation
+  - focused item
+
+everywhere:
+  - shortcut: C
+    desc: Compose
+  
+  - shortcut: /
+    desc: Search
+  
+  - shortcut: I
+    desc: Go to inbox
+  
+  - shortcut: Q
+    desc: Open Hangouts & focus on search box
+  
+  - shortcut: H
+    desc: Open Hangouts & focus on conversation list
+  
+  - shortcut: T
+    desc: Create reminder
+
+  - shortcut: ⇧ B
+    desc: Focus on notification
+  
+  - shortcut: ⇧ M
+    desc: Open main menu
+  
+  - shortcut: Z
+    desc: Undo last action
+  
+chat and compose: 
+  - shortcut: ⇧ ⎋
+    desc: Focus latest chat or compose
+  
+  - shortcut: ⇧ ⎋
+    desc: Focus main window
+  
+  - shortcut: ⌃ .
+    desc: Advance to next chat or compose
+
+  - shortcut: ⌃ ,
+    desc: Advance to previous chat or compose
+
+  - shortcut: ⌘ B
+    desc: Bold
+  
+  - shortcut: ⌘ I
+    desc: Italics
+
+  - shortcut: ⌘ U
+    desc: Underline
+  
+  - shortcut: ⌘ K
+    desc: Insert link
+  
+  - shortcut: ⌘ ⇧ 7
+    desc: Numbered list
+
+  - shortcut: ⌘ ⇧ 8
+    desc: Bulleted list
+  
+  - shortcut: ⌘ \
+    desc: Remove formatting
+  
+  - shortcut: ⌘ ↩
+    desc: Send
+  
+  - shortcut: ⎋
+    desc: Closes compose and deletes empty drafts
+
+list navigation:
+  - shortcut: ↩ or O
+    desc: Open
+  
+  - shortcut: ⎋ or U
+    desc: Close
+  
+  - shortcut: J or →
+    desc: Next item
+  
+  - shortcut: K or ←
+    desc: Previous item
+  
+  - shortcut: Home
+    desc: First item
+
+  - shortcut: N
+    desc: Next message
+  
+  - shortcut: P
+    desc: Previous message
+  
+focused item: 
+  - shortcut: E or Y
+    desc: Mark done
+  
+  - shortcut: S
+    desc: Snooze
+  
+  - shortcut: ⇧ P
+    desc: Pin
+  
+  - shortcut: A
+    desc: Reply All
+  
+  - shortcut: ⇧ A
+    desc: Reply all in a new window
+  
+  - shortcut: R
+    desc: Reply
+  
+  - shortcut: ⇧ R
+    desc: Reply in a new window
+  
+  - shortcut: F
+    desc: Forward
+  
+  - shortcut: "#"
+    desc: Trash
+  
+  - shortcut: "!"
+    desc: Report as spam
+
+  - shortcut: M
+    desc: Mute
+
+  - shortcut: "."
+    desc: Toggle move-to menu
+
+  - shortcut: X
+    desc: Select
+
+  - shortcut: ⇧ X
+    desc: Select many items at once
