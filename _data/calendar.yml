@@ -1,4 +1,4 @@
-name: Calendar (El Capitan)
+name: Calendar (High Sierra)
 
 sections:
   - calendar
@@ -36,7 +36,7 @@ calendar:
     desc: Refresh all calendars
 
   - shortcut: ⇧ ⌘ N
-    desc: Add a new calendar group
+    desc: Add a new calendar
 
   - shortcut: ⌥ ⌘ S
     desc: Add a new subscribed calendar
