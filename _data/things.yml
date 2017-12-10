@@ -1,0 +1,127 @@
+name: Things
+
+sections:
+  - general
+  - edit
+  - view
+  - items
+  - window
+
+general:
+  - shortcut: ⌘ ,
+    desc: Preferences
+
+  - shortcut: ⌘ N
+    desc: New To-Do
+  
+  - shortcut: ⇧ ⌘ N
+    desc: New Heading
+  
+  - shortcut: ⌥ ⌘ N
+    desc: New Project
+  
+  - shortcut: ⌃ ⌘ N
+    desc: New Things Window
+
+  - shortcut: ⌘ W
+    desc: Close
+  
+  - shortcut: ⇧ ⌘ P
+    desc: Page Setup
+
+  - shortcut: ⌘ P
+    desc: Print
+
+edit: 
+  - shortcut: ⌘ Z
+    desc: Undo
+  
+  - shortcut: ⇧ ⌘ Z
+    desc: Redo
+  
+  - shortcut: ⌘ X
+    desc: Cut
+  
+  - shortcut: ⌘ C
+    desc: Copy
+  
+  - shortcut: ⌘ V
+    desc: Paste
+  
+  - shortcut: ⌫
+    desc: Delete
+  
+  - shortcut: ⌘ A
+    desc: Select All
+  
+  - shortcut: ⌘ D
+    desc: Duplicate Project
+  
+  - shortcut: ⌘ F
+    desc: Quick Find
+
+view:  
+  - shortcut: ⌘ 1
+    desc: Go to Inbox
+  
+  - shortcut: ⌘ 2
+    desc: Go to Today
+  
+  - shortcut: ⌘ 3
+    desc: Go to Upcoming
+
+  - shortcut: ⌘ 4
+    desc: Go to Anytime
+  
+  - shortcut: ⌘ 5
+    desc: Go to Someday
+  
+  - shortcut: ⌘ 6
+    desc: Go to Logbook
+  
+  - shortcut: ⌘ /
+    desc: Toggle Sidebar
+  
+  - shortcut: ⌥ ⌘ T
+    desc: Toggle Toolbar
+  
+  - shortcut: ⌃ ⌘ F
+    desc: Toggle Full Screen
+
+items: 
+  - shortcut: ⌘ S
+    desc: When
+  
+  - shortcut: ⇧ ⌘ M
+    desc: Move
+  
+  - shortcut: ⌘ .
+    desc: Mark as Completed
+  
+  - shortcut: ⌥ ⌘ .
+    desc: Mark as Canceled
+  
+  - shortcut: ⌘ T
+    desc: Today
+  
+  - shortcut: ⌘ E
+    desc: This Evening
+  
+  - shortcut: ⌘ O
+    desc: Someday
+  
+  - shortcut: ⌘ R
+    desc: Clear
+  
+  - shortcut: ⇧ ⌘ R
+    desc: Repeat
+  
+  - shortcut: ⇧ ⌘ L
+    desc: Show in Area
+
+window:
+  - shortcut: ⌘ M
+    desc: Minimize
+  
+  - shortcut: ⇧ ⌘ T
+    desc: Tags
