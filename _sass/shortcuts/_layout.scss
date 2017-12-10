@@ -12,9 +12,7 @@ header {
 
   @include media-query($on-palm) {
     background: $grey-color-dark url('/images/shortcuts.svg') 16px 40px/80px no-repeat;
-    height: $spacing-unit*20;
-  }
-}
+    height: $spacing-unit*20; } }
 
 .hdr-title {
   margin: $spacing-unit*2 0 0 $spacing-unit*27; 
@@ -29,7 +27,6 @@ header {
 
   @include media-query($on-palm) {
     justify-content: center;
-    // margin: $spacing-unit*3 0 0 $spacing-unit*4;
     margin-top: 16px;
     margin-left: 40px;
     font-size: 14px; } } 
@@ -49,10 +46,7 @@ footer {
   margin: $spacing-unit*3 $spacing-unit*5; 
 
   @include media-query($on-palm) {
-    margin: $spacing-unit*2 $spacing-unit*3;
-  }
-
-}
+    margin: $spacing-unit*2 $spacing-unit*3; } }
 
 h1 {
   color: $white-color;
@@ -71,9 +65,7 @@ h1 {
 
   @include media-query($on-palm) {
     font-size: $spacing-unit*2;
-    margin-top: -$spacing-unit+2px;  
-  }
-}
+    margin-top: -$spacing-unit+2px; } }
 
 h2 {
   color: $brand-color;
@@ -83,19 +75,25 @@ h2 {
     font-size: 24px; } }
 
 .main-list {
-  break-inside: avoid;
-  columns: 3;
-  -moz-column-fill: balance;
-  column-fill: balance; 
+  -webkit-column-break-inside: avoid;
+            page-break-inside: avoid;
+                 break-inside: avoid;
+  -webkit-columns: 3;
+     -moz-columns: 3;
+          columns: 3;
+  -webkit-column-fill: balance;
+     -moz-column-fill: balance;
+          column-fill: balance; 
 
   @include media-query($on-laptop) {
-    columns: 2;
-  }
+    -webkit-columns: 2;
+       -moz-columns: 2;
+            columns: 2; }
 
   @include media-query($on-palm) {
-    columns: 1;
-  }
-}
+    -webkit-columns: 1;
+       -moz-columns: 1;
+            columns: 1; } }
 
 .sc-list-parent {
   border: 1px solid $white-color; 
@@ -116,9 +114,7 @@ h2 {
     width: 300px; 
   
     @include media-query($on-palm) {
-      width: 280px;
-    }
-  }
+      width: 280px; } }
 
   a:hover {
     background-color: lighten($brand-color, 70%); }
@@ -128,41 +124,6 @@ h2 {
   color: $brand-color; 
   font-weight: bold;
   font-size: 18px; }
-
-.shortcut-cols {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: row nowrap;
-  -ms-flex-flow: row nowrap;
-  flex-flow: row nowrap;
-  margin: auto 0; }
-
-  @media screen and (max-width: 600px) {
-    .shortcut-cols {
-      -webkit-flex-flow: column nowrap;
-      -ms-flex-flow: column nowrap;
-      flex-flow: column nowrap; } }
-
-.shortcut-col1 {
-  columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
-  padding-right: 30px;
-  vertical-align: top; }
-
-  @media screen and (max-width: 600px) {
-    .shortcut-col1 {
-      -webkit-columns: 1;
-      -moz-columns: 1;
-      columns: 1; } }
-
-.shortcut-col2 {
-  width: 100px; }
-  @media screen and (max-width: 600px) {
-    .shortcut-col2 {
-      width: 100%;
-      padding-top: 12px; } }
 
 .sc-row:nth-child(odd) {
   background-color: $white-color; }
@@ -182,10 +143,12 @@ h2 {
 .sc-tbl {
   border: 0;
   border-collapse: collapse;
-  break-inside: avoid; 
   -webkit-column-break-inside: avoid;
-  -moz-column-fill: balance;
-  column-fill: balance;   page-break-inside: avoid;
+            page-break-inside: avoid;
+                 break-inside: avoid; 
+  -webkit-column-fill: balance;
+     -moz-column-fill: balance;
+          column-fill: balance;   
   font-size: .8em;
   width: 400px; 
 
@@ -196,19 +159,30 @@ h2 {
   padding-right: 0; }
 
 .sc-page {
-  break-inside: avoid;
-  columns: 3;
-  -moz-column-fill: balance;
-  column-fill: balance; 
+  -webkit-column-break-inside: avoid;
+            page-break-inside: avoid;
+                 break-inside: avoid;
+  -webkit-columns: 3;
+     -moz-columns: 3;
+          columns: 3;
+  -webkit-column-fill: balance;
+     -moz-column-fill: balance;
+          column-fill: balance; 
 
   @include media-query($on-laptop) {
-    columns: 2; }
+    -webkit-columns: 2;
+       -moz-columns: 2;
+            columns: 2; }
 
   @include media-query($on-palm) {
-    columns: 1; } }
+    -webkit-columns: 1;
+       -moz-columns: 1;
+            columns: 1; } }
 
 .sc-group {
-  break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+            page-break-inside: avoid;
+                 break-inside: avoid;
   padding-bottom: $spacing-unit*3; }
 
 .sc-keys {
@@ -220,9 +194,7 @@ h2 {
   width: 140px; 
 
   @include media-query($on-palm) {
-    width: 120px;
-  }
-}
+    width: 120px; } }
 
 .sc-desc {
   width: 260px; }
