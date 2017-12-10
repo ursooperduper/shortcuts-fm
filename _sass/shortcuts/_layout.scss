@@ -75,12 +75,12 @@ h2 {
     font-size: 24px; } }
 
 .main-list {
+  -webkit-columns: 3;
+     -moz-columns: 3;
+          columns: 3; 
   -webkit-column-break-inside: avoid;
             page-break-inside: avoid;
                  break-inside: avoid;
-  -webkit-columns: 3;
-     -moz-columns: 3;
-          columns: 3;
   -webkit-column-fill: balance;
      -moz-column-fill: balance;
           column-fill: balance; 
