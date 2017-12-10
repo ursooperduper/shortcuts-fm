@@ -1,0 +1,154 @@
+name: Figma
+
+sections:
+  - file and properties
+  - view
+  - vector
+  - text
+  - object
+
+file and properties:
+  - shortcut: ⌘ ⇧ E
+    desc: Export
+  
+  - shortcut: ⌘ S
+    desc: Save
+  
+  - shortcut: ⌘ ⇧ K
+    desc: Place
+  
+  - shortcut: ^ C or I
+    desc: Color Picker
+  
+  - shortcut: ⌥ double-click
+    desc: Enter Image Crop Mode
+
+view:
+  - shortcut: +
+    desc: Zoom In
+  
+  - shortcut: "-"
+    desc: Zoom Out
+  
+  - shortcut: 1 or 9
+    desc: Zoom to Fit
+  
+  - shortcut: 2
+    desc: Zoom to Selecftion
+  
+  - shortcut: 0
+    desc: Zoom 100%
+  
+  - shortcut: ⌘ R
+    desc: Rename Layer
+  
+  - shortcut: ⇧ R
+    desc: Show Rulers
+  
+  - shortcut: ^ P
+    desc: Pixel Preview
+  
+  - shortcut: ^ G
+    desc: Show Layout Grids
+  
+  - shortcut: ⌘ ⇧ \
+    desc: Show Layers Panel
+  
+  - shortcut: ⌘ \
+    desc: Show Figma UI
+  
+  - shortcut: ⌘ '
+    desc: Show Pixel Grid
+  
+  - shortcut: ^ ⇧ '
+    desc: Show Transparency Checkerboard
+  
+  - shortcut: ⌘ Y
+    desc: Outline Mode
+  
+vector:
+  - shortcut: V
+    desc: Move Tool
+  
+  - shortcut: P
+    desc: Pen Tool
+  
+  - shortcut: B
+    desc: Paint Bucket
+  
+  - shortcut: ⌘ Drag
+    desc: Bend Tool
+  
+  - shortcut: ⌘ J
+    desc: Join Selection
+  
+  - shortcut: ⎋
+    desc: Exit Vector Mode
+
+text: 
+  - shortcut: T
+    desc: Type Tool
+  
+  - shortcut: ⌘ U
+    desc: Toggle Underline
+  
+  - shortcut: ⌘ I
+    desc: Toggle Italic
+  
+  - shortcut: ⌘ B
+    desc: Toggle Bold
+
+object: 
+  - shortcut: V
+    desc: Move Tool
+  
+  - shortcut: P
+    desc: Pen Tool
+  
+  - shortcut: R
+    desc: Rectangle Tool
+  
+  - shortcut: O
+    desc: Ellipse Tool
+  
+  - shortcut: L
+    desc: Line Tool
+
+  - shortcut: A or F
+    desc: Frame Tool
+  
+  - shortcut: S
+    desc: Slice Tool
+  
+  - shortcut: ⌘ C
+    desc: Copy
+  
+  - shortcut: ⌘ X
+    desc: Cut
+  
+  - shortcut: ⌘ V
+    desc: Paste
+  
+  - shortcut: ⌘ D
+    desc: Duplicate
+  
+  - shortcut: ⌘ G
+    desc: Group Selection
+  
+  - shortcut: ⌘ ⇧ G
+    desc: Ungroup Selection
+  
+  - shortcut: ⌘ ⇧ H
+    desc: Toggle Visibility
+  
+  - shortcut: ⌘ ⇧ L
+    desc: Toggle Lock
+  
+  - shortcut: ⌘ E
+    desc: Flatten Selection
+  
+  - shortcut: ⌘ ⇧ O
+    desc: Outline Stroke
+  
+  - shortcut: ⌥ ⌘ M
+    desc: Toggle Mask
