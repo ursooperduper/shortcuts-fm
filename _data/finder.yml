@@ -1,0 +1,189 @@
+name: Finder
+
+sections:
+  - general
+  - edit
+  - view
+  - window
+
+general:
+  - shortcut: ⌘ ,
+    desc: Open Preferences
+
+  - shortcut: ⇧ ⌘ ⌫
+    desc: Empty Trash
+
+  - shortcut: ⌥ ⌘ N
+    desc: New Finder Window
+  
+  - shortcut: ⇧ ⌘ N
+    desc: New Folder
+  
+  - shortcut: ⌃ ⌘ N
+    desc: New Folder with Selection
+  
+  - shortcut: ⌘ T
+    desc: New Tab
+  
+  - shortcut: ⌘ O
+    desc: Open
+  
+  - shortcut: ⌘ P
+    desc: Print
+  
+  - shortcut: ⌘ W
+    desc: Close Window
+  
+  - shortcut: ⌘ I
+    desc: Get Info
+  
+  - shortcut: ⌘ D
+    desc: Duplicate
+  
+  - shortcut: ⌘ L
+    desc: Make Alias
+  
+  - shortcut: ⌘ Y
+    desc: Quick Look
+  
+  - shortcut: ⌘ R
+    desc: Show Original
+  
+  - shortcut: ⌃ ⌘ T
+    desc: Add to Sidebar
+  
+  - shortcut: ⌘ ⌫
+    desc: Move to Trash
+  
+  - shortcut: ⌘ E
+    desc: Eject
+  
+  - shortcut: ⌘ F
+    desc: Find
+  
+edit: 
+  - shortcut: ⌘ Z
+    desc: Undo
+  
+  - shortcut: ⇧ ⌘ Z
+    desc: Redo
+  
+  - shortcut: ⌘ X
+    desc: Cut
+  
+  - shortcut: ⌘ C
+    desc: Copy
+  
+  - shortcut: ⌘ V
+    desc: Paste
+  
+  - shortcut: ⌘ A
+    desc: Select All
+  
+  - shortcut: fn fn
+    desc: Start Dictation
+  
+  - shortcut: ⌃ ⌘ Space
+    desc: Emoji & Symbols
+
+view:
+  - shortcut: ⌘ 1
+    desc: As Icons
+  
+  - shortcut: ⌘ 2
+    desc: As List
+  
+  - shortcut: ⌘ 3
+    desc: As Columns
+  
+  - shortcut: ⌘ 4
+    desc: As Cover Flow
+
+  - shortcut: ⇧ ⌘ T
+    desc: Toggle Tab Bar
+  
+  - shortcut: ⌥ ⌘ P
+    desc: Toggle Path Bar
+  
+  - shortcut: ⌘ /
+    desc: Toggle Status Bar
+  
+  - shortcut: ⌥ ⌘ S
+    desc: Toggle Sidebar
+  
+  - shortcut: ⇧ ⌘ P
+    desc: Show Preview
+
+  - shortcut: ⌥ ⌘ T
+    desc: Toggle Toolbar
+  
+  - shortcut: ⌘ J
+    desc: Show View Options
+  
+  - shortcut: ⌃ ⌘ F
+    desc: Toggle Full Screen
+
+go:
+  - shortcut: ⌘ [
+    desc: Back
+  
+  - shortcut: ⌘ ]
+    desc: Forward
+  
+  - shortcut: ⌘ ↑
+    desc: Enclosing Folder
+  
+  - shortcut: ⇧ ⌘ F
+    desc: Recents
+  
+  - shortcut: ⇧ ⌘ O
+    desc: Documents
+  
+  - shortcuts: ⇧ ⌘ D
+    desc: Desktop
+  
+  - shortcut: ⌥ ⌘ L
+    desc: Downloads
+  
+  - shortcut: ⇧ ⌘ H
+    desc: Home
+  
+  - shortcut: ⇧ ⌘ L
+    desc: Library
+  
+  - shortcut: ⇧ ⌘ C
+    desc: Computer
+  
+  - shortcut: ⇧ ⌘ R
+    desc: Airdrop
+  
+  - shortcut: ⇧ ⌘ K
+    desc: Network
+  
+  - shortcut: ⇧ ⌘ I
+    desc: iCloud Drive
+  
+  - shortcut: ⇧ ⌘ A
+    desc: Applications
+  
+  - shortcut: ⇧ ⌘ U
+    desc: Utilities
+  
+  - shortcut: ⇧ ⌘ G
+    desc: Go to Folder
+  
+  - shortcut: ⌘ K
+    desc: Connect to Server
+
+window:
+  - shortcut: ⌘ M
+    desc: Minimize
+  
+  - shortcut: ⌘ `
+    desc: Cycle Through Windows
+  
+  - shortcut: ⌃ ⇧ ⇥
+    desc: Show Previous Tab
+  
+  - shortcut: ⌃ ⇥
+    desc: Show Next Tab
