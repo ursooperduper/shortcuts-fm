@@ -1,0 +1,223 @@
+name: Twitterrific
+
+sections:
+  - media viewer
+  - composing tweet
+  - composing direct message
+  - timeline
+  - tweet
+  - unsaved search timeline
+  - profile
+  - account or session
+  - general
+
+media viewer:
+  - shortcut: ← →
+    desc: Navigation
+  
+  - shortcut: ⌘ W
+    desc: Close Viewer
+  
+  - shortcut: Space 
+    desc: Toggle Visual Controls On/Off (iOS)
+
+  - shortcut: ↑ ↓
+    desc: Toggle Center Stage (iOS)
+  
+  - shortcut: R
+    desc: Rewinds to the starting tweet (iOS)
+  
+composing tweet:
+  - shortcut: ⌘ ↩
+    desc: Send Tweet
+  
+  - shortcut: ↩
+    desc: Add Newline
+
+composing direct message:
+  - shortcut: ↩
+    desc: Send Message
+  
+  - shortcut: ⌘ ↩
+    desc: Add Newline to Message
+  
+timeline: 
+  - shortcut: ↑
+    desc: Select Newer (Up) Item
+  
+  - shortcut: ↓
+    desc: Select Older (Down) Item
+  
+  - shortcut: ⌘ ↑
+    desc: Scroll to Newest (Top)
+  
+  - shortcut: ⌘ ↓
+    desc: Scroll to Oldest (Bottom)
+  
+  - shortcut: ⌘ ⇧ R
+    desc: Refresh
+  
+  - shortcut: ⌘ F
+    desc: Find (In-Timeline)
+
+tweet: 
+  - shortcut: →
+    desc: Open Item's Links
+  
+  - shortcut: ⌥ → 
+    desc: Item's Links in Background
+  
+  - shortcut: ←
+    desc: Show Discussion for Selected Item
+  
+  - shortcut: ⌥ ←
+    desc: Show Thread Participants
+  
+  - shortcut: ↩
+    desc: Show Attachment - Media / Quoted Tweet
+
+  - shortcut: ⌘ R
+    desc: Reply to Selected Item
+  
+  - shortcut: ⌘ C
+    desc: Copy Link or Selected Text
+  
+  - shortcut: ⌘ ⇧ C
+    desc: Copy Body Text
+  
+  - shortcut: ⌘ ⇧ T
+    desc: Translate Selected Item
+  
+  - shortcut: ⌘ L
+    desc: Toggle Like
+  
+  - shortcut: ⌘ E
+    desc: Toggle Retweet
+  
+  - shortcut: ⌘ ⇧ N
+    desc: Quote Tweet
+  
+  - shortcut: ⌘ U
+    desc: Show Selected Item's Author Profile
+  
+  - shortcut: ⌫
+    desc: Delete and Edit Item (If Yours)
+  
+  - shortcut: ⌘ ⇧ ⌫
+    desc: Delete Item (If Yours)
+
+unsaved search timeline:
+  - shortcut: ⌘ S
+    desc: Save Search
+  
+account or session:
+  - shortcut: ⌘ T
+    desc: New Timeline (Mac) / Accounts (iOS)
+
+  - shortcut: ⌘ N
+    desc:  Compose New Tweet or Direct Message
+  
+  - shortcut: ⌘ 0
+    desc: Show Today's View
+  
+  - shortcut: ⌘ 1
+    desc: Show Home Timeline
+  
+  - shortcut: ⌘ 2
+    desc: Show Mentions Timeline
+  
+  - shortcut: ⌘ 3
+    desc: Show Direct Messages
+
+  - shortcut: ⌘ 4
+    desc: Show Likes
+
+  - shortcut: ⌘ ⇧ F
+    desc: Find on Twitter
+  
+  - shortcut: ⌘ O
+    desc: Show Saved Searches
+  
+  - shortcut: ⌘ ⇧ O
+    desc: Show Lists
+  
+  - shortcut: ⌘ ⇧ M
+    desc: Show / Edit Muffles (iOS)
+  
+  - shortcut: ⌘ ]
+    desc: Change to Next Account
+  
+  - shortcut: ⌘ [
+    desc: Change to Previous Account
+  
+  - shortcut: ⌘ ⌥ 1-9
+    desc: Change to Account 1, 2, 3, etc.
+  
+general: 
+  - shortcut: ⌘ W
+    desc: Close Popup or Window
+  
+  - shortcut: ⎋
+    desc: Close Popup
+  
+  - shortcut: ⌘ B
+    desc: Back (Whenever there's a nav stack)
+  
+  - shortcut: ⌃ ⇥ 
+    desc: Next Tab
+  
+  - shortcut: ⌃ ⇧ ⇥
+    desc: Previous Tab
+  
+  - shortcut: ⌘ ,
+    desc: Preferences
+  
+  - shortcut: ⌘ ⌃ F
+    desc: Toggle Full Screen
+
+profile:
+  - shortcut: ⌘ C
+    desc: Copy @screenname
+  
+  - shortcut: ⌘ R
+    desc: New Reply (Mention)
+  
+  - shortcut: ⌘ D
+    desc: New Direct Message
+  
+  - shortcut: ⌘ 1
+    desc: Show Recent Tweets
+
+  - shortcut: ⌘ 2
+    desc: Show Mentions
+
+  - shortcut: ⌘ 4
+    desc: Show Likes
+
+today (iOS):
+  - shortcut: ⌥ 0
+    desc: Show All
+  
+  - shortcut: ⌥ 1
+    desc: Toggle Likes
+  
+  - shortcut: ⌥ 2
+    desc: Toggle Retweets
+
+  - shortcut: ⌥ 3
+    desc: Toggle Followers
+  
+  - shortcut: ⌥ 4
+    desc: Toggle Quotes
+  
+  - shortcut: ⌥ ⇧ 1
+    desc: Show Likes
+  
+  - shortcut: ⌥ ⇧ 2
+    desc: Show Retweets
+  
+  - shortcut: ⌥ ⇧ 3
+    desc: Show Follows
+  
+  - shortcut: ⌥ ⇧ 4
+    desc: Show Quotes
