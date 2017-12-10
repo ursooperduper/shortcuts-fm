@@ -1,0 +1,174 @@
+name: Transmit
+
+sections:
+  - file
+  - edit
+  - view
+  - go
+  - transfer
+  - window
+
+file:
+  - shortcut: ⌘ N
+    desc: New Window
+  
+  - shortcut: ⌘ T
+    desc: New Tab
+  
+  - shortcut: ⇧ ⌘ N
+    desc: New Folder
+  
+  - shortcut: ⌥ ⌘ N
+    desc: New File
+  
+  - shortcut: ⌘ W
+    desc: Close Tab
+  
+  - shortcut: ⇧ ⌘ W
+    desc: Close Window
+  
+  - shortcut: ⌥ ⌘ W
+    desc: Close All
+  
+  - shortcut: ⌘ E
+    desc: Disconnect
+  
+  - shortcut: ⌘ O
+    desc: Open
+  
+  - shortcut: ⌘ S
+    desc: Save
+  
+  - shortcut: ⌘ B
+    desc: Preview in Browser
+  
+  - shortcut: ⌘ I
+    desc: Get Info
+  
+  - shortcut: ⌥ ⌘ I
+    desc: Show Inspector
+  
+  - shortcut: ⌘ D
+    desc: Dupicate
+  
+  - shortcut: ⌘ Y
+    desc: Quick Look "selected-file"
+  
+  - shortcut: ⌘ P
+    desc: Print
+  
+edit: 
+  - shortcut: ⌘ Z
+    desc: Undo
+  
+  - shortcut: ⇧ ⌘ Z
+    desc: Redo
+  
+  - shortcut: ⌘ C
+    desc: Copy
+
+  - shortcut: ⌘ V
+    desc: Paste
+  
+  - shortcut: ⌘ A
+    desc: Select All
+  
+  - shortcut: ⌘ J
+    desc: Jump to Selection
+  
+  - shortcut: ⌘ ":"
+    desc: Show Spelling and Grammar
+  
+  - shortcut: ⌘ ;
+    desc: Check Spelling
+  
+view: 
+  - shortcut: ⌘ L
+    desc: Show Transfers
+  
+  - shortcut: ⌥ ⌘ L
+    desc: Show Transfers Window
+  
+  - shortcut: ⌘ 1
+    desc: View as Thumbnails
+  
+  - shortcut: ⌘ 2
+    desc: View as List
+  
+  - shortcut: ⌘ 3
+    desc: View as Columns
+  
+  - shortcut: ⌘ 4
+    desc: View as Cover Floqw
+  
+  - shortcut: ⌘ R
+    desc: Refresh
+  
+  - shortcut: ⇧ ⌘ B
+    desc: Show Invisible Files
+  
+  - shortcut: ⇧ ⌘ S
+    desc: Hide Places Bar
+  
+  - shortcut: ⇧ ⌘ J
+    desc: Show View Options
+  
+  - shortcut: ⌃ ⌘ F
+    desc: Toggle Full Screen
+  
+  - shortcut: ⌥ ⌘ ←
+    desc: Focus on Local
+    
+  - shortcut: ⌥ ⌘ →
+    desc: Focus on Remote
+
+go: 
+  - shortcut: ⌘ [
+    desc: Back
+  
+  - shortcut: ⌘ ]
+    desc: Forward
+  
+  - shortcut: ⌘ ↑
+    desc: Enclosing Folder
+  
+  - shortcut: ⌥ ⌘ G
+    desc: Go to Folder
+  
+  - shortcut: ⌥ ⌘ T
+    desc: Open in Terminal
+  
+  - shortcut: ⇧ ⌘ L
+    desc: Link Folder Navigation
+
+  - shortcut: ⌘ K
+    desc: Connect To > Last Used Protocol
+
+transfer:
+  - shortcut: ⇧ ⌘ R
+    desc: Transfer Selected Items
+  
+  - shortcut: ⌥ ⇧ ⌘ R
+    desc: Transfer Selected Items Without Rules
+  
+  - shortcut: ⌘ .
+    desc: Cancel
+
+window:
+  - shortcut: ⌘ M
+    desc: Minimize
+  
+  - shortcut: ⌥ ⌘ M
+    desc: Minimize All
+  
+  - shortcut: ⌃ ⇥
+    desc: Select Next Tab
+  
+  - shortcut: ⌃ ⇧ ⇥
+    desc: Select Previous Tab
+  
+  - shortcut: ⌃ ⌘ T
+    desc: Transcript
+  
+  - shortcut: ⌥ ⌘ I
+    desc: Show Inspector
