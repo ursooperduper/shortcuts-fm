@@ -1,6 +1,6 @@
 ---
 layout: shortcuts
-name: Google Sheets
+app-name: Google Sheets
 category: productivity
 data-file: google-sheets
 sections:

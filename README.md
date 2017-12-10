@@ -15,7 +15,7 @@ Follow the format below for the front matter.
 ```
 ---
 layout: shortcuts
-name: 1Password
+app-name: 1Password
 category: utilities
 data-file: 1password
 sections:

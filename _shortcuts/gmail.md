@@ -1,6 +1,6 @@
 ---
 layout: shortcuts
-name: Gmail
+app-name: Gmail
 category: productivity
 data-file: gmail
 sections:

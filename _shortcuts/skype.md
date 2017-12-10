@@ -1,6 +1,6 @@
 ---
 layout: shortcuts
-name: Skype
+app-name: Skype
 category: communication
 data-file: skype
 sections:

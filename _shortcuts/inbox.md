@@ -1,6 +1,6 @@
 ---
 layout: shortcuts
-name: Inbox
+app-name: Inbox
 category: productivity
 data-file: inbox
 sections:

@@ -1,6 +1,6 @@
 ---
 layout: shortcuts
-name: Slack
+app-name: Slack
 category: communication
 data-file: slack
 sections:

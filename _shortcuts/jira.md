@@ -1,6 +1,6 @@
 ---
 layout: shortcuts
-name: Jira
+app-name: Jira
 category: productivity
 data-file: jira
 sections:

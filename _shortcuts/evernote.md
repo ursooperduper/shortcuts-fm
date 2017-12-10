@@ -1,6 +1,6 @@
 ---
 layout: shortcuts
-name: Evernote
+app-name: Evernote
 category: productivity
 data-file: evernote
 sections:

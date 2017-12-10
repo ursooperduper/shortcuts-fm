@@ -1,6 +1,6 @@
 ---
 layout: shortcuts
-name: Calendar
+app-name: Calendar
 category: productivity
 data-file: calendar
 sections:

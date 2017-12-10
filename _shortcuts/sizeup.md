@@ -1,6 +1,6 @@
 ---
 layout: shortcuts
-name: SizeUp
+app-name: SizeUp
 category: utilities
 data-file: sizeup
 sections:

@@ -1,6 +1,6 @@
 ---
 layout: shortcuts
-name: Safari
+app-name: Safari
 category: navigation
 data-file: safari
 sections:

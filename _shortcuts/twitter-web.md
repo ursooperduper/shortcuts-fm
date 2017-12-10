@@ -1,6 +1,6 @@
 ---
 layout: shortcuts
-name: Twitter (Web)
+app-name: Twitter (Web)
 category: social
 data-file: twitter-web
 sections:

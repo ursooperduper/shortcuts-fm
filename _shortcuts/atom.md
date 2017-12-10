@@ -1,6 +1,6 @@
 ---
 layout: shortcuts
-name: Atom
+app-name: Atom
 category: development
 data-file: atom
 sections:

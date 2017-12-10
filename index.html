@@ -11,7 +11,7 @@ layout: default
     <ul class="sc-list">
       {% for sc in site.shortcuts %}
       {% if sc.category == c.name %}
-      <li><a href="{{ sc.url }}">{{ sc.name }}</a></li>
+      <li><a href="{{ sc.url }}">{{ sc.app-name }}</a></li>
       {% endif %}
       {% endfor %}
     </ul>

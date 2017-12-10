@@ -1,6 +1,6 @@
 ---
 layout: shortcuts
-name: TweetDeck
+app-name: TweetDeck
 category: social
 data-file: tweetdeck
 sections:

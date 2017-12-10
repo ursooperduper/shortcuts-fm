@@ -1,6 +1,6 @@
 ---
 layout: shortcuts
-name: Google Hangouts
+app-name: Google Hangouts
 category: communication
 data-file: google-hangouts
 sections:

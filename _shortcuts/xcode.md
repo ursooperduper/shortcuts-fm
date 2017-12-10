@@ -1,6 +1,6 @@
 ---
 layout: shortcuts
-name: Xcode
+app-name: Xcode
 category: development
 data-file: xcode
 sections:

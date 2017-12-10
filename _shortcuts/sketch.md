@@ -1,6 +1,6 @@
 ---
 layout: shortcuts
-name: Sketch
+app-name: Sketch
 category: design
 data-file: sketch
 sections:

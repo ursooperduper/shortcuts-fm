@@ -1,6 +1,6 @@
 ---
 layout: shortcuts
-name: Dropbox
+app-name: Dropbox
 category: utilities
 data-file: dropbox
 sections:

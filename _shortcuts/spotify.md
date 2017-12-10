@@ -1,6 +1,6 @@
 ---
 layout: shortcuts
-name: Spotify
+app-name: Spotify
 category: music
 data-file: spotify
 sections:

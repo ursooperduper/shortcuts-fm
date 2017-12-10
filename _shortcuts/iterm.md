@@ -1,6 +1,6 @@
 ---
 layout: shortcuts
-name: iTerm
+app-name: iTerm
 category: development
 data-file: iterm
 sections:

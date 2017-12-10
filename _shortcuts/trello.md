@@ -1,6 +1,6 @@
 ---
 layout: shortcuts
-name: Trello
+app-name: Trello
 category: productivity
 data-file: trello
 sections:

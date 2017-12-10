@@ -1,6 +1,6 @@
 ---
 layout: shortcuts
-name: Google Chrome
+app-name: Google Chrome
 category: navigation
 data-file: google-chrome
 sections:

@@ -1,6 +1,6 @@
 ---
 layout: shortcuts
-name: Firefox
+app-name: Firefox
 category: navigation
 data-file: firefox
 sections:

@@ -1,6 +1,6 @@
 ---
 layout: shortcuts
-name: Textual
+app-name: Textual
 category: communication
 data-file: textual
 sections:

@@ -1,6 +1,6 @@
 ---
 layout: shortcuts
-name: Google Docs
+app-name: Google Docs
 category: productivity
 data-file: google-docs
 sections:
