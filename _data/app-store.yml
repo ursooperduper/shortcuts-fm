@@ -1,0 +1,33 @@
+name: App Store
+
+sections:
+  - store
+
+store:
+  - shortcut: ⌘ [
+    desc: Back
+  
+  - shortcut: ⌘ ]
+    desc: Forward
+  
+  - shortcut: ⌘ R
+    desc: Reload Page
+  
+  - shortcut: ⌘ F
+    desc: Search
+  
+  - shortcut: ⌘ 1
+    desc: Featured
+
+  - shortcut: ⌘ 2
+    desc: Top Charts
+  
+  - shortcut: ⌘ 3
+    desc: Categories
+  
+  - shortcut: ⌘ 4
+    desc: Purchased
+  
+  - shortcut: ⌘ 5
+    desc: Updates
+  
