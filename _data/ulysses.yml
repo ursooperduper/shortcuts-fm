@@ -1,0 +1,202 @@
+name: Ulysses
+
+sections:
+  - sheets and groups
+  - editor
+  - markup
+  - view
+  - window management
+
+sheets and groups:
+  - shortcut: ⌘ N
+    desc: New Sheet
+  
+  - shortcut: ⇧ ⌘ N
+    desc: New Group
+  
+  - shortcut: ⌃ ⌘ N
+    desc: New Filter
+  
+  - shortcut: ⌥ ⌘ N
+    desc: New Window
+  
+  - shortcut: ⌘ O
+    desc: Open from Library
+  
+  - shortcut: ⇧ ⌘ O
+    desc: Open from Current Selection
+  
+  - shortcut: ⌥ ⌘ O
+    desc: Open from Current Group
+  
+  - shortcut: ⌥ ⌘ ↑
+    desc: Select Previous Sheet
+  
+  - shortcut: ⌥ ⌘ ↓
+    desc: Select Next Sheet
+  
+  - shortcut: ⌘ ↩
+    desc: Reveal Sheet in Group
+  
+  - shortcut: ⌘ D
+    desc: Add to Favorites
+  
+  - shortcut: ⌘ S
+    desc: Save Version
+
+  - shortcut: ⌘ ⌫
+    desc: Move Sheet/Group to Trash
+  
+  - shortcut: ⌥ ⌘ ⌫
+    desc: Erase Sheet/Group
+  
+  - shortcut: ⌘ J
+    desc: Glue Sheets
+  
+  - shortcut: ⌥ Drag
+    desc: Force Copy Sheet/Group
+
+  - shortcut: ⌘ Drag
+    desc: Force Move Sheet/Group
+  
+editor:
+  - shortcut: ⇧ ⌘ V
+    desc: Smart Paste
+  
+  - shortcut: ⌥ ⌘ C
+    desc: Copy as (last selected)
+  
+  - shortcut: ⌥ ⇧ ⌘ V
+    desc: Paste as (last selected)
+  
+  - shortcut: ⌥ ⌘ V
+    desc: Paste from (last selected)
+  
+  - shortcut: ⌃ ⌘ ↑
+    desc: Move Line Up
+  
+  - shortcut: ⌃ ⌘ ↓
+    desc: Move Line Down
+  
+  - shortcut: ⇧ ⌘ B
+    desc: Split as Selection
+  
+  - shortcut: ⇧ ⌘ P
+    desc: Export Preview
+  
+  - shortcut: ⌘ R
+    desc: Refresh Export Preview
+  
+  - shortcut: ⌘ P
+    desc: Print Editor
+  
+  - shortcut: ⇧ ⌘ F
+    desc: Search in Sheet List
+  
+  - shortcut: ⌘ F
+    desc: Show Find Panel
+  
+  - shortcut: ⌥ ⌘ F
+    desc: Show Find and Replace
+  
+  - shortcut: ⌘ E
+    desc: Use Selection for Find
+  
+  - shortcut: ⌘ ":"
+    desc: Show Spelling and Grammar
+  
+  - shortcut: fn fn
+    desc: Start Dictation
+  
+  - shortcut: ⌃ ⌘ Space
+    desc: Special Characters
+  
+  - shortcut: ⇧ ↩ or ⌃ ↩
+    desc: Insert Line Break
+  
+  - shortcut: ⌥ ↩
+    desc: End Smart List
+  
+  - shortcut: ⌘ ← ⌘ ←
+    desc: Move Focus to Sheet List
+  
+markup:
+  - shortcut: ⌘ "#" or ⌘ \
+    desc: Increase Heading Level
+  
+  - shortcut: ⇧ ⌘ "#" or ⇧ ⌘ \
+    desc: Decrease Heading Level
+  
+  - shortcut: ⌘ B
+    desc: Mark as Strong
+  
+  - shortcut: ⌘ I
+    desc: Mark as Emphasis
+  
+  - shortcut: ⌘ K
+    desc: Mark as Link
+  
+  - shortcut: ⌘ L
+    desc: Clear Markup in Selection
+
+view: 
+  - shortcut: ⌥ ⌘ T
+    desc: Enable Typewritter Mode
+  
+  - shortcut: ⌘ 1
+    desc: Library
+  
+  - shortcut: ⌘ 2 
+    desc: Sheet List
+  
+  - shortcut: ⌘ 3
+    desc: Editor
+  
+  - shortcut: ⌘ 4
+    desc: Attachments
+  
+  - shortcut: ⌘ 5
+    desc: Favorites
+  
+  - shortcut: ⌘ 6
+    desc: Quick Export
+  
+  - shortcut: ⌘ 7
+    desc: Statistics
+  
+  - shortcut: ⌘ 8
+    desc: Navigation
+  
+  - shortcut: ⌘ 9
+    desc: Markup
+  
+  - shortcut: ⇧ ⌘ K
+    desc: Keywords
+  
+  - shortcut: ⌘ 0
+    desc: Default Zoom
+  
+  - shortcut: ⌘ +
+    desc: Increase Zoom
+
+  - shortcut: ⌘ "-"
+    desc: Decrease Zoom
+  
+  - shortcut: ⌥ ⌘ L
+    desc: Light/Dark Mode
+  
+  - shortcut: ⌥ ⌘ X
+    desc: Light/Dark Theme
+  
+window management:
+  - shortcut: ⌘ M
+    desc: Minimize Window
+  
+  - shortcut: ⌃ ⌘ F
+    desc: Toggle Full Screen
+  
+  - shortcut: ⌃ ⌘ Z
+    desc: Zoom Window
+
+  - shortcut: ⇧ ⌘ /
+    desc: Search for Menu Actions
