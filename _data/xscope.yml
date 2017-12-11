@@ -1,0 +1,111 @@
+name: xScope
+
+sections:
+  - rulers  
+  - frames
+  - loupe
+  - guides
+  - crosshair
+  - window
+
+rulers:
+  - shortcut: ⌘ 2
+    desc: Show Rulers
+  
+  - shortcut: ⌘ R
+    desc: Ruler Properties
+  
+  - shortcut: ⌘ →
+    desc: Rotate Clockwise
+  
+  - shortcut: ⌘ ←
+    desc: Rotate Counter-clockwise 
+  
+  - shortcut: ⌃ "-"
+    desc: Shorten Horizontal Edge
+  
+  - shortcut: ⌃ =
+    desc: Lengthen Horizontal Edge
+  
+  - shortcut: ⌘ E
+    desc: Display Square Rulers
+
+  - shortcut: ⌘ I
+    desc: Display Inverted Colors 
+
+frames:
+  - shortcut: ⌘ 6
+    desc: Show Frames
+  
+  - shortcut: ⌘ F
+    desc: Frame Wizard
+  
+  - shortcut: ⇧ ⌘ F
+    desc: Create Frame
+
+loupe: 
+  - shortcut: ⌘ 4
+    desc: Show Loupe
+  
+  - shortcut: ⌘ =
+    desc: Zoom In
+  
+  - shortcut: ⌘ "-"
+    desc: Zoom Out
+  
+  - shortcut: ⌘ D
+    desc: Freeze Display
+  
+  - shortcut: ⌘ L
+    desc: Lock Position
+  
+  - shortcut: ⇧ ⌘ C
+    desc: Copy Color to Palette
+  
+  - shortcut: ⌃ ⌘ C
+    desc: Copy Image
+
+guides:
+  - shortcut: ⌘ 5
+    desc: Show Guides
+  
+  - shortcut: ⌘ G
+    desc: Guide Wizard
+  
+  - shortcut: ⇧ ⌘ H
+    desc: Create Horizontal Guide
+  
+  - shortcut: ⇧ ⌘ V
+    desc: Create Vertical Guide
+
+crosshair:
+  - shortcut: ⌘ 7
+    desc: Show Crosshair
+  
+  - shortcut: ⌥ ⌘ P 
+    desc: Display Position
+  
+  - shortcut: ⌘ 0
+    desc: Set Center Now
+
+window:
+  - shortcut: ⌘ M
+    desc: Minimize
+  
+  - shortcut: ⌘ W
+    desc: Close
+  
+  - shortcut: ⌘ T
+    desc: Toolbar
+  
+  - shortcut: ⌘ 1
+    desc: Show Dimensions
+  
+  - shortcut: ⌘ 3 
+    desc: Show Screens
+  
+  - shortcut: ⌘ 8
+    desc: Show Mirror
+  
+  - shortcut: ⌘ 9
+    desc: Show Overlay
