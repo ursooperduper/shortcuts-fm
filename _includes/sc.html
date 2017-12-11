@@ -8,7 +8,7 @@
         {% assign keys = sc.shortcut | split: " " %}
         
         {% for k in keys %}
-          {% if k == 'then' or k == 'or' or k == 'press' or k == 'hold' or k == '(and' or k == 'click' or k == 'message)' or k == '@[character]' or k == '#[character]' or k == ':[character]' or k == '[number]' or k == 'double-click' or k == '1-9' %}
+          {% if k == 'then' or k == 'or' or k == 'press' or k == 'hold' or k == '(and' or k == 'click' or k == 'message)' or k == '@[character]' or k == '#[character]' or k == ':[character]' or k == '[number]' or k == 'double-click' or k == '1-9' or k == 'Drag' %}
           <span class="sc-text">{{ k }}</span>
           {% else %}
           <div class="sc-key">{{ k }}</div>
