@@ -1,0 +1,211 @@
+name: Bear
+
+sections:
+  - editor
+  - todos
+  - structure
+  - lists
+  - dates
+  - control
+  - zoom
+  - panels and search
+  - navigation
+  - saving and importing
+  - window
+
+editor:
+  - shortcut: ⌥ ⌘ [number]
+    desc: Heading 1 - 9
+  
+  - shortcut: ⌥ ⌘ S
+    desc: Line separator
+
+  - shortcut: ⌘ B
+    desc: Bold
+  
+  - shortcut: ⌘ I
+    desc: Italic
+  
+  - shortcut: ⌘ U
+    desc: Underliner
+
+  - shortcut: ⇧ ⌘ E
+    desc: Strikethrough
+  
+  - shortcut: ⌘ K
+    desc: Link
+  
+  - shortcut: ⌘ L
+    desc: Unordered list
+  
+  - shortcut: ⇧ ⌘ L
+    desc: Ordered list
+  
+  - shortcut: ⇧ ⌘ U
+    desc: Quote
+  
+  - shortcut: ⌘ T
+    desc: Todo
+  
+  - shortcut: ⌥ ⌘ C
+    desc: Inline code
+  
+  - shortcut: ⌃ ⌘ C
+    desc: Code block
+
+  - shortcut: ⇧ ⌘ M
+    desc: Marker/higlighter
+  
+  - shortcut: ⇧ ⌘ V
+    desc: Insert file
+  
+todos: 
+  - shortcut: ⇧ ⌘ T
+    desc: Toggle Todo
+  
+  - shortcut: ⌥ ⌘ T
+    desc: Mark Todo as completed
+  
+  - shortcut: ⌃ ⌘ T
+    desc: Mark todo as incomplete
+
+structure: 
+  - shortcut: ⌘ ]
+    desc: Shift line right
+  
+  - shortcut: ⌘ [
+    desc: Shift line left
+  
+  - shortcut: ⌘ ⌥ ↑
+    desc: Move line up
+  
+  - shortcut: ⌘ ⌥ ↓
+    desc: Move line down
+  
+lists:
+  - shortcut: ⇥
+    desc: Shift the list element right
+  
+  - shortcut: ⇧ ⇥
+    desc: Shift the list element left
+  
+  - shortcut: ⇧ ↵
+    desc: End the list
+
+dates:
+  - shortcut: ⇧ ⌘ 7
+    desc: Long form date with time (11 Jul 2017, 10:43)
+  
+  - shortcut: ⇧ ⌘ 8
+    desc: Long form date (11 Jul 2017)
+  
+  - shortcut: ⇧ ⌘ 9
+    desc: Short form date (11/07/2017)
+  
+  - shortcut: ⇧ ⌘ 0
+    desc: Hours (11:43)
+
+control:
+  - shortcut: ⌘ A
+    desc: Select all
+  
+  - shortcut: ⌘ ↵
+    desc: End editing
+  
+  - shortcut: ⌘ P
+    desc: Print note
+
+zoom:
+  - shortcut: ⌘ +
+    desc: Zoom in
+  
+  - shortcut: ⌘ -
+    desc: Zoom out
+  
+  - shortcut: ⌘ 0
+    desc: Actual size
+
+panels and search:
+  - shortcut: ⇧ ⌘ I
+    desc: Toggle information panel
+  
+  - shortcut: ⌘ F
+    desc: Search inside the current note
+  
+  - shortcut: ⌥ ⌘ F
+    desc: Search and replace inside the current note
+  
+  - shortcut: ⇧ ⌘ F
+    desc: Search inside the note list
+
+navigation:
+  - shortcut: ⌘ N
+    desc: Create a new note
+  
+  - shortcut: ⌥ ⌘ N
+    desc: Create a new note in a new window
+  
+  - shortcut: ↑ or ↓
+    desc: Move the selection in the note and tags lists
+  
+  - shortcut: ← or ⇥
+    desc: Move selection between the sidebar, the note list and the editor, open/close nested tags
+  
+  - shortcut: ↵
+    desc: Edit the selected note
+  
+  - shortcut: ⌥ ⌘ F
+    desc: Search in the current note list
+  
+  - shortcut: ⌘ ⌫
+    desc: Delete selected note
+  
+  - shortcut: ⇧ ⌘ R
+    desc: Restore selected note
+  
+  - shortcut: ⇧ ⌘ P
+    desc: Pin/unpin selected note
+  
+  - shortcut: ⌘ A
+    desc: Select all the notes in the list
+  
+  - shortcut: ⇧ ⌘ ⌫
+    desc: Empty trash
+  
+  - shortcut: ⌘ 1
+    desc: Select notes in the sidebar
+  
+  - shortcut: ⌘ 2
+    desc: Select trash in the sidebar
+  
+  - shortcut: ⌥ ⌘ ←
+    desc: Navigate back in visualized notes history
+  
+  - shortcut: ⌥ ⌘ ⇥
+    desc: Navigate forward in visualized notes history
+
+saving and importing:
+  - shortcut: ⇧ ⌘ S
+    desc: Export selected notes
+  
+  - shortcut: ⇧ ⌘ O
+    desc: Import notes
+
+window:
+  - shortcut: ⌃ 1
+    desc: Show sidebar, note list and editor
+  
+  - shortcut: ⌃ 2
+    desc: Show note list and editor
+  
+  - shortcut: ⌃ 3
+    desc: Show editor only
+  
+  - shortcut: ⌘ ,
+    desc: Show preferences
+  
+  - shortcut: ⌃ ⌘ F
+    desc: Enter fullscreen
+  
+  - shortcut: ⌘ \ 
+    desc: Open main window
