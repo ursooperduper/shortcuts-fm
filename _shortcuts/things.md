@@ -5,8 +5,12 @@ category: productivity
 data-file: things
 sections:
   - General
-  - Edit
-  - View
-  - Items
-  - Window
+  - Quick Entry
+  - Edit Items
+  - Move Items
+  - Edit Dates
+  - Control Windows
+  - Navigate
+  - Search
+  - Tags
 ---

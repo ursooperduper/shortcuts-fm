@@ -2,65 +2,124 @@ name: Things
 
 sections:
   - general
-  - edit
-  - view
-  - items
-  - window
+  - quick entry
+  - edit items
+  - move items
+  - edit dates
+  - control windows
+  - navigate
+  - search
+  - tags
 
 general:
-  - shortcut: ⌘ ,
-    desc: Preferences
-
   - shortcut: ⌘ N
-    desc: New To-Do
+    desc: New to-do
+  
+  - shortcut: ␣
+    desc: New to-do below selection
   
   - shortcut: ⇧ ⌘ N
-    desc: New Heading
+    desc: New heading in a project
   
   - shortcut: ⌥ ⌘ N
-    desc: New Project
-  
-  - shortcut: ⌃ ⌘ N
-    desc: New Things Window
+    desc: New project
 
-  - shortcut: ⌘ W
-    desc: Close
+quick entry:
+  - shortcut: ⌃ ␣
+    desc: Open quick entry
   
-  - shortcut: ⇧ ⌘ P
-    desc: Page Setup
+  - shortcut: ⌃ ⌥ ␣
+    desc: Open quick entry with autofill
 
-  - shortcut: ⌘ P
-    desc: Print
-
-edit: 
-  - shortcut: ⌘ Z
-    desc: Undo
+edit items:
+  - shortcut: ↵
+    desc: Open a to-do or project
   
-  - shortcut: ⇧ ⌘ Z
-    desc: Redo
+  - shortcut: ⌘ ↵
+    desc: Save and close
   
-  - shortcut: ⌘ X
-    desc: Cut
-  
-  - shortcut: ⌘ C
-    desc: Copy
-  
-  - shortcut: ⌘ V
-    desc: Paste
-  
-  - shortcut: ⌫
-    desc: Delete
-  
-  - shortcut: ⌘ A
-    desc: Select All
+  - shortcut: ⎋
+    desc: Save and close
   
   - shortcut: ⌘ D
-    desc: Duplicate Project
-  
-  - shortcut: ⌘ F
-    desc: Quick Find
+    desc: Duplicate to-do or project
 
-view:  
+  - shortcut: ⌘ .
+    desc: Complete selected items
+  
+  - shortcut: ⌥ ⌘ .
+    desc: Cancel selected items
+  
+  - shortcut: ⌘ L
+    desc: Move completed items to Logbook
+
+move items:
+  - shortcut: ⇧ ⌘ M
+    desc: Move selection to another list
+  
+  - shortcut: ⌘ ↑
+    desc: Move selection up
+  
+  - shortcut: ⌘ ↓
+    desc: Move selection down
+  
+  - shortcut: ⌥ ⌘ ↑
+    desc: Move selection to top of list
+  
+  - shortcut: ⌥ ⌘ ↓
+    desc: Move selection to bottom of list
+
+edit dates:
+  - shortcut: ⌘ S
+    desc: Show Jump Start
+  
+  - shortcut: ⌘ T
+    desc: Start Today
+  
+  - shortcut: ⌘ E
+    desc: Start This Evening
+  
+  - shortcut: ⌘ R
+    desc: Start Anytime
+  
+  - shortcut: ⌘ O
+    desc: Start Someday
+  
+  - shortcut: ⌃ ]
+    desc: Start date +1 day
+  
+  - shortcut: ⌃ [
+    desc: Start date -1 day
+  
+  - shortcut: ⌃ .
+    desc: Deadline +1 day
+  
+  - shortcut: ⌃ ,
+    desc: Dadline -1 day
+  
+  - shortcut: ⇧ ⌃ >
+    desc: Deadline +1 week
+  
+  - shortcut: ⇧ ⌃ <
+    desc: Deadline -1 week
+
+  - shortcut: ⇧ ⌘ R
+    desc: Make to-do or project repeating
+
+control windows:
+  - shortcut: ⌃ ⌘ N
+    desc: Open new window
+
+  - shortcut: ⇧ ⌘ `
+    desc: Cycle through open windows
+  
+  - shortcut: ⌘ W
+    desc: Close current window
+
+  - shortcut: ⌥ ⌘ W
+    desc: Close all windows
+
+navigate:  
   - shortcut: ⌘ 1
     desc: Go to Inbox
   
@@ -79,49 +138,41 @@ view:
   - shortcut: ⌘ 6
     desc: Go to Logbook
   
-  - shortcut: ⌘ /
-    desc: Toggle Sidebar
-  
-  - shortcut: ⌥ ⌘ T
-    desc: Toggle Toolbar
-  
-  - shortcut: ⌃ ⌘ F
-    desc: Toggle Full Screen
-
-items: 
-  - shortcut: ⌘ S
-    desc: When
-  
-  - shortcut: ⇧ ⌘ M
-    desc: Move
-  
-  - shortcut: ⌘ .
-    desc: Mark as Completed
-  
-  - shortcut: ⌥ ⌘ .
-    desc: Mark as Canceled
-  
-  - shortcut: ⌘ T
-    desc: Today
-  
-  - shortcut: ⌘ E
-    desc: This Evening
-  
-  - shortcut: ⌘ O
-    desc: Someday
-  
-  - shortcut: ⌘ R
-    desc: Clear
-  
-  - shortcut: ⇧ ⌘ R
-    desc: Repeat
-  
   - shortcut: ⇧ ⌘ L
-    desc: Show in Area
-
-window:
-  - shortcut: ⌘ M
-    desc: Minimize
+    desc: Show to-do in list
   
+  - shortcut: →
+    desc: Enter a selected project
+  
+  - shortcut: ←
+    desc: Return to previous list
+  
+  - shortcut: ⌥ ↑
+    desc: Scroll to top
+  
+  - shortcut: ⌥ ↓
+    desc: Scroll to bottom
+  
+  - shortcut: ⌃ ⌥ ⌘ ↑
+    desc: Navigate up in the sidebar
+  
+  - shortcut: ⌃ ⌥ ⌘ ↓
+    desc: Navigate down in the sidebar
+
+search:
+  - shortcut: ⌘ F
+    desc: Find
+
+tags:
   - shortcut: ⇧ ⌘ T
     desc: Tags
+  
+  - shortcut: ⎋
+    desc: Close tag window
+
+  - shortcut: ⌃ ⎋
+    desc: Destroy previous filter
+  
+links:
+  - shortcut: ⌥ ⌘ ↵
+    desc: Open a link
