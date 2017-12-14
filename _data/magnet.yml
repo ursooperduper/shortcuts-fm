@@ -1,0 +1,64 @@
+name: Magnet
+
+sections:
+  - split
+  - corners
+  - thirds
+  - displays
+  - misc
+
+split:
+  - shortcut: ⌃ ⌥ ←
+    desc: Left
+
+  - shortcut: ⌃ ⌥ ⇥
+    desc: Right
+  
+  - shortcut: ⌃ ⌥ ↑
+    desc: Up
+  
+  - shortcut: ⌃ ⌥ ↓
+    desc: Down
+
+corners:
+  - shortcut: ⌃ ⌥ U
+    desc: Top Left
+
+  - shortcut: ⌃ ⌥ I
+    desc: Top Right
+
+  - shortcut: ⌃ ⌥ J
+    desc: Bottom Left
+
+  - shortcut: ⌃ ⌥ K
+    desc: Bottom Right
+
+thirds:
+  - shortcut: ⌃ ⌥ D
+    desc: Left Third
+
+  - shortcut: ⌃ ⌥ E
+    desc: Left Two Thirds
+
+  - shortcut: ⌃ ⌥ T
+    desc: Right Two Thirds
+
+  - shortcut: ⌃ ⌥ G
+    desc: Right Third
+
+displays:
+  - shortcut: ⌃ ⌥ ⌘ ⇥
+    desc: Next Display
+
+  - shortcut: ⌃ ⌥ ⌘ ←
+    desc: Previous Display
+
+misc: 
+  - shortcut: ⌃ ⌥ ↵
+    desc: Maximize
+
+  - shortcut: ⌃ ⌥ C
+    desc: Center
+
+  - shortcut: ⌃ ⌥ ⌫
+    desc: Restore   
