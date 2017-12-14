@@ -1,0 +1,31 @@
+name: Abstract
+
+sections:
+  - general
+  - navigate
+
+general:
+  - shortcut: ⇧ ⌘ P
+    desc: New project
+
+  - shortcut: ⇧ ⌘ B
+    desc: New branch
+  
+  - shortcut: ⌘ U
+    desc: Toggle notifications
+  
+  - shortcut: ⌘ R
+    desc: Reload
+  
+  - shortcut: ⌃ ⌘ F
+    desc: Toggle full screen
+
+navigate:
+  - shortcut: ⇧ ⌘ H
+    desc: Home
+  
+  - shortcut: ⌘ [
+    desc: Back
+  
+  - shortcut: ⌘ ]
+    desc: Forward
