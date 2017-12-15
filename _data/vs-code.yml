@@ -1,0 +1,367 @@
+name: Visual Studio Code
+
+sections:
+  - general
+  - basic editing
+  - multi-cursor and selection
+  - search and replace
+  - rich languages editing
+  - navigation
+  - editor management
+  - file management
+  - display
+  - debug
+  - integrated terminal
+
+hotkeys:
+  - shortcut: ⇧ ⌘ P or F1
+    desc: Show Command Palette
+
+  - shortcut: ⌘ P
+    desc: Quick Open, Go to File...
+
+  - shortcut: ⇧ ⌘ N
+    desc: New window/instance
+
+  - shortcut: ⌘ W
+    desc: Close window/instance
+
+  - shortcut: ⌘ ,
+    desc: User Settings
+
+  - shortcut: ⌘ K ⌘ S
+    desc: Keyboard Shortcuts
+
+basic editing:
+  - shortcut: ⌘ X
+    desc: Cut line (empty selection)
+
+  - shortcut: ⌘ C
+    desc: Copy line (empty selection)
+
+  - shortcut: ⌥ ↓ or ⌥ ↑
+    desc: Move line down/up
+
+  - shortcut: ⇧ ⌥ ↓ or ⇧ ⌥ ↑
+    desc: Copy line down/up
+
+  - shortcut: ⇧ ⌘ K
+    desc: Delete line
+
+  - shortcut: ⌘ ↵ or ⇧ ⌘ ↵
+    desc: Insert line below/above
+
+  - shortcut: ⇧ ⌘ \
+    desc: Jump to matching bracket
+
+  - shortcut: ⌘ ] or ⌘ [
+    desc: Indent/outdent line
+
+  - shortcut: ↖ or  ↘
+    desc: Go to beginning/end of line
+
+  - shortcut: ⌘ ↑ or ⌘ ↓
+    desc: Go to beginning/end of file
+
+  - shortcut: ⌃ ⇞ or ⌃ ⇟
+    desc: Scroll line up/down
+
+  - shortcut: ⌘ ⇞ or ⌘ ⇟
+    desc: Scroll page up/down
+
+  - shortcut: ⌥ ⌘ [ or ⌥ ⌘ ]
+    desc: Fold/unfold region
+
+  - shortcut: ⌘ K ⌘ [ or ⌘ K ⌘ ]
+    desc: Fold/unfold all subregions
+
+  - shortcut: ⌘ K ⌘ 0 or ⌘ K ⌘ K
+    desc: Fold/unfold all regions
+
+  - shortcut: ⌘ K ⌘ C
+    desc: Add line comment
+
+  - shortcut: ⌘ K ⌘ U
+    desc: Remove line comment
+  
+  - shortcut: ⌘ /
+    desc: Toggle line comment
+
+  - shortcut: ⇧ ⌥ A
+    desc: Toggle block comment
+  
+  - shortcut: ⌥ Z
+    desc: Toggle word wrap
+
+multi-cursor and selection:
+  - shortcut: ⌥ + click
+    desc: Insert cursor
+  
+  - shortcut: ⌥ ⌘ ↑
+    desc: Insert cursor above
+  
+  - shortcut: ⌥ ⌘ ↓
+    desc: Insert cursor below
+  
+  - shortcut: ⌘ U
+    desc: Under last cursor operation
+  
+  - shortcut: ⇧ ⌥ I
+    desc: Insert cursor at end of each line selected
+  
+  - shortcut: ⌘ I
+    desc: Select current line
+  
+  - shortcut: ⇧ ⌘ L
+    desc: Select all occurrences of current selection
+  
+  - shortcut: ⌘ F2
+    desc: Select all occurrences of current word
+  
+  - shortcut: ⌃ ⇧ ⌘ → or ←
+    desc: Expand/shrink selection
+  
+  - shortcut: ⇧ ⌥ drag
+    desc: Column (box) selection
+  
+  - shortcut: ⇧ ⌥ ⌘ ↑ or ↓
+    desc: Column (box) selection up/down
+  
+  - shortcut: ⇧ ⌥ ⌘ ← or →
+    desc: Column (box) selection left/right
+  
+  - shortcut: ⇧ ⌥ ⌘ ⇞
+    desc: Column (box) selection page up
+  
+  - shortcut: ⇧ ⌥ ⌘ ⇟
+    desc: Column (box) selection page down
+
+search and replace:
+  - shortcut: ⌘ F
+    desc: Find
+  
+  - shortcut: ⌥ ⌘ F
+    desc: Replace
+  
+  - shortcut: ⌘ G or ⇧ ⌘ G
+    desc: Find next/previous
+  
+  - shortcut: ⌥ ↵
+    desc: Select all occurrences of Find match
+  
+  - shortcut: ⌘ D
+    desc: Add selection to next Find match
+  
+  - shortcut: ⌘ K ⌘ D
+    desc: Move last selection to next Find match
+  
+rich languages editing:
+  - shortcut: ⌃ ␣
+    desc: Trigger suggestion
+  
+  - shortcut: ⇧ ⌘ ␣
+    desc: Trigger parameter hints
+  
+  - shortcut: ⇧ ⌥ F
+    desc: Format document
+  
+  - shortcut: ⌘ K ⌘ F
+    desc: Format selection
+  
+  - shortcut: F12 
+    desc: Go to definition
+  
+  - shortcut: ⌥ F12
+    desc: Peek definition
+  
+  - shortcut: ⌘ K F12
+    desc: Open Definition to the side
+  
+  - shortcut: ⌘ .
+    desc: Quick fix
+  
+  - shortcut: ⇧ F12
+    desc: Show references
+  
+  - shortcut: F2
+    desc: Rename symbol
+  
+  - shortcut: ⌘ K ⌘ X
+    desc: Trim training whitespace
+  
+  - shortcut: ⌘ K ⌘ M
+    desc: Change file language
+  
+navigation:
+  - shortcut: ⌘ T
+    desc: Show all symbols
+  
+  - shortcut: ⌃ G
+    desc: Go to Line...
+  
+  - shortcut: ⌘ P
+    desc: Go to File...
+  
+  - shortcut: ⇧ ⌘ O
+    desc: Go to Symbol...
+  
+  - shortcut: ⇧ ⌘ M
+    desc: Show Problems panel
+  
+  - shortcut: F8 or ⇧ F8
+    desc: Go to next/previous error or warning
+  
+  - shortcut: ⌃ ⇧ ⇥
+    desc: Navigate editor group history
+  
+  - shortcut: ⌃ - or ⌃ ⇧ -
+    desc: Go back/forward
+  
+  - shortcut: ⌃ ⇧ M
+    desc: Toggle tab moves focus
+
+editor management:
+  - shortcut: ⌘ W
+    desc: Close editor
+  
+  - shortcut: ⌘ K F
+    desc: Close folder
+  
+  - shortcut: ⌘ \ 
+    desc: Split editor
+  
+  - shortcut: ⌘ 1 or ⌘ 2 or ⌘ 3
+    desc: Focus into 1st, 2nd, or 3rd editor group
+  
+  - shortcut: ⌘ K ⌘ ← or ⌘ K ⌘ →
+    desc: Focus into previous/next editor group
+  
+  - shortcut:  ⌘ K ⇧ ⌘ ← or ⌘ K ⇧ ⌘ →
+    desc: Move editor left/right
+  
+  - shortcut: ⌘ K ← or ⌘ K →
+    desc: Move active editor group
+  
+file management:
+  - shortcut: ⌘ N
+    desc: New file
+
+  - shortcut: ⌘ O
+    desc: Open file...
+  
+  - shortcut: ⌘ S
+    desc: Save
+  
+  - shortcut: ⇧ ⌘ S
+    desc: Save as...
+  
+  - shortcut: ⌥ ⌘ S
+    desc: Save all
+  
+  - shortcut: ⌘ W
+    desc: Close
+  
+  - shortcut: ⌘ K ⌘ W
+    desc: Close all
+  
+  - shortcut: ⇧ ⌘ T
+    desc: Reopen closed editor
+  
+  - shortcut: ⌘ K ↵
+    desc: Keep preview mode editor open
+  
+  - shortcut: ⌃ ⇥ or ⌃ ⇧ ⇥
+    desc: Open next/previous
+  
+  - shortcut: ⌘ K P
+    desc: Copy path of active file
+  
+  - shortcut: ⌘ K R
+    desc: Reveal active file in Explorer
+  
+  - shortcut: ⌘ K O
+    desc: Show active file in new window/instance
+
+display:
+  - shortcut: ⌃ ⌘ F
+    desc: Toggle full screen
+  
+  - shortcut: ⌥ ⌘ 1
+    desc: Toggle editor layout (horizontal/vertical)
+  
+  - shortcut: ⌘ = or ⇧ ⌘ -
+    desc: Zoom in/out
+  
+  - shortcut: ⌘ B
+    desc: Toggle Sidebar visibility
+  
+  - shortcut: ⇧ ⌘ E
+    desc: Show Explorer/Toggle focus
+  
+  - shortcut: ⇧ ⌘ F
+    desc: Show Search
+  
+  - shortcut: ⌃ ⇧ G
+    desc: Show Source Control
+  
+  - shortcut: ⇧ ⌘ D
+    desc: Show Debug
+  
+  - shortcut: ⇧ ⌘ X
+    desc: Show Extensions
+  
+  - shortcut: ⇧ ⌘ H
+    desc: Replace in files
+  
+  - shortcut: ⇧ ⌘ J
+    desc: Toggle Search details
+  
+  - shortcut: ⇧ ⌘ U
+    desc: Show Output panel
+  
+  - shortcut: ⇧ ⌘ V
+    desc: Open Markdown preview
+  
+  - shortcut: ⌘ K V
+    desc: Open Markdown preview to the side
+  
+  - shortcut: ⌘ K Z
+    desc: Zen Mode (⎋ ⎋) to exit
+
+debug: 
+  - shortcut: F9
+    desc: Toggle breakpoint
+  
+  - shortcut: F5
+    desc: Start/Continue
+  
+  - shortcut: F11 or ⇧ F11
+    desc: Step into/out
+  
+  - shortcut: F10
+    desc: Step over
+  
+  - shortcut: ⇧ F5
+    desc: Stop
+  
+  - shortcut: ⌘ K ⌘ I
+    desc: Show hover
+
+integrated terminal:
+  - shortcut: ⌃ `
+    desc: Show integrated terminal
+  
+  - shortcut: ⌃ ⇧ `
+    desc: Create new terminal
+  
+  - shortcut: ⌘ C
+    desc: Copy selection
+  
+  - shortcut: ⌘ ↑ or ↓
+    desc: Scroll up/down
+  
+  - shortcut: ⇞ or ⇟
+    desc: Scroll page up/down
+  
+  - shortcut: ⌘ ↖ or  ↘
+    desc: Scroll to top/bottom
