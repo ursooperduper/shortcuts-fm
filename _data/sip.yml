@@ -1,0 +1,98 @@
+name: Sip
+
+sections:
+  - general
+  - magnifier
+  - zoom and size
+  - color and formats
+  - color profile
+  - color dock
+  - multiple colors
+
+hotkeys:
+  - shortcut: ⌃ ⌥ ⌘ C
+    desc: Show color panel
+  
+  - shortcut: ⌃ ⌥ ⌘ P
+    desc: Show picker
+  
+  - shortcut: ⌘ click
+    desc: Send to fill color
+  
+  - shortcut: ⇧ ⌘ click
+    desc: Send to border color
+  
+  - shortcut: ⌃ ⌥ ⌘ F
+    desc: Get fill color
+  
+  - shortcut: ⌃ ⌥ ⌘ B
+    desc: Get border color
+
+magnifier:
+  - shortcut: ←
+    desc: Move magnifier left 1px
+  
+  - shortcut: →
+    desc: Move magnifier right 1px
+  
+  - shortcut: ↑
+    desc: Move magnifier up 1px
+  
+  - shortcut: ↓
+    desc: Move magnifier down 1px
+  
+  - shortcut: ⇧ ←
+    desc: Move magnifier left 10px
+  
+  - shortcut: ⇧ →
+    desc: Move magnifier right 10px
+  
+  - shortcut: ⇧ ↑
+    desc: Move magnifier up 10px
+  
+  - shortcut: ⇧ ↓
+    desc: Move magnifier down 10px
+
+zoom and size:
+  - shortcut: +
+    desc: Increase magnifier size
+  
+  - shortcut: "-"
+    desc: Decrease magnifier size
+  
+  - shortcut: ⌥ +
+    desc: Increase magnifier zoom
+  
+  - shortcut: ⌥ -
+    desc: Decrease magnifier zoom
+
+color and formats:
+  - shortcut: ⌃ ⌥ ↓
+    desc: Next color
+  
+  - shortcut: ⌃ ⌥ ↑
+    desc: Previous color
+  
+  - shortcut: ⌃ ⌥ →
+    desc: Next format
+  
+  - shortcut: ⌃ ⌥ ←
+    desc: Previous format
+
+color profile:
+  - shortcut: ⌥ ⇧ →
+    desc: Next color profile
+  
+  - shortcut: ⌥ ⇧ ←
+    desc: Previous color profile
+  
+color dock:
+  - shortcut: ⌃ ⌥ ⌘ D
+    desc: Show/Hide color dock
+
+multiple colors:
+  - shortcut: ⇧
+    desc: Pick multiple colors
+  
+  - shortcut: ⌃
+    desc: Multiple colors & create palette
