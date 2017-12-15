@@ -1,0 +1,600 @@
+name: Pages
+
+sections:
+  - navigate
+  - select
+  - format
+  - find
+  - manipulate objects
+  - tables
+  - cell references in formulas
+  - chart data
+  - general
+
+navigate:
+  - shortcut: ←
+    desc: Move one character to the left
+  
+  - shortcut: →
+    desc: Move one character to the right
+  
+  - shortcut: ⌃ B
+    desc: Move one character backward
+  
+  - shortcut: ⌃ F
+    desc: Move one character forward
+  
+  - shortcut: ↑
+    desc: Move to the line above
+  
+  - shortcut: ↓
+    desc: Move to the line below
+  
+  - shortcut: ⌃ ⌥ B
+    desc: Move to the beginning of the current or previous word
+  
+  - shortcut: ⌥ ←
+    desc: Move to the left edge of the current word
+  
+  - shortcut: ⌃ ⌥ F
+    desc: Move to the end of the current or next word
+  
+  - shortcut: ⌥ →
+    desc: Move to the right edge of the current word
+  
+  - shortcut: ⌘ ↑
+    desc: Move the insertion point to the beginning of the current text area
+  
+  - shortcut: ⌘ ↓
+    desc: Move the insertion point to the bottom of the current text area
+  
+  - shortcut: ⌃ A or ⌥ ↑
+    desc: Move to the beginning of the paragraph
+  
+  - shortcut: ⌃ E or ⌥ ↓
+    desc: Move to the end of the paragraph
+  
+  - shortcut: ⌘ ←
+    desc: Move to the left edge of the current line
+  
+  - shortcut: ⌘ →
+    desc: Move to the right edge of the current line
+  
+  - shortcut: ⇞
+    desc: Scroll up the page
+  
+  - shortcut: ⇟
+    desc: Scroll down the page
+  
+  - shortcut: ⌥ ⇞
+    desc: Scroll one page up and move the insertion point
+  
+  - shortcut: ⌃ V or ⌥ ⇟
+    desc: Scroll one page down and move the insertion point
+  
+  - shortcut:  ↘ or fn ↑
+    desc: Move to the beginning of the document without moving the insertion point
+  
+  - shortcut:  ↘ or fn ↓
+    desc: Move to the end of the document without moving the insertion point
+  
+  - shortcut: ⌃ L
+    desc: Center the insertion point in the center of the application window
+  
+select:
+  - shortcut: ⌘ A
+    desc: Select all objects and text
+
+  - shortcut: ⇧ ⌘ A
+    desc: Deselect all objects adn text
+
+  - shortcut: ⇧ →
+    desc: Extend the selection one character to the right
+
+  - shortcut: ⇧ ←
+    desc: Extend the selection one character to the left
+
+  - shortcut: ⇧ ⌥ →
+    desc: Extend the selection to the end of the current word, then to the end of subsequent words
+  
+  - shortcut: ⇧ ⌥ ←
+    desc: Extend the selection to the beginning of the current word
+  
+  - shortcut: ⇧ ⌘ →
+    desc: Extend the selection to the end of the current line
+  
+  - shortcut: ⇧ ⌘ ←
+    desc: Extend the selection to the beginning of the current line
+  
+  - shortcut: ⇧ ↑
+    desc: Extend the selection to the line above
+  
+  - shortcut: ⇧ ↓
+    desc: Extend the selection to the line below
+  
+  - shortcut: ⇧ ⌥ ↑
+    desc: Extend the selection to the beginning of the current paragraph
+  
+  - shortcut: ⇧ ⌥ ↓
+    desc: Extend the selection to the end of the current paragraph
+  
+  - shortcut: ⇧ ⌘ ↑
+    desc: Extend the selection to the beginning of the text
+
+  - shortcut: ⇧ ⌘ ↓
+    desc: Extend the selection to the end of the text
+
+format: 
+  - shortcut: ⌘T
+    desc: Show the fonts window
+  
+  - shortcut: ⇧ ⌘ C
+    desc: Show the colors window
+  
+  - shortcut: ⌘ B
+    desc: Bold
+  
+  - shortcut: ⌘ I
+    desc: Italic
+  
+  - shortcut: ⌘ U
+    desc: Underline
+  
+  - shortcut: ⌃ D
+    desc: Delete the next character or selection
+  
+  - shortcut: ⌥ ⌫
+    desc: Delete the word before the insertion point
+  
+  - shortcut: ⌃ K
+    desc: Delete the text between the insertion point and the next paragraph break
+  
+  - shortcut: ⌘ +
+    desc: Increase font size
+  
+  - shortcut: ⌘ -
+    desc: Decrease font size
+  
+  - shortcut: ⌥ ⌘ [
+    desc: Decrease (tighten) the space between selected characters
+  
+  - shortcut: ⌥ ⌘ ]
+    desc: Increase (loosen) the space between selected characters
+  
+  - shortcut: ⌃ ⇧ ⌘ +
+    desc: Make the text superscript
+  
+  - shortcut: ⌃ ⌘ -
+    desc: Make the text subscript
+  
+  - shortcut: ⌥ ⌘ E
+    desc: Insert an equation
+  
+  - shortcut: ⌘ {
+    desc: Align the text flush left
+  
+  - shortcut: ⌘ | 
+    desc: Center the text
+  
+  - shortcut: ⌘ }
+    desc: Align the text flush right
+  
+  - shortcut: ⌥ ⌘ | 
+    desc: Align the text flush left and flush right (justify)
+  
+  - shortcut: ⌘ [
+    desc: Decrease the indent level of a block of text or a list item
+  
+  - shortcut: ⌘ ]
+    desc: Increase the indent level of a block of text or a list item
+  
+  - shortcut: ⇧ ⇥
+    desc: Decrease the indent levelof a list item
+  
+  - shortcut: ⇥
+    desc: Increase the indent level of a list item
+  
+  - shortcut: ⌘ K
+    desc: Add a hyperlink to text
+  
+  - shortcut: ⌘ X
+    desc: Cut the selection
+  
+  - shortcut: ⌘ C
+    desc: Copy the selection
+  
+  - shortcut: ⌥ ⌘ C
+    desc: Copy the paragraph style
+  
+  - shortcut: ⌘ V
+    desc: Paste the selection
+  
+  - shortcut: ⌥ ⌘ V
+    desc: Paste the paragraph style
+  
+  - shortcut: ⌥ ⇧ ⌘ V
+    desc: Paste and match the style of the destination text
+  
+  - shortcut: ⌥ ⌘ C
+    desc: Copy the graphic style of text
+  
+  - shortcut: ⌥ ⌘ V
+    desc: Paste the graphic style of text
+  
+  - shortcut: ⌥ ␣
+    desc: Insert a nonbreaking space
+  
+  - shortcut: ⇧ ↵
+    desc: Insert a line break (soft return)
+  
+  - shortcut: ↵
+    desc: Insert a paragraph break
+  
+  - shortcut: ⌃ O
+    desc: Insert a new line after the insertion point
+  
+  - shortcut: fn ⌘ ↵
+    desc: Insert a page break
+  
+  - shortcut: ⌃ ⌘ ␣
+    desc: Enter special characters
+  
+  - shortcut: ⌃ T
+    desc: Transpose the characters on either side of the insertion point
+  
+  - shortcut: ⇧ ⌘ E
+    desc: Add an EndNote bibliography
+
+find:
+  - shortcut: ⌘ F
+    desc: Find
+  
+  - shortcut: ⌘ G
+    desc: Find next
+
+  - shortcut: ⇧ ⌘ G
+    desc: Find previous
+  
+  - shortcut: ⌘ E
+    desc: Place the selected text in the Find and Replace text field
+  
+  - shortcut: ↵
+    desc: Replace text
+  
+  - shortcut: ⌘ J
+    desc: Scroll the window to show the selected text or object
+  
+  - shortcut: ⎋
+    desc: Hide the Find window
+  
+  - shortcut: ⌃ ⌘ D
+    desc: Look up the word at the insertion point
+  
+  - shortcut: ⌥ ⎋
+    desc: Display a list of words to complete the selected word
+  
+  - shortcut: ⌘ ;
+    desc: Check spelling and grammar
+  
+  - shortcut: ⇧ ⇧ ;
+    desc: Show the Spelling and Grammar window
+
+  - shortcut: ⇧ ⌘ H
+    desc: Highlight text
+  
+  - shortcut: ⇧ ⌘ K
+    desc: Open a new comment for the selected text, object, or table cell
+  
+  - shortcut: ⌘ ↵
+    desc: Save a new comment
+  
+  - shortcut: ⌥ ⌘ K
+    desc: Show the next comment
+  
+  - shortcut: ⌥ ⇧ ⌘ K
+    desc: Show the previous comment
+  
+  - shortcut: ⌥ ⌘ A
+    desc: Accept a change (when change tracking is on)
+  
+  - shortcut: ⌥ ⌘ R
+    desc: Reject a change (when change tracking is on)
+  
+  - shortcut: ⇧ ⌘ W
+    desc: Show or hide word count
+
+manipulate objects:
+  - shortcut: ⌘ A
+    desc: Select all objects
+  
+  - shortcut: ⇧ ⌘ A
+    desc: Deselect all objects
+  
+  - shortcut: ⇧ ⇥
+    desc: Select the previous object on the page
+  
+  - shortcut: ⌥ ⌘ scroll
+    desc: Scroll zoom
+  
+  - shortcut: ⌘ drag
+    desc: Add or remove objects from the selection
+  
+  - shortcut: ⌘ click
+    desc: Select or deselect  additional objects
+  
+  - shortcuts: ← ↑ ↓ →
+    desc: Move the selected object one point
+  
+  - shortcut: ⇧ then ← ↑ ↓ →
+    desc: Move the selected object ten points
+  
+  - shortcut: ⌥ ⌘ C
+    desc: Copy the graphic style
+  
+  - shortcut: ⌥ ⌘ V
+    desc: Paste the graphic style
+  
+  - shortcut: ⇧ ⌘ B
+    desc: Send the selected object to the back
+  
+  - shortcut: ⌥ ⇧ ⌘ B
+    desc: Send the selected object one layer back
+  
+  - shortcut: ⇧ ⌘ F
+    desc: Bring the selected object to the front
+  
+  - shortcut: ⌥ ⇧ ⌘ F
+    desc: Bring the selected object one layer forward
+  
+  - shortcut: ⌥ ⌘ G
+    desc: Group selected objects
+  
+  - shortcut: ⌥ ⇧ ⌘ G
+    desc: Ungroup selected objects
+  
+  - shortcut: ⇥
+    desc: Select the next object in a group
+  
+  - shortcut: ⇧ ⇥
+    desc: Select the previous object in a group
+  
+  - shortcut: ⌘ L
+    desc: Lock selected objects
+  
+  - shortcut: ⌥ ⌘ L
+    desc: Unlock selected objects
+  
+  - shortcut: ⌥ then ← ↑ ↓ →
+    desc: Duplicate the object
+  
+  - shortcut: ⇧ drag
+    desc: Constrain the movement of the object horizontally, vertically, or diagonally
+  
+  - shortcut: ⇧ ⌘ M
+    desc: Mask or unmask the image
+  
+  - shortcut: ⌘ ↵
+    desc: Exit text editing and select the object
+  
+  - shortcut: ⇧ ⌘ V
+    desc: Choose an object to insert
+  
+  - shortcut: ⌃ ⌥ ⌘ T
+    desc: Define the selected text as a text placeholder
+  
+  - shortcut: ⌃ ⌥ ⌘ I
+    desc: Define the image or movie as a media placeholder
+
+  - shortcut: ⌥ ⇧ ⌘ P
+    desc: Draw a custom shape with the Pen tool
+
+tables:  
+  - shortcut: ⌥ ↑
+    desc: Add a row above the selected cells
+
+  - shortcut: ⌥ ↓
+    desc: Add a row below the selected cells
+  
+  - shortcut: ⌥ →
+    desc: Add a column to the right of the selected cells
+  
+  - shortcut: ⌥ ←
+    desc: Add a column to the left of the selected cells
+  
+  - shortcut: ⌥ ↵
+    desc: Insert a row at the bottom of the table
+  
+  - shortcut: ⇧ ↑ or ⇧ ↓
+    desc: Selected additional rows
+  
+  - shortcut: ⇧ → or ⇧ ←
+    desc: Select additional columns
+  
+  - shortcut: ⌘ ↵
+    desc: Select a table from a cell selection
+  
+  - shortcut: ⌥ ⌘ C
+    desc: Copy cell style
+  
+  - shortcut: ⌥ ⌘ V
+    desc: Paste cell style
+  
+  - shortcut: ⌥ ⇧ ⌘ V 
+    desc: Paste and preserve the style of the destination cell
+  
+  - shortcut: ⌥ ⌘ U
+    desc: Auto align cell content
+  
+  - shortcut: ⌘ ↵
+    desc: Stop editing the cell and select the cell
+  
+  - shortcut: ↵
+    desc: Begin text editing
+  
+  - shortcut: ⇥
+    desc: Select the next cell
+  
+  - shortcut: ⇧ ⇥
+    desc: Select the previous cell
+  
+  - shortcut: ⌥ ⇥
+    desc: Insert a tab when editing text or a formula
+  
+  - shortcut: ⌃ ↵
+    desc: Insert a line break (soft return) when editing text in a cell
+  
+  - shortcut: ↵
+    desc: Insert a paragraph break (hard return) when editing text in a cell
+  
+  - shortcut: "="
+    desc: Open the Formula Editor for the selected nonformula cell
+  
+  - shortcut: ↵
+    desc: In the Formula Editor, commit changes
+  
+  - shortcut: ⎋
+    desc: In the Formula Editor, discard changes
+  
+cell references in formulas:
+  - shortcut: ⌥ then ← ↑ ↓ →
+    desc: Navigate to and select a single cell
+  
+  - shortcut: ⌥ ⇧ then ← ↑ ↓ →
+    desc: Extend or shrink a selected cell reference
+  
+  - shortcut: ⌥ ⌘ then ← ↑ ↓ →
+    desc: Navigate to and select the first or last cell in a row or column
+
+  - shortcut: ⌘ K or ⇧ ⌘ K
+    desc: Specify absolute and relative attributes of selected cell references
+  
+  - shortcut: ⌥ ⌘ K or ⌥ ⇧ ⌘ K
+    desc: Specify absolute and relative attributes of the first and last cells of selected cell references
+  
+chart data: 
+  - shortcut: ⇧ ⌘ D
+    desc: Show or hide the Chart Data editor
+  
+  - shortcut: ↵
+    desc: Complete a cell entry and move the selection down
+  
+  - shortcut: ⇧ ↵
+    desc: Complete a cell entry and move the selection up
+
+  - shortcut: ⇥
+    desc: Complete a cell entry and move the selection to the right
+  
+  - shortcut: ⇧ ⇥
+    desc: Complete a cell entry and move the selection to the left
+  
+  - shortcut: ← or →
+    desc: Move one character to the left or right
+  
+  - shortcut: ↑ or ↓
+    desc: Move to the beginning of text or to the end of text
+
+general:
+  - shortcut: fn fn
+    desc: Start dictation
+  
+  - shortcut: ⌘ N
+    desc: Open the template chooser
+  
+  - shortcut: ⌥ ⌘ N
+    desc: Open the template chooser and show the language pop-up menu
+  
+  - shortcut: ⎋
+    desc: Close the template chooser
+
+  - shortcut: ⌘ O
+    desc: Open an existing document
+  
+  - shortcut: ⌘ S
+    desc: Save a document
+  
+  - shortcut: ⌥ ⇧ ⌘ S
+    desc: Save as
+  
+  - shortcut: ⇧ ⌘ S
+    desc: Duplicate a document
+  
+  - shortcut: ⌘ P
+    desc: Print a document
+  
+  - shortcut: ⇧ ⌘ ?
+    desc: Open Pages help
+  
+  - shortcut: ⌘ W
+    desc: Close a window
+  
+  - shortcut: ⌥ ⌘ W
+    desc: Close all windows
+
+  - shortcut: ⌘ M
+    desc: Minimize a window
+  
+  - shortcut: ⌥ ⌘ M
+    desc: Minimize all windows
+  
+  - shortcut: ⌃ ⌘ F
+    desc: Enter full screen
+  
+  - shortcut: ⌘ >
+    desc: Zoom in
+  
+  - shortcut: ⌘ <
+    desc: Zoom out
+  
+  - shortcut: ⇧ ⌘ 0
+    desc: Zoom to selection
+  
+  - shortcut: ⌘ 0
+    desc: Return to actual size
+  
+  - shortcut: ⇧ ⌘ T
+    desc: Show or hide the tab bar
+  
+  - shortcut: ⌥ ⌘ P
+    desc: Show page thumbnails
+    
+  - shortcut: ⌘ R
+    desc: Toggle ruler
+  
+  - shortcut: ⇧ ⌘ P
+    desc: Open the page setup window
+
+  - shortcut: ⇧ ⌘ L
+    desc: Toggle layout boundaries
+  
+  - shortcut: ⇧ ⌘ I
+    desc: Show formatting characters (invisibles)
+  
+  - shortcut: ⇧ ⌘ V
+    desc: Choose a file to insert
+  
+  - shortcut: ⇧ ⌘ C
+    desc: Show the colors window
+  
+  - shortcut: ⌥ ⌘ T
+    desc: Toggle toolbar
+  
+  - shortcut: ⌥ ⌘ I
+    desc: Toggle sidebars on the rigth side of the Pagers window
+  
+  - shortcut: ⌃ `
+    desc: Open the next tab in the sidebar
+  
+  - shortcut: ⇧ ⌃ `
+    desc: Open the previous tab in the sidebar
+  
+  - shortcut: ⌘ H
+    desc: Hide Pages
+  
+  - shortcut: ⇧ ⌘ H
+    desc: Hide windows of other applications
+  
+  - shortcut: ⌘ Z
+    desc: Undo
+  
+  - shortcut: ⇧ ⌘ Z
+    desc: Redo
