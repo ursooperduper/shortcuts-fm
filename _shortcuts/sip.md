@@ -5,10 +5,10 @@ category: utilities
 data-file: sip
 sections:
   - General
-  - Magnifier
   - Zoom and Size
+  - Magnifier
+  - Color Dock
   - Color and Formats
   - Color Profile
-  - Color Dock
   - Multiple Colors
 ---
