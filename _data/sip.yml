@@ -2,14 +2,14 @@ name: Sip
 
 sections:
   - general
-  - magnifier
   - zoom and size
+  - magnifier
+  - color dock
   - color and formats
   - color profile
-  - color dock
   - multiple colors
 
-hotkeys:
+general:
   - shortcut: ⌃ ⌥ ⌘ C
     desc: Show color panel
   
@@ -27,6 +27,19 @@ hotkeys:
   
   - shortcut: ⌃ ⌥ ⌘ B
     desc: Get border color
+
+zoom and size:
+  - shortcut: +
+    desc: Increase magnifier size
+  
+  - shortcut: "-"
+    desc: Decrease magnifier size
+  
+  - shortcut: ⌥ +
+    desc: Increase magnifier zoom
+  
+  - shortcut: ⌥ -
+    desc: Decrease magnifier zoom
 
 magnifier:
   - shortcut: ←
@@ -52,19 +65,10 @@ magnifier:
   
   - shortcut: ⇧ ↓
     desc: Move magnifier down 10px
-
-zoom and size:
-  - shortcut: +
-    desc: Increase magnifier size
   
-  - shortcut: "-"
-    desc: Decrease magnifier size
-  
-  - shortcut: ⌥ +
-    desc: Increase magnifier zoom
-  
-  - shortcut: ⌥ -
-    desc: Decrease magnifier zoom
+color dock:
+  - shortcut: ⌃ ⌥ ⌘ D
+    desc: Show/Hide color dock
 
 color and formats:
   - shortcut: ⌃ ⌥ ↓
@@ -85,10 +89,6 @@ color profile:
   
   - shortcut: ⌥ ⇧ ←
     desc: Previous color profile
-  
-color dock:
-  - shortcut: ⌃ ⌥ ⌘ D
-    desc: Show/Hide color dock
 
 multiple colors:
   - shortcut: ⇧
