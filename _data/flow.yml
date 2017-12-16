@@ -1,0 +1,116 @@
+name: Flow
+
+sections:
+  - global
+  - chat
+  - message form
+  - tasks
+  - comment form
+
+global:
+  - shortcut: ↵
+    desc: New task
+  
+  - shortcut: /
+    desc: Search
+
+  - shortcut: "?"
+    desc: Keyboard shortcuts
+  
+  - shortcut: ⌘ ⌥ 1
+    desc: Switch to Tasks
+
+  - shortcut: ⌘ ⌥ 2
+    desc: Switch to Chat
+
+  - shortcut: ⌘ ⌥ 3
+    desc: Switch to People
+  
+  - shortcut: ⌥ ⇥
+    desc: Toggle Sidebar
+  
+  
+chat:
+  - shortcut: ⌥ ↓
+    desc: Next chat
+  
+  - shortcut: ⌥ ↑
+    desc: Previous chat
+  
+  - shortcut: ⎋
+    desc: Mark chat as read
+  
+  - shortcut: ⇥
+    desc: Go to Message Form
+  
+  - shortcut: ⌥ ⇧ ↓
+    desc: Next Unread
+  
+  - shortcut: ⌥ ⇧ ↑
+    desc: Previous Unread
+  
+  - shortcut: ⌘ U
+    desc: Upload File
+
+message form:
+  - shortcut: ↑
+    desc: Edit Previous
+  
+  - shortcut: ⇥
+    desc: Create Quick Task
+
+tasks:
+  - shortcut: ↓
+    desc: Next Task
+  
+  - shortcut: ↑
+    desc: Previous Task
+  
+  - shortcut: →
+    desc: Open Pane
+  
+  - shortcut: ←
+    desc: Close Pane
+  
+  - shortcut: ⇧ E
+    desc: Edit
+  
+  - shortcut: ⇥
+    desc: Go to Comment Form
+  
+  - shortcut: ⇧ ⌫
+    desc: Delete
+  
+  - shortcut: ⇧ F
+    desc: Toggle Flag
+  
+  - shortcut: ⇧ C
+    desc: Toggle Completed
+  
+  - shortcut: ⇧ S
+    desc: Toggle Subscribed
+  
+  - shortcut: ⇧ ↵
+    desc: Go to Quick Task
+  
+  - shortcut: \
+    desc: Focus Filter Bar
+  
+  - shortcut: ⌃ ⇧ K
+    desc: Clear Completed Tasks
+
+comment form:
+  - shortcut: ⌘ ↵
+    desc: Post
+
+  - shortcut: ⌘ ⇧ ↵
+    desc: Post and Complete
+
+  - shortcut: ↑
+    desc: Edit Previous
+
+  - shortcut: ⌘ B
+    desc: Bold Text
+  
+  - shortcut: ⌘ I
+    desc: Italicize Text
