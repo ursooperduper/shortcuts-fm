@@ -92,7 +92,7 @@ application wide:
   - shortcut: ⌃ ⌘ F
     desc: Full Screen
 
-  - shortcut: ⌘ 1-9
+  - shortcut: ⌘ 1 to 9
     desc: Go to Shortcuts 1-9
 
   - shortcut: ⌘ ,
@@ -162,7 +162,7 @@ note editor:
   - shortcut: ⌘ ;
     desc: Check Document Now
 
-  - shortcut: fn fn
+  - shortcut: Fn Fn
     desc: Start Dictation
 
   - shortcut: ⌃ ⌘ Space

@@ -91,7 +91,7 @@ general:
     desc: Save As
 
 code editing:
-  - shortcut: '⌃ Space'
+  - shortcut: '⌃ ␣'
     desc: Show completions
 
   - shortcut: '⌃ .'
@@ -303,7 +303,7 @@ edit:
     desc: Show Spelling and Grammar
 
 view:
-  - shortcut: '⌘ (1-7)'
+  - shortcut: '⌘ 1 to 7'
     desc: Switch Navigators
 
   - shortcut: '⌘ 0'
@@ -324,7 +324,7 @@ view:
   - shortcut: '⇧ ⌘ Y'
     desc: Toggle Debug Area
 
-  - shortcut: '⌥ ⌘ (1-6)'
+  - shortcut: '⌥ ⌘ 1 to 6'
     desc: Switch Inspectors
 
   - shortcut: '⌥ ⌘ 0'

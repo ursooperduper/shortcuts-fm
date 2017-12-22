@@ -27,7 +27,7 @@ navigation:
     desc: Open Folder
 
 file actions:
-  - shortcut: Enter
+  - shortcut: ↵
     desc: Download or Open File
 
   - shortcut: ⌘ C

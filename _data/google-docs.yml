@@ -111,7 +111,7 @@ paragraph formatting:
   - shortcut: '⌘ ⌥ 0'
     desc: Apply normal text style
 
-  - shortcut: '⌘ ⌥ [1-6]'
+  - shortcut: '⌘ ⌥ 1 to 6'
     desc: Apply heading style [1-6]
 
   - shortcut: '⌘ ⇧ L'
@@ -132,7 +132,7 @@ paragraph formatting:
   - shortcut: '⌘ ⇧ 8'
     desc: Bulleted List
 
-  - shortcut: '⌥ ⇧ ↑/↓'
+  - shortcut: '⌥ ⇧ ↑ or ↓'
     desc: Move paragraph up
 
   - shortcut: '⌥ ⇧ ↓'
@@ -157,10 +157,10 @@ images and drawings:
   - shortcut: '⌘ ⌃ Q'
     desc: Resize smaller vertically
 
-  - shortcut: '←→↑↓'
+  - shortcut: '← → ↑ ↓'
     desc: Nudge up, down, left, or right
 
-  - shortcut: '⇧ ←→↑↓'
+  - shortcut: '⇧ ← → ↑ ↓'
     desc: Nudge by a pixel
 
   - shortcut: '⌥ →'
@@ -238,10 +238,10 @@ text selection:
   - shortcut: '⌘ A'
     desc: Select all
 
-  - shortcut: '⇧ ←/→'
+  - shortcut: '⇧ ← or →'
     desc: Extend selection one character
 
-  - shortcut: '⇧ ↑/↓'
+  - shortcut: '⇧ ↑ or ↓'
     desc: Extend selection one line
 
   - shortcut: '⇧ fn ←'
@@ -269,10 +269,10 @@ document navigation:
   - shortcut: 'hold ⌃ ⌘, press P then H'
     desc: Move to previous heading
 
-  - shortcut: 'hold ⌃ ⌘, press N then [1-6]'
+  - shortcut: 'hold ⌃ ⌘, press N then 1 to 6'
     desc: Move to next heading [1-6]
 
-  - shortcut: 'hold ⌃ ⌘, press P then [1-6]'
+  - shortcut: 'hold ⌃ ⌘, press P then 1 to 6'
     desc: Move to previous heading [1-6]
 
   - shortcut: 'hold ⌃ ⌘, press N then G'

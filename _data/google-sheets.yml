@@ -10,10 +10,10 @@ sections:
   - formulas
 
 general:
-  - shortcut: '⌃ Space'
+  - shortcut: '⌃ ␣'
     desc: Select column
 
-  - shortcut: '⇧ Space'
+  - shortcut: '⇧ ␣'
     desc:   Select row
 
   - shortcut: '⌘ A'
@@ -147,25 +147,25 @@ cell formatting:
     desc: Clear formatting
 
 spreadsheet navigation:
-  - shortcut: 'fn ←'
+  - shortcut: 'Fn ←'
     desc: Move to beginning of row
 
-  - shortcut: '⌘ fn ←'
+  - shortcut: '⌘ Fn ←'
     desc: Move to beginning of sheet
 
-  - shortcut: 'fn →'
+  - shortcut: 'Fn →'
     desc: Move to end of row
 
-  - shortcut: '⌘ fn →'
+  - shortcut: '⌘ Fn →'
     desc: Move to end of sheet
 
   - shortcut: '⌘ ⌫'
     desc: Scroll to active cell
 
-  - shortcut: '⌘ ⇧ fn ↓'
+  - shortcut: '⌘ ⇧ Fn ↓'
     desc: Move to next sheet
 
-  - shortcut: '⌘ ⇧ fn ↑'
+  - shortcut: '⌘ ⇧ Fn ↑'
     desc: Move to previous sheet
 
   - shortcut: '⌥ ⇧ K'
@@ -283,5 +283,5 @@ formulas:
   - shortcut: '⌘ E'
     desc: Collapse an expanded array formula
 
-  - shortcut: '⇧ fn F1'
+  - shortcut: '⇧ Fn F1'
     desc: Show/hide formula help

@@ -34,7 +34,7 @@ view:
     desc: Zoom to Fit
   
   - shortcut: 2
-    desc: Zoom to Selecftion
+    desc: Zoom to Selection
   
   - shortcut: 0
     desc: Zoom 100%
@@ -76,7 +76,7 @@ vector:
   - shortcut: B
     desc: Paint Bucket
   
-  - shortcut: ⌘ Drag
+  - shortcut: ⌘ drag
     desc: Bend Tool
   
   - shortcut: ⌘ J

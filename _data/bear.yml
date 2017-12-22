@@ -14,7 +14,7 @@ sections:
   - window
 
 editor:
-  - shortcut: ⌥ ⌘ [number]
+  - shortcut: ⌥ ⌘ 1 to 9
     desc: Heading 1 - 9
   
   - shortcut: ⌥ ⌘ S

@@ -150,7 +150,7 @@ account or session:
   - shortcut: ⌘ [
     desc: Change to Previous Account
   
-  - shortcut: ⌘ ⌥ 1-9
+  - shortcut: ⌘ ⌥ 1 to 9
     desc: Change to Account 1, 2, 3, etc.
   
 general: 
