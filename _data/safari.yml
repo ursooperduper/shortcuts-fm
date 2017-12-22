@@ -71,7 +71,7 @@ edit:
   - shortcut: '⇧ ⌘ A'
     desc: Autofill Form
 
-  - shortcut: '⌃ ⌘ Space'
+  - shortcut: '⌃ ⌘ ␣'
     desc: Emoji & Symbols
 
 find:

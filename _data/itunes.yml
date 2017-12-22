@@ -60,10 +60,10 @@ view:
     desc: Toggle Full Screen
 
 controls:
-  - shortcut: Space
+  - shortcut: ␣
     desc: Pause
   
-  - shortcut: ⌥ Space
+  - shortcut: ⌥ ␣
     desc: Genius Shuffle
   
   - shortcut: ⌘ .

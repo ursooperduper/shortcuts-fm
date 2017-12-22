@@ -125,7 +125,7 @@ select:
     desc: Extend the selection to the end of the text
 
 format: 
-  - shortcut: ⌘T
+  - shortcut: ⌘ T
     desc: Show the fonts window
   
   - shortcut: ⇧ ⌘ C
@@ -233,7 +233,7 @@ format:
   - shortcut: ⌃ O
     desc: Insert a new line after the insertion point
   
-  - shortcut: fn ⌘ ↵
+  - shortcut: Fn ⌘ ↵
     desc: Insert a page break
   
   - shortcut: ⌃ ⌘ ␣
@@ -494,7 +494,7 @@ chart data:
     desc: Move to the beginning of text or to the end of text
 
 general:
-  - shortcut: fn fn
+  - shortcut: Fn Fn
     desc: Start dictation
   
   - shortcut: ⌘ N

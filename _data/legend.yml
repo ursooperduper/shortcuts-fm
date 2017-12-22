@@ -21,3 +21,12 @@
 
 - name: Tab
   symbol: ⇥
+
+- name: Space
+  symbol: ␣
+
+- name: Page Up
+  symbol: ⇞
+
+- name: Page Down
+  symbol: ⇟

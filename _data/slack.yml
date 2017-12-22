@@ -8,114 +8,114 @@ sections:
   - file snippets
 
 general:
-  - shortcut: '⌘ /'
+  - shortcut: ⌘ /
     desc: List of keyboard shortcuts
 
-  - shortcut: '⌘ +'
+  - shortcut: ⌘ +
     desc: Increase font Size
 
-  - shortcut: '⌘ -'
+  - shortcut: ⌘ -
     desc: Decrease font size
 
-  - shortcut: '⌘ K'
+  - shortcut: ⌘ K
     desc: Open Quick Switcher
 
-  - shortcut: '⌘ T'
+  - shortcut: ⌘ T
     desc: Open Quick Switcher (Desktop App)
 
-  - shortcut: '⌘ ⇧ K'
+  - shortcut: ⌘ ⇧ K
     desc: Open Direct Message Quick Switcher
 
-  - shortcut: '⌘ ⇧ T'
+  - shortcut: ⌘ ⇧ T
     desc: One Direct Message Quick Switcher (Desktop App)
 
-  - shortcut: '⌥ ↑'
+  - shortcut: ⌥ ↑
     desc: Previous channel or direct Message
 
-  - shortcut: '⌥ ↓'
+  - shortcut: ⌥ ↓
     desc: Next channel or direct message
 
-  - shortcut: '⌥ ⇧ ↑'
+  - shortcut: ⌥ ⇧ ↑
     desc: Previous channel or direct message with unread messages
 
-  - shortcut: '⌥ ⇧ ↓'
+  - shortcut: ⌥ ⇧ ↓
     desc: Next channel or direct message with unread messages
 
-  - shortcut: '⌘ ['
+  - shortcut: ⌘ [
     desc: Previous channel in your history
 
-  - shortcut: '⌘ ]'
+  - shortcut: ⌘ ]
     desc: Next channel in your history
 
-  - shortcut: '⌘ ,'
+  - shortcut: ⌘ ,
     desc: Open Preferences
 
-  - shortcut: '⌘ .'
+  - shortcut: ⌘ .
     desc: Toggle right pane
 
-  - shortcut: '⌘ ⇧ I'
+  - shortcut: ⌘ ⇧ I
     desc: Open Channel info pane
 
-  - shortcut: '⌘ ⇧ M'
+  - shortcut: ⌘ ⇧ M
     desc: Open Recent Mentions
 
-  - shortcut: '⌘ ⇧ E'
+  - shortcut: ⌘ ⇧ E
     desc: Open Team Directory
 
-  - shortcut: '⌘ ⇧ S'
+  - shortcut: ⌘ ⇧ S
     desc: Open Starred Items
 
 switching teams in desktop app:
-  - shortcut: '⌘ ⇧ ['
+  - shortcut: ⌘ ⇧ [
     desc: Switch to previous team
 
-  - shortcut: '⌘ ⇧ ]'
+  - shortcut: ⌘ ⇧ ]
     desc: Switch to next team
 
-  - shortcut: '⌘ [number]'
+  - shortcut: ⌘ number
     desc: Switch to a specific team (see assigned number under the team icon in your Slack app)
 
 marking messages:
-  - shortcut: '⎋'
+  - shortcut: ⎋
     desc: Mark all message in current channel or DM as read
 
-  - shortcut: '⇧ ⎋'
+  - shortcut: ⇧ ⎋
     desc: Mark all messages in all channels and DMs as read
 
-  - shortcut: '⌥ (and click message)'
+  - shortcut: ⌥ and click message
     desc: Set a message as your oldest unread message
 
 message shortcuts:
-  - shortcut: '↑'
+  - shortcut: ↑
     desc: Edit your last message in the current channel
 
-  - shortcut: '⇥'
+  - shortcut: ⇥
     desc: Reprint the last slash command you entered
 
-  - shortcut: '@[character] ⇥'
+  - shortcut: '@ character ⇥'
     desc: Autocomplete @username beginning with [character]
 
-  - shortcut: '#[character] ⇥'
+  - shortcut: '# character ⇥'
     desc: Autocomplete channel beginning with [character]
 
-  - shortcut: ':[character] ⇥'
+  - shortcut: ': character ⇥'
     desc: Autocomplete emoji beginning with [character]
 
-  - shortcut: '⇧ ↑'
+  - shortcut: ⇧ ↑
     desc: Highlight text to the beginning of the current line
 
-  - shortcut: '⇧ ↓'
+  - shortcut: ⇧ ↓
     desc: Highlight text to the end of the current line
 
-  - shortcut: '⇧ ↩'
+  - shortcut: ⇧ ↩
     desc: Create a new line
 
 file snippets:
-  - shortcut: '⌘ U'
+  - shortcut: ⌘ U
     desc: Upload a file
 
-  - shortcut: '⌘ ↩'
+  - shortcut: ⌘ ↩
     desc: Create new Snippet
 
-  - shortcut: '⌘ ⇧ V'
+  - shortcut: ⌘ ⇧ V
     desc: Paste your clipboard contents as a new text Snippet

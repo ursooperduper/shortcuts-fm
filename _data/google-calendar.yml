@@ -44,20 +44,20 @@ views:
     desc: Agenda view
 
 events:
-  - shortcut: 'C'
+  - shortcut: C
     desc: Create new event
 
-  - shortcut: 'E'
+  - shortcut: E
     desc: See an event's details
 
-  - shortcut: '⌫'
+  - shortcut: ⌫
     desc: Backspace
 
-  - shortcut: 'Z'
+  - shortcut: Z
     desc: Undo
 
-  - shortcut: 'S'
+  - shortcut: S
     desc: Save event (from the events details page)
 
-  - shortcut: '⎋'
+  - shortcut: ⎋
     desc: Return to calendar from event details page

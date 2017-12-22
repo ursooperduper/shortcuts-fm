@@ -2,16 +2,17 @@
   <h3 class='sc-heading'>{{ include.section }}</h3>
   <table class='sc-tbl'>
   {% assign dsection = include.section | downcase %}
+
   {% for sc in site.data[include.name][dsection] %}
     <tr class='sc-row'>
       <td class='sc-keys'>
         {% assign keys = sc.shortcut | split: " " %}
         
-        {% for k in keys %}
-          {% if k == 'then' or k == 'or' or k == 'press' or k == 'hold' or k == '(and' or k == 'click' or k == 'message)' or k == '@[character]' or k == '#[character]' or k == ':[character]' or k == '[number]' or k == 'double-click' or k == '1-9' or k == 'Drag' or k == 'to' or k == 'drag' or k == 'scroll' %}
-          <span class="sc-text">{{ k }}</span>
-          {% else %}
+        {% for k in keys %}            
+          {% if k.size == 1 or k == 'Fn' or k == 'F1' or k == 'F2' or k == 'F3' or k == 'F4' or k == 'F5' or k == 'F6' or k == 'F7' or k == 'F8' or k == 'F9' or k == 'F10' or k == 'F11' or k == 'F12' %}
           <div class="sc-key">{{ k }}</div>
+          {% else %}
+          <span class="sc-text">{{ k }}</span>
           {% endif %}
         {% endfor %}
 
@@ -21,3 +22,4 @@
   {% endfor %}
   </table>
 </div>
+

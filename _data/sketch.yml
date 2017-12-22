@@ -13,28 +13,28 @@ general:
   - shortcut: ⌘ ,
     desc: Preferences
 
-  - shortcut: ⌘ N
+  - shortcut: '⌘ N'
     desc: New
 
-  - shortcut: ⌘ O
+  - shortcut: '⌘ O'
     desc: Open
 
-  - shortcut: ⌘ W
+  - shortcut: '⌘ W'
     desc: Close
 
-  - shortcut: ⌘ S
+  - shortcut: '⌘ S'
     desc: Save
 
-  - shortcut: ⇧ ⌘ S
+  - shortcut: '⇧ ⌘ S'
     desc: Save Duplicate
 
-  - shortcut: ⇧ ⌘ E
+  - shortcut: '⇧ ⌘ E'
     desc: Export
 
-  - shortcut: ⇧ ⌘ P
+  - shortcut: '⇧ ⌘ P'
     desc: Page Setup
 
-  - shortcut: Space
+  - shortcut: ␣
     desc: Hand Tool
 
   - shortcut: Z
@@ -46,7 +46,7 @@ general:
   - shortcut: ⎋
     desc: Exit Current Tool / Deselect Layers / Back to Inspector
 
-  - shortcut: ⇥ / ⇧ ⇥
+  - shortcut: ⇥ or ⇧ ⇥
     desc: Cycle Through Layers in Current Group
 
 edit:

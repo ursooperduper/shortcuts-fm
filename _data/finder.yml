@@ -80,7 +80,7 @@ edit:
   - shortcut: ⌘ A
     desc: Select All
   
-  - shortcut: fn fn
+  - shortcut: Fn Fn
     desc: Start Dictation
   
   - shortcut: ⌃ ⌘ Space

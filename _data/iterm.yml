@@ -160,7 +160,7 @@ edit:
   - shortcut: '⌘ R'
     desc: Reset
 
-  - shortcut: '⌃ ⌘ Space'
+  - shortcut: '⌃ ⌘ ␣'
     desc: Emoji & Symbols
 
 find:

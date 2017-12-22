@@ -16,28 +16,28 @@ general:
   - shortcut: 'D'
     desc: Compose in New Tab
 
-  - shortcut: '/'
+  - shortcut: /
     desc: Search
 
-  - shortcut: 'O'
+  - shortcut: O
     desc: Open
 
-  - shortcut: 'E'
+  - shortcut: E
     desc: Archive/Remove
 
-  - shortcut: 'M'
+  - shortcut: M
     desc: Mute
 
-  - shortcut: 'X'
+  - shortcut: X
     desc: Select
 
-  - shortcut: 'Z'
+  - shortcut: Z
     desc: Undo
 
-  - shortcut: 'S'
+  - shortcut: S
     desc: Star Conversation/Message
 
-  - shortcut: '+'
+  - shortcut: +
     desc: Mark as Important
 
   - shortcut: '-'
@@ -46,34 +46,34 @@ general:
   - shortcut: '!'
     desc: Report Spam
 
-  - shortcut: 'R'
+  - shortcut: R
     desc: Reply
 
-  - shortcut: 'A'
+  - shortcut: A
     desc: Reply All
 
-  - shortcut: 'F'
+  - shortcut: F
     desc: Forward
 
-  - shortcut: '⎋'
+  - shortcut: ⎋
     desc: Escape from Input Field
 
-  - shortcut: '⌘ S'
+  - shortcut: ⌘ S
     desc: Save Draft
 
   - shortcut: '#'
     desc: Delete
 
-  - shortcut: 'L'
+  - shortcut: L
     desc: Label
 
-  - shortcut: 'V'
+  - shortcut: V
     desc: Move To
 
-  - shortcut: '⇧ I'
+  - shortcut: ⇧ I
     desc: Mark as Read
 
-  - shortcut: '⇧ U'
+  - shortcut: ⇧ U
     desc: Mark as Unread
 
   - shortcut: '.'
@@ -83,59 +83,59 @@ general:
     desc: Moves Cursor to First Button in Gmail Toolbar
 
 navigation:
-  - shortcut: 'K'
+  - shortcut: K
     desc: Move Up
 
-  - shortcut: 'J'
+  - shortcut: J
     desc: Move Down
 
-  - shortcut: 'N'
+  - shortcut: N
     desc: Newer Message
 
-  - shortcut: 'P'
+  - shortcut: P
     desc: Previous Message
 
-  - shortcut: 'U'
+  - shortcut: U
     desc: Return to Conversation List
 
-  - shortcut: '['
+  - shortcut: [
     desc: Removes Label from Current View & Moves to Older One
 
-  - shortcut: ']'
+  - shortcut: ]
     desc: Removes Label from Current View & Moves to Newer One
 
-  - shortcut: '{'
+  - shortcut: {
     desc: Archives Current Conversation & Moves to Older One
 
-  - shortcut: '}'
+  - shortcut: }
     desc: Archives Current Conversation & Moves to Newer One
 
 combo keys:
-  - shortcut: '⇥ ↩'
+  - shortcut: ⇥ ↩
     desc: Send Message
 
-  - shortcut: 'Y O'
+  - shortcut: Y O
     desc: Archive & Next
 
-  - shortcut: 'G A'
+  - shortcut: G A
     desc: Go to All Mail
 
-  - shortcut: 'G S'
+  - shortcut: G S
     desc: Go to Starred
 
-  - shortcut: 'G C'
+  - shortcut: G C
     desc: Go to Contacts
 
-  - shortcut: 'G D'
+  - shortcut: G D
     desc: Go to Drafts
 
-  - shortcut: 'G L'
+  - shortcut: G L
     desc: Go to Label
 
-  - shortcut: 'G I'
+  - shortcut: G I
     desc: Go to Inbox
 
-  - shortcut: 'G T'
+  - shortcut: G T
     desc: Go to Sent Mail
 
   - shortcut: '* A'
@@ -154,78 +154,78 @@ combo keys:
     desc: Selects All Unstarred Mail
 
 formatting:
-  - shortcut: '⌘ ⇧ +'
+  - shortcut: ⌘ ⇧ +
     desc: Increase Font Size
 
-  - shortcut: '⌘ ⇧ -'
+  - shortcut: ⌘ ⇧ -
     desc: Decrease Font Size
 
-  - shortcut: '⌘ ⇧ 5'
+  - shortcut: ⌘ ⇧ 5
     desc: Change Font to Previous Font in Menu
 
-  - shortcut: '⌘ ⇧ 6'
+  - shortcut: ⌘ ⇧ 6
     desc: Change From to Next Font in Menu
 
-  - shortcut: '⌘ B'
+  - shortcut: ⌘ B
     desc: Bold
 
-  - shortcut: '⌘ I'
+  - shortcut: ⌘ I
     desc: Italic
 
-  - shortcut: '⌘ U'
+  - shortcut: ⌘ U
     desc: Underline
 
-  - shortcut: '⌘ ⇧ 7'
+  - shortcut: ⌘ ⇧ 7
     desc: Numbered List
 
-  - shortcut: '⌘ ⇧ 8'
+  - shortcut: ⌘ ⇧ 8
     desc: Bulleted List
 
-  - shortcut: '⌘ ⇧ L'
+  - shortcut: ⌘ ⇧ L
     desc: Align Left
 
-  - shortcut: '⌘ ⇧ E'
+  - shortcut: ⌘ ⇧ E
     desc: Align Center
 
-  - shortcut: '⌘ ⇧ R'
-    desc: Align Right
+  - shortcut: ⌘ ⇧ R
 
-  - shortcut: '⌘ ['
+    desc: Align Right
+  - shortcut: ⌘ [
     desc: Indent Less
 
-  - shortcut: '⌘ ]'
+  - shortcut: ⌘ ]
     desc: Indent More
 
-  - shortcut: '⌘ ⇧ 9'
+  - shortcut: ⌘ ⇧ 9
     desc: Quote
 
-  - shortcut: '⌘ ⇧.'
+  - shortcut: '⌘ ⇧ .'
     desc: Right to Left
 
   - shortcut: '⌘ ⇧ ,'
     desc: Left to Right
 
-  - shortcut: '⌘ \'
+  - shortcut: ⌘ \
     desc: Remove formatting
 
-  - shortcut: '⌘ K'
+  - shortcut: ⌘ K
     desc: Insert Link
 
 conversation:
-  - shortcut: 'N'
+  - shortcut: N
     desc: Next Message
 
-  - shortcut: 'P'
+  - shortcut: P
     desc: Previous Message
 
-  - shortcut: '↩'
+  - shortcut: ↩
     desc: Open/Collapse Message
 
-  - shortcut: '⇧ N'
+  - shortcut: ⇧ N
     desc: Update Current Conversation
 
 compose:
-  - shortcut: '⌘ ↩'
+  - shortcut: ⌘ ↩
     desc: Send Message
 
   - shortcut: '⌘ .'
@@ -234,14 +234,14 @@ compose:
   - shortcut: '⌘ ,'
     desc: Go to Previous Window
 
-  - shortcut: '⌘ ⇧ C'
+  - shortcut: ⌘ ⇧ C
     desc: Add Cc Recipients
 
-  - shortcut: '⌘ ⇧ B'
+  - shortcut: ⌘ ⇧ B
     desc: Add Bcc Recipients
 
-  - shortcut: '⌘ ⇧ F'
+  - shortcut: ⌘ ⇧ F
     desc: Change "From" Address
 
-  - shortcut: '⇧ ⎋'
+  - shortcut: ⇧ ⎋
     desc: Focus Main Window

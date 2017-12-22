@@ -113,10 +113,10 @@ search:
   - shortcut: ⌘ K
     desc: Focus Search Bar
 
-  - shortcut: ⌘ ↑ / ⌘ ↓
+  - shortcut: ⌘ ↑ or ↓
     desc: Quickly Switch Search Engines (when the Search Bar is Focused)
 
-  - shortcut: ⌥ ↑ / ⌥ ↓
+  - shortcut: ⌥ ↑ or ↓
     desc: View Menu to Manage Search Engines (when the Search Bar is Focused)
 
 windows and tabs:
@@ -235,10 +235,10 @@ tools:
     desc: Page Info
 
 pdf viewer:
-  - shortcut: N / J / →
+  - shortcut: N J →
     desc: Next Page
 
-  - shortcut: P / K / ←
+  - shortcut: P K ←
     desc: Previous Page
 
   - shortcut: ⌘ +
@@ -291,7 +291,7 @@ miscellaneous:
     desc: Select Location Bar
 
 media:
-  - shortcut: Space
+  - shortcut: ␣
     desc: Toggle Play/Pause
 
   - shortcut: ↓
