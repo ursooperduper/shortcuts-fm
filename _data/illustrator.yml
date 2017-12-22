@@ -1,0 +1,1044 @@
+name: Adobe Illustrator
+
+sections:
+  - general
+  - documents
+  - tools
+  - view
+  - selections
+  - draw
+  - shapes
+  - objects
+  - variable width points
+  - type
+  - panels
+  - actions
+  - character and paragraph panels
+  - color panel
+  - gradient panel
+  - layers panel
+  - swatches panel
+  - transform panel
+  - transparency panel
+  - function keys
+
+general:
+  - shortcut: ⌘ Z
+    desc: Undo
+  
+  - shortcut: ⇧ ⌘ Z
+    desc: Redo
+  
+  - shortcut: ⌘ X
+    desc: Cut
+  
+  - shortcut: ⌘ C
+    desc: Copy
+  
+  - shortcut: ⌘ V
+    desc: Paste
+  
+  - shortcut: ⌘ F
+    desc: Paste in front
+  
+  - shortcut: ⌘ B
+    desc: Paste at back
+  
+  - shortcut: ⇧ ⌘ B
+    desc: Paste in place
+  
+  - shortcut: ⌥ ⇧ ⌘ B
+    desc: Paste on all artboards
+  
+  - shortcut: ⌘ I
+    desc: Check spelling
+  
+  - shortcut: ⇧ ⌘ K
+    desc: Open the Color Settings dialog box
+  
+  - shortcut: ⌥ ⇧ ⌘ K
+    desc: Open the Keyboard Shortcuts dialog box
+  
+  - shortcut: ⌘ K
+    desc: Open the Preferences dialog box
+
+documents:
+  - shortcut: ⌘ N
+    desc: Create a document
+  
+  - shortcut: ⇧ ⌘ N
+    desc: Create a document from a template
+  
+  - shortcut: ⌥ ⌘ N
+    desc: Create a document without opening the New Document dialog box
+  
+  - shortcut: ⌘ O
+    desc: Open a document
+  
+  - shortcut: ⇧ ⌘ P
+    desc: Place a file in the document
+  
+  - shortcut: ⌥ ⇧ ⌘ I
+    desc: Open the File Information dialog box
+  
+  - shortcut: ⌥ ⌘ P
+    desc: Open the Document Setup dialog box
+  
+  - shortcut: ⌥ ⌘ O
+    desc: Browse in Adobe Bridge
+  
+  - shortcut: ⌘ W
+    desc: Close the document window
+  
+  - shortcut: ⌘ S
+    desc: Save changes made to the document
+
+  - shortcut: ⇧ ⌘ S
+    desc: Open the Save As dialog
+  
+  - shortcut: ⌥ ⌘ S
+    desc: Save a copy of the document
+  
+  - shortcut: ⌘ F12
+    desc: Save the document as script files
+  
+  - shortcut: ⌥ ⌘ E
+    desc: Open the Export for screens dialog box
+  
+  - shortcut: ⌥ ⇧ ⌘ S
+    desc: Open the Save For Web dialog box
+  
+  - shortcut: ⌥ ⇧ ⌘ P
+    desc: Package the document
+  
+  - shortcut: ⌘ P
+    desc: Print
+  
+  - shortcut: ⌘ Q
+    desc: Exit the application
+
+tools:
+  - shortcut: ⇧ O
+    desc: Artboard
+  
+  - shortcut: V
+    desc: Selection
+  
+  - shortcut: A
+    desc: Direct Selection
+  
+  - shortcut: Y
+    desc: Magic Wand
+  
+  - shortcut: Q
+    desc: Lasso
+  
+  - shortcut: P
+    desc: Pen
+  
+  - shortcut: ⇧ ~
+    desc: Curvature
+  
+  - shortcut: ⇧ B
+    desc: Blob Brush
+
+  - shortcut: +
+    desc: Add Anchor Point
+
+  - shortcut: "-"
+    desc: Delete Anchor Point
+
+  - shortcut: ⇧ C
+    desc: Switch to Anchor Point
+
+  - shortcut: T
+    desc: Type
+
+  - shortcut: ⇧ T
+    desc: Touch Type
+
+  - shortcut: \
+    desc: Line Segment
+
+  - shortcut: M
+    desc: Rectangle
+
+  - shortcut: L
+    desc: Ellipse
+
+  - shortcut: B
+    desc: Paintbrush
+
+  - shortcut: N
+    desc: Pencil
+
+  - shortcut: ⇧ N
+    desc: Shaper
+
+  - shortcut: R
+    desc: Rotate
+
+  - shortcut: O
+    desc: Relect
+
+  - shortcut: S
+    desc: Scale
+
+  - shortcut: ⇧ R
+    desc: Warp
+
+  - shortcut: ⇧ W
+    desc: Width
+
+  - shortcut: E
+    desc: Free Transform
+
+  - shortcut: ⇧ M
+    desc: Shape Builder
+
+  - shortcut: ⇧ P
+    desc: Perspective Grid
+
+  - shortcut: ⇧ V
+    desc: Perspective Selection
+
+  - shortcut: ⇧ S
+    desc: Symbol Sprayer
+
+  - shortcut: J
+    desc: Column Graph
+
+  - shortcut: U
+    desc: Mesh
+
+  - shortcut: G
+    desc: Gradient
+
+  - shortcut: I
+    desc: Eyedropper
+
+  - shortcut: W
+    desc: Blend
+
+  - shortcut: K
+    desc: Live Paint Bucket
+
+  - shortcut: ⇧ L
+    desc: Live Paint Selection
+
+  - shortcut: ⇧ K
+    desc: Slice
+
+  - shortcut: ⇧ E
+    desc: Eraser
+
+  - shortcut: C
+    desc: Scissors
+
+  - shortcut: H
+    desc: Hand
+
+  - shortcut: Z
+    desc: Zoom
+
+  - shortcut: ⌥
+    desc: Switch to Smooth tool while using Blob Brush tool
+
+view: 
+  - shortcut: F
+    desc: Toggle between screen modes
+  
+  - shortcut: ⌘ 1
+    desc: Magnify 100%
+  
+  - shortcut: ␣
+    desc: Switch to Hand tool
+  
+  - shortcut: ␣ ⌘
+    desc: Swtich to Zoom tool in magnify mode
+  
+  - shortcut: ␣ ⌘ ⌥
+    desc: Switch to Zoom tool in reduce mode
+  
+  - shortcut: ␣
+    desc: Move Zoom marquee while dragging with the Zoom tool
+  
+  - shortcut: ⇧ ⌃ B
+    desc: Hide bounding box
+  
+  - shortcut: ⌘ ⌥ ⇧ 3
+    desc: Hide unselected artwork
+  
+  - shortcut: ⌘ H
+    desc: Show document template
+  
+  - shortcut: ⌘ ⇧ H
+    desc: Show/Hide artboards
+  
+  - shortcut: ⌘ ⌥ R
+    desc: Show/Hide artboard rulers
+  
+  - shortcut: ⇧ ⌘ D
+    desc: Show transparency grid
+  
+  - shortcut: ⌘ ⌥ 0
+    desc: View all artboards in window
+  
+  - shortcut: ⌘ ⇧ V
+    desc: Paste in place on the active artboard
+  
+  - shortcut: ⎋
+    desc: Exit Artboard tool mode
+  
+  - shortcut: ⇧ drag
+    desc: Create artboard inside another artboard
+  
+  - shortcut: ⌘ click
+    desc: Select multiple artboards in the Artboards panel
+  
+  - shortcut: ⌘ F6
+    desc: Navigate to next document
+  
+  - shortcut: ⌘ ⇧ F6
+    desc: Navigate to previous document
+
+  - shortcut: ⌘ ⌥ F6
+    desc: Navigate to next document group
+  
+  - shortcut: ⌘ ⌥ ⇧ F6
+    desc: Navigate to previous document group
+  
+  - shortcut: ⌘ Y
+    desc: Toggle between Outline and GPU Preview of the document
+  
+  - shortcut: ⌘ E
+    desc: Toggle between GPU and CPU Preview of the document
+  
+  - shortcut: ⌥ ⇧ ⌘ Y
+    desc: View the document in Overprint Preview mode
+  
+  - shortcut: ⌥ ⌘ Y
+    desc: View the document in Pixel Preview mode
+  
+  - shortcut: ⎋
+    desc: Exit Full Screen mode
+  
+  - shortcut: '⌘ ='
+    desc: Zoom in
+  
+  - shortcut: '⌘ -'
+    desc: Zoom out
+  
+  - shortcut: ⌘ ;
+    desc: Hide guides
+  
+  - shortcut: ⌥ ⌘ ;
+    desc: Lock guides
+  
+  - shortcut: ⌘ S
+    desc: Make guides
+  
+  - shortcut: ⌥ ⌃ S
+    desc: Release guides
+  
+  - shortcut: ⌘ U
+    desc: Show/hide smart guides
+  
+  - shortcut: ⌘ ⇧ I
+    desc: Show/hide perspective grid
+  
+  - shortcut: ⌘ '
+    desc: Show grid
+  
+  - shortcut: ⇧ ⌘ '
+    desc: Snap to grid
+  
+  - shortcut: ⌥ ⌘ '
+    desc: Snap to point
+
+selections:
+  - shortcut: ⌘ `
+    desc: Switch to last-used selection tool
+  
+  - shortcut: ⌥
+    desc: Switch between Direct Selection tool and Group Selection tool
+  
+  - shortcut: ⇧ click
+    desc: Add/subtract to a selection
+
+  - shortcut: ⌥ click
+    desc: Subtract from selection with Magic Wand tool
+  
+  - shortcut: ⇧ drag
+    desc: Add to selection with Lasso tool
+  
+  - shortcut: ⌥ drag
+    desc: Subtract from selection with Lasso tool
+  
+  - shortcut: ⌘ ⌥ A
+    desc: Select artwork in active artboard
+  
+  - shortcut: ⌘ A
+    desc: Select all
+  
+  - shortcut: ⇧ ⌘ A
+    desc: Deselect
+  
+  - shortcut: ⌘ 6
+    desc: Reselect
+  
+  - shortcut: ⌥ ⌘ ]
+    desc: Select the object above the current selection
+
+  - shortcut: ⌥ ⌘ [
+    desc: Select the object below the current selection
+
+  - shortcut: ⌘ G
+    desc: Group the selected artwork
+
+  - shortcut: ⇧ ⌘ G
+    desc: Ungroup the selected artwork
+
+  - shortcut: ⌘ 2
+    desc: Lock a selection
+
+  - shortcut: ⌥ ⌘ 2
+    desc: Unlock a selection
+  
+  - shortcut: ⌘ 3
+    desc: Hide a selection
+  
+  - shortcut: ⌥ ⌘ 3
+    desc: Show all selections
+  
+  - shortcut: ← ↑ ↓ →
+    desc: Move selection in user-defined increments
+  
+  - shortcut: ⇧ ← ↑ ↓ →
+    desc: Move select in 10x user-defined increments
+  
+  - shortcut: ⌘ ⌥ ⇧ 2
+    desc: Lock all deselected artwork
+  
+  - shortcut: ⇧
+    desc: Constrain movement to 45 degree angle
+  
+  - shortcut: ⌘ ]
+    desc: Bring a selection forward
+  
+  - shortcut: ⇧ ⌘ ]
+    desc: Move a selection to the front
+  
+  - shortcut: ⌘ [
+    desc: Send a selection backward
+  
+  - shortcut: ⇧ ⌘ [
+    desc: Move a selection to the back
+
+draw:
+  - shortcut: ⇧ drag
+    desc: Constrain a shape's proportions or orientation
+  
+  - shortcut: ␣ drag
+    desc: Move a shape while drawing it
+  
+  - shortcut: ⌥ drag
+    desc: Draw from the center of a  shape (except for polygons, stars, and flares)
+  
+  - shortcut: drag ↑ or ↓
+    desc: Increase or decrease polygon sides, star points, arc angle, spiral winds, or flare rays
+  
+  - shortcut: drag ⌘
+    desc: Keep the inner radius of a star constant
+  
+  - shortcut: ⌥ drag
+    desc: Keep the sides of a star straight
+  
+  - shortcut: drag C
+    desc: Switch between an open and closed arc
+  
+  - shortcut: drag S F
+    desc: Flip an arc, keeping the reference point constant
+  
+  - shortcut: drag ⌥ drag
+    desc: Add or subtract winds from a spiral while increasing the length of the spiral
+  
+  - shortcut: drag ⌘ drag
+    desc: Change the decay rate of a spiral
+  
+  - shortcut: drag ↑ or ↓
+    desc: Add or remove horizontal lines from a rectangular grid or concentric lines from a polar grid
+  
+  - shortcut: drag ← or →
+    desc: Add or remove vertical lines from a rectangular grid or radial lines from a polar grid
+  
+  - shortcut: drag F
+    desc: Decrease the skew value for horizontal dividers in a rectangular grid or radial dividers in a polar grid by 10%
+  
+  - shortcut: drag V
+    desc: Increase the skew value for horizontal dividers in a rectangular grid or radial dividers in a polar grid by 10%
+  
+  - shortcut: drag X
+    desc: Decrease the skew value for vertical dividers in a rectangular grid or concentric dividers in a polar grid by 10%
+  
+  - shortcut: drag C
+    desc: Increase the skew value for vertical dividers in a rectangular grid or concentric dividers in a polar grid by 10%
+  
+  - shortcut: ']'
+    desc: Increase size of Blob Brush
+  
+  - shortcut: '['
+    desc: Decrease size of Blob Brush
+  
+  - shortcut: ⇧
+    desc: Constrain Blob Brush path horizontally or vertically
+  
+  - shortcut: ⇧ D
+    desc: Switch through drawing modes
+  
+  - shortcut: ⌘ J
+    desc: Join two or more paths
+  
+  - shortcut: ⌥ ⌘ J
+    desc: Average two or more paths
+  
+  - shortcut: ⇧ ⌘ ⌥ J
+    desc: Create corner or smooth join
+  
+  - shortcut: ⌘ 8
+    desc: Create a compound path
+  
+  - shortcut: ⌥ ⇧ ⌘ 8
+    desc: Release a compound path
+  
+  - shortcut: ⇧ ⌘ F8
+    desc: Edit a pattern
+  
+  - shortcut: ⇧ P
+    desc: Perspective Grid tool
+  
+  - shortcut: ⇧ V
+    desc: Perspective Selection tool
+  
+  - shortcut: ⌘ ⇧ I
+    desc: Perspective Grid
+  
+  - shortcut: ⌘ ⌥ drag
+    desc: Copying objects in perspective
+
+  - shortcut: ⌘ D
+    desc: Repeat transforming objects in perspective
+  
+  - shortcut: ⇧ D
+    desc: Switching betweem drawing modes
+
+shapes:
+  - shortcut: ⌥
+    desc: Switch Pen tool to Convert Anchor Point tool
+  
+  - shortcut: ⌥
+    desc: Switch between Add Anchor Point tool and Delete Anchor Point tool
+  
+  - shortcut: ⌥
+    desc: Switch Scissors tool to Add Anchor Point tool
+  
+  - shortcut: ⌥
+    desc: Switch Pencil tool to Smooth tool
+  
+  - shortcut: ␣ drag
+    desc: Move current anchor point while drawing with Pen tool
+  
+  - shortcut: ⌥ drag
+    desc: Cut a straight line with Knife tool
+  
+  - shortcut: ⇧ ⌥ drag
+    desc: Cut at 45- or 90-degrees with Knife tool
+  
+  - shortcut: ⇧ M
+    desc: Select the Shape Builder tool
+
+  - shortcut: ⇧ click drag
+    desc: Display rectangular marquee to easily merge multiple paths (when using Shape Builder tool)
+  
+  - shortcut: ⇧ }
+    desc: Increase the intensity of symbols (when using Symboism tool)
+
+  - shortcut: ⇧ {
+    desc: Decrease the intensity of symbols (when using Symbolism tool)
+
+  - shortcut: ⌥ ⌘ B
+    desc: Blend objects
+  
+  - shortcut: ⌥ ⇧ ⌘ B
+    desc: Finish adding objects to the blend
+  
+  - shortcut: ⌥ ⇧ ⌘ W
+    desc: Distort objects using a warp-shaped envelope
+  
+  - shortcut: ⌥ ⌘ M
+    desc: Distort objects using a mesh as the shape of the envelope
+  
+  - shortcut: ⌥ ⌘ C
+    desc: Distort objects using another object as the shape of the envelope
+
+objects:
+  - shortcut: ⌥ click
+    desc: Set origin point and open dialog box when using Rotate tool, Scale tool, Reflect tool, or Shear tool
+  
+  - shortcut: ⌥ drag
+    desc: Duplicate and transform selection when using Selection tool, Scale tool, Reflect tool, or Shear tool
+  
+  - shortcut: ~ drag
+    desc: Transform pattern (independent of object) when using Selection tool, Scale tool, Reflect tool, or Shear tool
+  
+  - shortcut: ⌘ D
+    desc: Reapply a transformation to an object
+  
+  - shortcut: ⌘ 4
+    desc: Apply last pathfinder effect to the selected object
+  
+  - shortcut: ⇧ ⌘ M
+    desc: Move an object
+  
+  - shortcut: ⌥ ⇧ ⌘ D
+    desc: Open the Transform Each dialog box
+  
+  - shortcut: ⌘ 7
+    desc: Make a clipping mask
+  
+  - shortcut: ⌥ ⌘ 7
+    desc: Release a clipping mask
+  
+  - shortcut: X
+    desc: Toggle between fill and stroke
+  
+  - shortcut: D
+    desc: Set fill and stroke to default
+  
+  - shortcut: ⇧ X
+    desc: Swap fill and stroke
+  
+  - shortcut: '>'
+    desc: Select gradient fill
+  
+  - shortcut: ⌥ ⌘ G
+    desc: Hide gradient annotator (when using the Gradient tool)
+  
+  - shortcut: '<'
+    desc: Select color fill mode
+  
+  - shortcut: /
+    desc: Select no stroke/fill mode
+  
+  - shortcut: ⌘ /
+    desc: Add new fill
+  
+  - shortcut: ⌘ ⌥ /
+    desc: Add new stroke
+  
+  - shortcut: ⌥ ⌘ X
+    desc: Make Live Paint (when using the Paint Bucket tool)
+  
+  - shortcut: '['
+    desc: Decrease Bristle brush size
+  
+  - shortcut: ']'
+    desc: Increase Bristle brush size
+
+variable width points:
+  - shortcut: ⇧ click
+    desc: Select multiple width points
+  
+  - shortcut: ⌥ drag
+    desc: Create non-uniform widths
+  
+  - shortcut: ⇧ drag
+    desc: Change the position of multiple width points
+  
+  - shortcut: ⌫
+    desc: Delete selected width point
+  
+  - shortcut: ⎋
+    desc: Deselect a width point
+
+type:
+  - shortcut: ← or →
+    desc: Move one characer left or right
+  
+  - shortcut: ↑ or ↓
+    desc: Move up or down one line
+  
+  - shortcut: ⌘ ← or →
+    desc: Move one word left or right
+  
+  - shortcut: ⌘ ↑ or ↓
+    desc: Move up or down one paragraph
+  
+  - shortcut: ⇧ ⌘ ← or →
+    desc: Select one word right or left
+  
+  - shortcut: ⇧ ⌘ ↑ or ↓
+    desc: Select one paragraph before or after
+  
+  - shortcut: ⇧ click
+    desc: Extend existing selection
+  
+  - shortcut: ⌘ ⇧ L or R or C
+    desc: Align paragraph left, rgiht, or center
+  
+  - shortcut: ⌘ ⇧ J
+    desc: Justify text left
+  
+  - shortcut: ⇧ ⌘ F
+    desc: Justify all lines
+  
+  - shortcut: ⌥ ⇧ ⌘
+    desc: Toggle line composer
+  
+  - shortcut: ⇧ ↵
+    desc: Insert soft return
+  
+  - shortcut: ⌘ ⌥ K
+    desc: Highlight kerning
+  
+  - shortcut: ⌘ ⇧ X
+    desc: Reset horizontal scale to 100%
+  
+  - shortcut: ⌘ ⇧ . or ,
+    desc: Increase or decrease font size
+  
+  - shortcut: ⌥ ⌘ ⇧ . or ,
+    desc: Increase or decrease font size by steps
+  
+  - shortcut: ⌥ ← ↑ ↓ →
+    desc: Incrase or decrease leading
+
+  - shortcut: ⌥ ⌘ K
+    desc: Select tracking value
+
+  - shortcut: ⌥ ⌘ Q 
+    desc: Reset tracking/kerning to 0
+  
+  - shortcut: ⌥ ← ↑ ↓ →
+    desc: Increase or decrease kerning or tracking
+  
+  - shortcut: ⌥ ⌘ ← ↑ ↓ →
+    desc: Increase or decrease kerning and tracking by five times
+  
+  - shortcut: ⌥ ⇧ ← ↑ ↓ →
+    desc: Increase or decrease baseline shift
+  
+  - shortcut: ⇧
+    desc: Switch between Type and Vertical Type, Area Type and Vertical Area Type, and Path Type and Vertical Path Type tools
+  
+  - shortcut: ⌥
+    desc: Switch between Area Type and Path Type, Vertical Area Type and Vertical Path Type tools
+  
+  - shortcut: ⇧ ⌘ O
+    desc: Create outlines
+  
+  - shortcut: ⌘ T
+    desc: Open the Character panel
+  
+  - shortcut: ⌥ ⌘ T
+    desc: Open the Paragraph panel
+  
+  - shortcut: ⇧ ⌘ T
+    desc: Open the Tabs panel
+  
+  - shortcut: ⌥ ⇧ ⌘ T
+    desc: Open the OpenType panel
+
+  - shortcut: ⌥ B
+    desc: Insert bullets
+  
+  - shortcut: ⌥ G
+    desc: Insert copyright symbol
+  
+  - shortcut: ⌥ ;
+    desc: Insert ellipsis
+  
+  - shortcut: ⌥ 7
+    desc: Insert paragraph symbol
+  
+  - shortcut: ⌥ 6
+    desc: Insert section symbol
+
+  - shortcut: ⌥ 2
+    desc: Insert trademark symbol
+  
+  - shortcut: ⌥ R
+    desc: Insert registered trademark symbol
+  
+  - shortcut: '⇧ ⌘ ='
+    desc: Superscript
+  
+  - shortcut: '⌥ ⇧ ⌃ ='
+    desc: Subscript
+  
+  - shortcut: '⌥ ⇧ -'
+    desc: Insert em dash
+  
+  - shortcut: '⌥ -'
+    desc: Insert en dash
+  
+  - shortcut: '⇧ ⌘ -'
+    desc: Insert discretionary hyphen
+  
+  - shortcut: ⌥ ⇧ ⌘ H
+    desc: Toggle auto-hyphenation
+  
+  - shortcut: '⌥ ['
+    desc: Insert double left quotation marks
+  
+  - shortcut: '⌥ ⇧ ['
+    desc: Insert double right quotation marks
+  
+  - shortcut: '⌥ ]'
+    desc: Insert single left quotation marks
+  
+  - shortcut: '⌥ ⇧ ]'
+    desc: Insert single right quotation marks
+  
+  - shortcut: ⇧ ⌘ M
+    desc: Insert em space
+  
+  - shortcut: ⇧ ⌘ N
+    desc: Insert en space
+  
+  - shortcut: ⌥ ⇧ ⌘ M
+    desc: Insert thin space
+  
+  - shortcut: ⌥ ⌘ 1
+    desc: Show hidden chracters
+
+panels:  
+  - shortcut: ⌥ ⇧ ⌘ U
+    desc: Switch units of measurement
+
+  - shortcut: ⇧ ↵
+    desc: Apply value and keep text box active
+
+  - shortcut: ⇧ click
+    desc: Select range of actions, brushes, layers, links, styles, or swatches
+
+  - shortcut: ⌘ click
+    desc: Select noncontiguous actions, brushes, layers (same level only), links, styles, or swatches
+
+  - shortcut: ⇥
+    desc: Toggle all panels
+
+  - shortcut: ⇧ ⇥
+    desc: Toggle all panels except the Tools panel and Control panel
+
+  - shortcut: ⌘ ↑ or ↓
+    desc: Increase/decrease values in logical fractions of the measurement unit
+
+  - shortcut: ⇧ ↑ or ↓
+    desc: Increase/decrease measurement unit by 10x
+
+character and paragraph panels:
+  - shortcut:   ⌘ T
+    desc: Open the Character panel
+  
+  - shortcut: ⌥ ⌘ T
+    desc: Open the Paragraph panel
+  
+  - shortcut: ↑ or ↓
+    desc: Increase/decrease the selected value by a small increment
+  
+  - shortcut: ⇧ ↑ or ↓
+    desc: Increase/decrease the selected value by a large increment
+  
+  - shortcut: ⌘ ↑ or ↓
+    desc: Increase/decrease the selected value by a fraction
+  
+  - shortcut: ⌘ ⌥ ⇧ F
+    desc: Highlight the font name field in the Character panel
+
+color panel:
+  - shortcut: ⌘ click color bar
+    desc: Select the complement for the current color fill/stroke
+  
+  - shortcut: ⌥ click color bar
+    desc: Change the nonactive fill/stroke
+  
+  - shortcut: ⌘ ⌥ click color bar
+    desc: Select the complement for the nonactive fill/stroke
+  
+  - shortcut: ⌘ ⇧ click color bar
+    desc: Select the inverse for the current fill/stroke
+  
+  - shortcut: ⌘ ⇧ ⌥ click color bar
+    desc: Select the inverse for the nonactive fill/stroke
+  
+  - shortcut: ⇧ F3
+    desc: Open Color Guide
+  
+  - shortcut: ⇧ click color bar
+    desc: Change the color mode
+
+gradient panel: 
+  - shortcut: ⌥ drag
+    desc: Duplicate color stops
+
+  - shortcut: ⌥ drag color stop to another color stop
+    desc: Swap color stops
+  
+  - shortcut: ⌥ click swatch in the Swatches panel
+    desc: Apply swatch color to active (or selected) color stop
+  
+  - shortcut: ⌘ click Gradient Fill box in the Gradient panel
+    desc: Reset the gradient fill to default black and white linear gradient
+  
+  - shortcut: ⌘ ⌥ G
+    desc: Toggle gradient arrow
+  
+  - shortcut: ⌥ drag end point of gradient annotator
+    desc: Modify angle and end-point toggle
+  
+  - shortcut: ⇧ drag
+    desc: Constrain Gradient tool or Gradient annotator while dragging
+  
+  - shortcut: G
+    desc: View Gradient annotator in selected gradient filled object
+
+layers panel:
+  - shortcut: ⌘ L
+    desc: Add a layer
+
+  - shortcut: ⌥ ⌘ L
+    desc: Add a layer while opening the New Layer dialog box
+  
+  - shortcut: ⌥ click
+    desc: Select all objects on the layer
+  
+  - shortcut: ⌥ click eye icon
+    desc: Toggle all layers but the selected one
+  
+  - shortcut: ⌘ click eye icon
+    desc: Select Outline/Preview view for the selected layer
+  
+  - shortcut: ⌘ ⌥ click eye icon
+    desc: Selects Outline/Preview view for all the other layers
+  
+  - shortcut: ⌥ click lock icon
+    desc: Lock/unlock all other layers
+  
+  - shortcut: ⌥ click expansion triangle
+    desc: Expand all sublayers to display entire hierarchy
+  
+  - shortcut: ⌥ click New Layer button
+    desc: Set options as you create new layer
+  
+  - shortcut: ⌥ click New Sublayer button
+    desc: Set options as you create new sublayer
+  
+  - shortcut: ⌘ ⌥ click New Sublayer button
+    desc: Place new sublayer at bottom of layer list
+  
+  - shortcut: ⌘ click New Layer button
+    desc: Place layer at top of layer list
+  
+  - shortcut: ⌘ ⌥ click New Layer button
+    desc: Place layer below selected layer
+  
+  - shortcut: ⌥ drag selection
+    desc: Copy the selection to a layer, sublayer, or group
+
+swatches panel:
+  - shortcut: ⌘ click New Swatch button
+    desc: Create new spot color
+
+  - shortcut: ⌘ ⇧ click New Swatch button
+    desc: Create new global process color
+  
+  - shortcut: ⌥ drag a swatch over another
+    desc: Replace swatch with another
+
+transform panel:
+  - shortcut: ⇧ ↵
+    desc: Apply a value and keep focus in edit field
+  
+  - shortcut: ⌥ ↵
+    desc: Apply a value and copy object
+  
+  - shortcut: ⌘ ↵
+    desc: Apply a value and scale option proportionately for width or height
+
+transparency panel:
+  - shortcut: ⇧ ⌘ E
+    desc: Apply last effect to the selected object
+  
+  - shortcut: ⌥ ⇧ ⌘ E
+    desc: Apply last effect to the selected object by adjusting the values in the effects dialog box
+  
+  - shortcut: ⌥ click on mask thumbnail
+    desc: Change mask to grayscale image for editing
+  
+  - shortcut: ⇧ click on mask thumbnail
+    desc: Disable opacity mask
+  
+  - shortcut: ⇧ click on disabled mask thumbnail
+    desc: Re-enable opacity mask
+
+function keys:
+  - shortcut: F1
+    desc: Invoke Help
+  
+  - shortcut: F2
+    desc: Cut
+  
+  - shortcut: F3
+    desc: Copy
+  
+  - shortcut: F4
+    desc: Paste
+  
+  - shortcut: F5
+    desc: Toggle Brushes panel
+  
+  - shortcut: F6
+    desc: Toggle Color panel
+  
+  - shortcut: F7
+    desc: Toggle Layers panel
+  
+  - shortcut: F8
+    desc: Create new symbol
+  
+  - shortcut: ⌘ F8
+    desc: Toggle Info panel
+  
+  - shortcut: ⌘ F9
+    desc: Toggle Gradient panel
+  
+  - shortcut: ⌘ F10
+    desc: Toggle Stroke panel
+  
+  - shortcut: ⌘ F11
+    desc: Toggle Attributes panel
+  
+  - shortcut: F12
+    desc: Reert
+  
+  - shortcut: ⇧ F5
+    desc: Toggle Graphic Styles panel
+  
+  - shortcut: ⇧ F6
+    desc: Toggle Appearance panel
+  
+  - shortcut: ⇧ F7
+    desc: Toggle Align panel
+  
+  - shortcut: ⇧ F8
+    desc: Toggle Transform panel
+  
+  - shortcut: ⇧ ⌘ F9
+    desc: Toggle Pathfinder panel
+  
+  - shortcut: ⇧ ⌘ F10
+    desc: Toggle Transparency panel
+  
+  - shortcut: ⇧ ⌘ F11
+    desc: Toggle Symbols panel
