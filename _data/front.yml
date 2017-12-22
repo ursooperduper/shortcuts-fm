@@ -1,0 +1,142 @@
+name: Front
+
+sections:
+  - navigation
+  - general
+  - conversation
+  - comment
+  - composer
+
+navigation:
+  - shortcut: G A
+    desc: Go to all unassigned conversations
+  
+  - shortcut: G I
+    desc: Open a drop down and quickly navigate to a specific inbox
+  
+  - shortcut: G M
+    desc: Open a drop down and quickly navigate to a specific team member
+  
+  - shortcut: G L
+    desc: Open a drop down and quickly navigate to a specific tag
+  
+  - shortcut: G F
+    desc: Quick navigate to a filter within the inbox you are in
+
+general: 
+  - shortcut: J or ↑
+    desc: Move a previous conversation
+  
+  - shortcut: K or ↓
+    desc: Move to the next conversation
+  
+  - shortcut: ⇧ ↑ or ↓
+    desc: Select multiple conversations
+  
+  - shortcut: ⌘ click
+    desc: Cherry pick the conversations you want to select
+  
+  - shortcut: ⌘ ⇧ I 
+    desc: Expand/Close the plugin side-panel
+  
+  - shortcut: /
+    desc: Navigate to the search bar
+  
+  - shortcut: ⇧ x
+    desc: Force the conversation list to refresh
+  
+  - shortcut: ⇧ V
+    desc: Mark yourself as available/unavailable
+
+conversation:
+  - shortcut: R
+    desc: Reply to the most recent message
+  
+  - shortcut: ⇧ R
+    desc: Reply to the most recent message in a new window
+  
+  - shortcut: A
+    desc: Reply All to the most recent message
+  
+  - shortcut: ⇧ A
+    desc: Reply All to the most recent message in a new window
+  
+  - shortcut: ⇧ F
+    desc: Forward a conversation
+  
+  - shortcut: ⌘ ↵
+    desc: Send & Archive
+  
+  - shortcut: ⌘ ⇧ ↵
+    desc: Send the message without archiving it
+  
+  - shortcut: W
+    desc: Assign a conversation to a team member
+  
+  - shortcut: Q
+    desc: Assign conversation to yourself
+  
+  - shortcut: M
+    desc: Move the conversation
+  
+  - shortcut: E
+    desc: Archive the conversation
+  
+  - shortcut: L
+    desc: Tag a conversation
+  
+  - shortcut: '# ⌫'
+    desc: Trash the conversation
+  
+  - shortcut: '!'
+    desc: Mark as spam
+  
+  - shortcut: S
+    desc: Set a snooze/reminder on a conversation
+  
+  - shortcut: F
+    desc: Follow a conversation
+
+  - shortcut: ⇧ I
+    desc: See information about the current conversation
+  
+  - shortcut: ⇧ O
+    desc: Navigate to a specific conversation using a conversation ID
+
+comment: 
+  - shortcut: M
+    desc: Navigate to the comment bar
+  
+  - shortcut: '@'
+    desc: Pulls a list of available team members to mention
+  
+composer:
+  - shortcut: ⌘ B
+    desc: Bold
+  
+  - shortcut: ⌘ I
+    desc: Italicize
+  
+  - shortcut: ⌘ U
+    desc: Underline
+  
+  - shortcut: ⌘ K
+    desc: Hyperlink
+  
+  - shortcut: ⌘ ⇧ C
+    desc: Move cursor to Cc
+  
+  - shortcut: ⌘ ⇧ B
+    desc: Move cursor to Bcc
+  
+  - shortcut: ⌘ ⇧ S
+    desc: Edit subject line
+  
+  - shortcut: ⌘ ⇧ O
+    desc: Pull up canned response list
+  
+  - shortcut: ⌘ ⇧ P
+    desc: Pop out conversation in a new window
+  
+  - shortcut: ⌘ ⇧ ⌃ V
+    desc: Paste without format
