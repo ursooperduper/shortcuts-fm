@@ -98,16 +98,16 @@ navigation:
   - shortcut: U
     desc: Return to Conversation List
 
-  - shortcut: [
+  - shortcut: '['
     desc: Removes Label from Current View & Moves to Older One
 
-  - shortcut: ]
+  - shortcut: ']'
     desc: Removes Label from Current View & Moves to Newer One
 
-  - shortcut: {
+  - shortcut: '{'
     desc: Archives Current Conversation & Moves to Older One
 
-  - shortcut: }
+  - shortcut: '}'
     desc: Archives Current Conversation & Moves to Newer One
 
 combo keys:
