@@ -97,6 +97,18 @@ text:
   
   - shortcut: ⌘ B
     desc: Toggle Bold
+    
+  - shortcut: ⌘ <
+    desc: Increaase Font Size
+
+  - shortcut: ⌘ >
+    desc: Decrease Font Size
+    
+  - shortcut: ⌥ ⌘ <
+    desc: Increase Line Height
+ 
+  - shortcut: ⌥ ⌘ >
+    desc: Decrease Line Height
 
 object: 
   - shortcut: V
