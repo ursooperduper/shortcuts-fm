@@ -33,7 +33,7 @@ view:
   - shortcut: 1 or 9
     desc: Zoom to Fit
   
-  - shortcut: 2
+  - shortcut: ⇧ 2 (@)
     desc: Zoom to Selection
   
   - shortcut: 0
